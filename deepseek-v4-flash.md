@@ -3,7 +3,7 @@ model: DeepSeek V4 Flash
 organization: DeepSeek AI
 license: MIT
 release_date: 2026-06
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # DeepSeek V4 Flash
@@ -44,6 +44,9 @@ Source: https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash
 - Coding average: 72.2 (benchlm.ai)
 - Agentic: 55.4 (benchlm.ai)
 - Strong competitor to GLM-5.2 at fraction of cost
+
+## Quality Assessment
+DeepSeek V4 Flash scores 72.2 coding average (benchlm.ai) — roughly 85-90% of GLM-5.2's coding quality at 1/10th the API cost ($0.09+$0.18/M vs $0.91+$2.86/M). Strong on logical reasoning and coding. Weaker on agentic tasks (55.4 vs GLM-5.2's higher scores). For cost-conscious workflows, this is the best value frontier-tier model available. The 1M context window matches GLM-5.2.
 
 ## Notes
 - 2.1M downloads — extremely popular

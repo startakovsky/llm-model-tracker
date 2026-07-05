@@ -3,7 +3,7 @@ model: Qwen3-Coder-30B-A3B-Instruct
 organization: Alibaba / Qwen
 license: Apache 2.0
 release_date: 2026
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Qwen3-Coder-30B-A3B-Instruct
@@ -21,7 +21,10 @@ last_updated: 2026-07-04
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (qwen/qwen3-coder-30b-a3b-instruct) | $0.07 | $0.27 | 160,000 | Coding specialist |
+- Extremely cheap to self-host (fits in 24GB)
+
+## Quality Assessment
+Qwen3-Coder-30B is a coding specialist — strong at code generation, debugging, and refactoring. Not a general-purpose model; weaker on reasoning and agentic tasks than the larger Qwen3-235B. At $0.07+$0.27/M, it's nearly free via API and trivially cheap to self-host. Best used as a dedicated coding assistant, not a full personal-assistant replacement.
 
 ## Notes
 - Coding specialist — designed for code generation

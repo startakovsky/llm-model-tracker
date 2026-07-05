@@ -3,7 +3,7 @@ model: Qwen3.5-9B
 organization: Alibaba / Qwen
 license: Apache 2.0
 release_date: 2026
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Qwen3.5-9B
@@ -22,7 +22,8 @@ last_updated: 2026-07-04
 |---|---|---|---|---|
 | OpenRouter (qwen/qwen3.5-9b) | $0.10 | $0.15 | 262,144 | 8.8M downloads |
 
+## Quality Assessment
+Qwen3.5-9B is the most downloaded model in this tracker (8.8M downloads). As a dense 9B model, it's surprisingly capable for its size — good for chat, simple tool-calling, and basic coding. Not suitable for complex reasoning, long agentic chains, or deep coding work. Its value is in being able to run anywhere at minimal cost. Use as a fallback or edge model, not a primary workhorse.
+
 ## Notes
-- 8.8M downloads — most downloaded model in this tracker
 - Dense (not MoE) — simpler deployment
-- Good for lightweight tasks, tool-calling, agents

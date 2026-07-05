@@ -3,7 +3,7 @@ model: GLM-5.2
 organization: Z.ai
 license: MIT
 release_date: 2026-06-13
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # GLM-5.2
@@ -62,6 +62,9 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 - DesignArena: #1
 - Code Arena Frontend: #2
 - No official benchmarks at launch (DataCamp confirmed)
+
+## Quality Assessment
+GLM-5.2 is the current reference point for open-weight frontier quality. It excels at coding (82.8% SWE-bench Verified), agentic tool use (81.0 Terminal-Bench), and long-context reasoning (1M native context). Community reports rate it on par with or above Claude Opus 4.6 for coding. This is the benchmark other models in this tracker are compared against.
 
 ## Notes
 - GLM-5.2-Air does NOT exist as of July 4, 2026

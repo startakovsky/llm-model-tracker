@@ -3,7 +3,7 @@ model: Qwen3-235B-A22B-Instruct-2507
 organization: Alibaba / Qwen
 license: Apache 2.0
 release_date: 2026-07
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Qwen3-235B-A22B-Instruct
@@ -38,6 +38,9 @@ Source: https://huggingface.co/bartowski/Qwen_Qwen3-235B-A22B-Instruct-2507-GGUF
 ## Quality Benchmarks
 - Strong reasoning and coding (per community reports)
 - 916K downloads on HuggingFace
+
+## Quality Assessment
+Qwen3-235B is the cheapest capable model on OpenRouter ($0.09+$0.10/M). Strong reasoning and coding at roughly 80% of GLM-5.2 quality. Good for personal-assistant tasks and tool-calling. The 262K context is sufficient for most coding sessions (not full 1M like GLM-5.2). At this price, it's the best "good enough" daily driver — if it handles your workload, there's no reason to pay 10x more for GLM-5.2.
 
 ## Notes
 - Qwen3-Coder-30B-A3B-Instruct also available (30B/3B, Q4 ~18GB, $0.07+$0.27/M)
