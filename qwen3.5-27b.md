@@ -3,7 +3,7 @@ model: Qwen3.5-27B
 organization: Alibaba (Qwen Team)
 license: Apache 2.0
 release_date: 2026-02
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # Qwen3.5-27B
@@ -43,7 +43,7 @@ Dense (non-MoE) Qwen3.5 model. All 27B params active per token. Multimodal (imag
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (qwen/qwen3.5-27b) | $0.195 | $1.56 | 256K | |
+| OpenRouter (qwen/qwen3.5-27b) | $0.20 | $1.56 | 256K | |
 
 ## Quality Benchmarks
 - Strong general-purpose performance

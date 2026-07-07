@@ -3,7 +3,7 @@ model: Gemma-4-31B-IT
 organization: Google DeepMind
 license: Apache 2.0
 release_date: 2026-04
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # Gemma 4 31B-IT

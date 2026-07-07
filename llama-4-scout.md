@@ -3,7 +3,7 @@ model: Llama 4 Scout
 organization: Meta
 license: Llama 4 Community License
 release_date: 2026
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # Llama 4 Scout

@@ -3,7 +3,7 @@ model: GLM-5.2
 organization: Z.ai
 license: MIT
 release_date: 2026-06-13
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # GLM-5.2
@@ -52,7 +52,7 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (z-ai/glm-5.2) | $0.91 | $2.86 | 1,048,576 | Daily driver |
+| OpenRouter (z-ai/glm-5.2) | $0.90 | $2.86 | 1,048,576 | Daily driver |
 | Z.ai direct (Coding Plan) | Subscription | Subscription | 1M | $1,344/yr Max tier |
 
 ## Quality Benchmarks

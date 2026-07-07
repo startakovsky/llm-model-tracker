@@ -3,7 +3,7 @@ model: GLM-4.5-Air
 organization: Z.ai
 license: MIT
 release_date: 2025-08
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # GLM-4.5-Air

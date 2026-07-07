@@ -3,7 +3,7 @@ model: DeepSeek V4 Flash
 organization: DeepSeek AI
 license: MIT
 release_date: 2026-06
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # DeepSeek V4 Flash

@@ -3,7 +3,7 @@ model: Tencent Hy3
 organization: Tencent (Hy Team / Hunyuan)
 license: Apache-2.0
 release_date: 2026-07-06
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 sources:
   - https://huggingface.co/tencent/Hy3
   - https://openrouter.ai/api/v1/models
@@ -47,7 +47,7 @@ No community GGUF quants available yet (model released today). Expect unsloth/un
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (tencent/hy3) | $0.14 | $0.58 | 256K | Cheapest frontier-tier agent model |
+| OpenRouter (tencent/hy3) | $0.20 | $0.80 | 256K | Cheapest frontier-tier agent model (price updated 2026-07-07, was $0.14+$0.58/M) |
 | OpenRouter (tencent/hy3:free) | $0 | $0 | 256K | Free tier available |
 | OpenRouter (tencent/hy3-preview) | $0.063 | $0.21 | 256K | Older preview, cheaper but weaker |
 

@@ -3,7 +3,7 @@ model: GPT-OSS-20B
 organization: OpenAI
 license: Apache 2.0
 release_date: 2025-08
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # GPT-OSS-20B

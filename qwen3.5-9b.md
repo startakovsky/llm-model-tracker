@@ -3,7 +3,7 @@ model: Qwen3.5-9B
 organization: Alibaba / Qwen
 license: Apache 2.0
 release_date: 2026
-last_updated: 2026-07-05
+last_updated: 2026-07-07
 ---
 
 # Qwen3.5-9B
