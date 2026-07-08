@@ -3,7 +3,7 @@ model: Meituan LongCat-2.0
 organization: Meituan
 license: MIT
 release_date: 2026-06-30
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 sources:
   - https://huggingface.co/meituan-longcat/LongCat-2.0
   - https://openrouter.ai/api/v1/models

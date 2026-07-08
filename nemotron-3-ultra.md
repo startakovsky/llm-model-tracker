@@ -3,7 +3,7 @@ model: NVIDIA Nemotron 3 Ultra
 organization: NVIDIA
 license: OpenMDW-1.1 (commercial use allowed)
 release_date: 2026-06-04
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 sources:
   - https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4
   - https://openrouter.ai/api/v1/models

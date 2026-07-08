@@ -3,7 +3,7 @@ model: Qwen3-235B-A22B-Instruct-2507
 organization: Alibaba / Qwen
 license: Apache 2.0
 release_date: 2026-07
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 ---
 
 # Qwen3-235B-A22B-Instruct

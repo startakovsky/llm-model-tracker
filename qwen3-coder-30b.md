@@ -3,7 +3,7 @@ model: Qwen3-Coder-30B-A3B-Instruct
 organization: Alibaba / Qwen
 license: Apache 2.0
 release_date: 2026
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 ---
 
 # Qwen3-Coder-30B-A3B-Instruct

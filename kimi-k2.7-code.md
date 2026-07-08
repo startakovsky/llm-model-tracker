@@ -3,7 +3,7 @@ model: Kimi-K2.7-Code
 organization: Moonshot AI
 license: Other (Moonshot AI License)
 release_date: 2026-06
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 ---
 
 # Kimi K2.7 Code

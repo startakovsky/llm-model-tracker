@@ -3,7 +3,7 @@ model: Tencent Hy3
 organization: Tencent (Hy Team / Hunyuan)
 license: Apache-2.0
 release_date: 2026-07-06
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 sources:
   - https://huggingface.co/tencent/Hy3
   - https://openrouter.ai/api/v1/models

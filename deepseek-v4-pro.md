@@ -3,7 +3,7 @@ model: DeepSeek V4 Pro
 organization: DeepSeek AI
 license: MIT
 release_date: 2026-06
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 ---
 
 # DeepSeek V4 Pro
@@ -29,7 +29,7 @@ Source: https://huggingface.co/antirez/deepseek-v4-gguf
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4-pro) | $0.43 | $0.87 | 1,048,576 | Half the cost of GLM-5.2 |
+| OpenRouter (deepseek/deepseek-v4-pro) | $0.435 | $0.87 | 1,048,576 | ~Half the cost of GLM-5.2 |
 
 ## Quality Assessment
 DeepSeek V4 Pro is the largest open-weights model available (1.6T params, 49B active). It competes directly with GLM-5.2 on reasoning and coding quality. Self-hosting requires 512GB+ RAM even at 2-bit quant — only feasible on high-memory servers or Mac Studio Ultra. For most users, DeepSeek V4 Flash (290B, 1/10th the API cost) is the better practical choice. V4 Pro is for when you need maximum quality and have the hardware to run it.
