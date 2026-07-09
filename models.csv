@@ -1,0 +1,49 @@
+id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,notes
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.91,2.86,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench
+z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.97,3.04,202752,2026-05-01,open,Frontier,744B/40B MoE
+z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,262144,2026-04-01,open,Frontier,Turbo variant
+z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,Vision variant
+z-ai/glm-4.5-air,GLM-4.5-Air,Z.ai,MIT,0.13,0.85,131072,2025-08-01,open,Self-hostable,106B/7B MoE. Designed for local
+deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,MIT,0.09,0.18,1048576,2026-06-01,open,Self-hostable,290B/13.5B MoE. 1M ctx
+deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,MIT,0.43,0.87,1048576,2026-06-01,open,Frontier,1.6T/49B MoE
+deepseek/deepseek-r1,DeepSeek R1,DeepSeek,MIT,0.70,2.50,163840,2026-01-01,open,Frontier,Reasoning model
+qwen/qwen3.6-max-preview,Qwen3.6 Max Preview,Alibaba,Apache 2.0,1.04,6.24,262144,2026-06-01,closed,Frontier,Closed-weight preview
+qwen/qwen3.7-max,Qwen3.7 Max,Alibaba,Apache 2.0,1.25,3.75,1000000,2026-06-01,closed,Frontier,Closed-weight API
+qwen/qwen3-max-thinking,Qwen3 Max Thinking,Alibaba,Apache 2.0,0.78,3.90,262144,2026-05-01,closed,Frontier,Closed-weight API
+qwen/qwen3-max,Qwen3 Max,Alibaba,Apache 2.0,0.78,3.90,262144,2026-05-01,closed,Frontier,Closed-weight API
+qwen/qwen3-coder-plus,Qwen3 Coder Plus,Alibaba,Apache 2.0,0.65,3.25,1000000,2026-05-01,closed,Frontier,Closed-weight API
+qwen/qwen3-235b-a22b-instruct-2507,Qwen3-235B-A22B-Instruct,Alibaba,Apache 2.0,0.09,0.10,262144,2026-07-01,open,Self-hostable,234B/7B MoE. Cheapest capable
+qwen/qwen3-coder-30b-a3b-instruct,Qwen3-Coder-30B-A3B,Alibaba,Apache 2.0,0.07,0.27,160000,2026-04-01,open,Lightweight,30B/3B MoE coding
+qwen/qwen3.5-9b,Qwen3.5-9B,Alibaba,Apache 2.0,0.10,0.15,262144,2026-03-01,open,Lightweight,9B dense
+qwen/qwen3.5-27b,Qwen3.5-27B,Alibaba,Apache 2.0,0.195,1.56,262144,2026-03-01,open,Lightweight,27B dense
+qwen/qwen3.5-397b-a17b,Qwen3.5-397B-A17B,Alibaba,Apache 2.0,0.385,2.45,256000,2026-05-01,open,Frontier,397B/17B MoE
+openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.03,0.15,128000,2026-05-01,open,Self-hostable,120B/5B MoE. Cheapest API
+openai/gpt-oss-20b,GPT-OSS-20B,OpenAI,Apache 2.0,0.029,0.14,128000,2026-05-01,open,Lightweight,20B/3B MoE
+meta-llama/llama-4-scout,Llama 4 Scout,Meta,Llama 4 License,0.10,0.30,10000000,2026-04-01,open,Self-hostable,109B/17B MoE. 10M ctx
+meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Meta,Llama 3 License,0.10,0.32,131072,2025-12-01,open,Lightweight,70B dense
+google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.12,0.35,256000,2026-04-01,open,Lightweight,31B dense multimodal
+nvidia/llama-3.1-nemotron-70b-instruct,Nemotron 70B,NVIDIA,NVIDIA License,0.12,0.30,131072,2025-10-01,open,Lightweight,70B dense
+openai/gpt-5.5-pro,GPT-5.5 Pro,OpenAI,Proprietary,30.00,180.00,1050000,2026-06-01,closed,Frontier,Pro reasoning
+openai/gpt-5.5,GPT-5.5,OpenAI,Proprietary,5.00,30.00,1050000,2026-06-01,closed,Frontier,Flagship
+openai/gpt-5.4-pro,GPT-5.4 Pro,OpenAI,Proprietary,30.00,180.00,1050000,2026-05-01,closed,Frontier,Pro reasoning
+openai/gpt-5.4,GPT-5.4,OpenAI,Proprietary,2.50,15.00,1050000,2026-05-01,closed,Frontier,Flagship
+openai/gpt-5.2-pro,GPT-5.2 Pro,OpenAI,Proprietary,21.00,168.00,400000,2026-03-01,closed,Frontier,Pro reasoning
+openai/gpt-5.2,GPT-5.2,OpenAI,Proprietary,1.75,14.00,400000,2026-03-01,closed,Frontier,Flagship
+openai/gpt-5-pro,GPT-5 Pro,OpenAI,Proprietary,15.00,120.00,400000,2026-02-01,closed,Frontier,Pro reasoning
+openai/gpt-5.6-sol-pro,GPT-5.6 Sol Pro,OpenAI,Proprietary,5.00,30.00,1050000,2026-06-01,closed,Frontier,Solid reasoning
+openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,Proprietary,5.00,30.00,1050000,2026-06-01,closed,Frontier,Solid
+openai/gpt-5.6-terra-pro,GPT-5.6 Terra Pro,OpenAI,Proprietary,2.50,15.00,1050000,2026-06-01,closed,Frontier,Terra reasoning
+openai/gpt-5.6-terra,GPT-5.6 Terra,OpenAI,Proprietary,2.50,15.00,1050000,2026-06-01,closed,Frontier,Terra
+openai/o3-pro,O3 Pro,OpenAI,Proprietary,20.00,80.00,200000,2026-04-01,closed,Frontier,Reasoning
+openai/o3-deep-research,O3 Deep Research,OpenAI,Proprietary,10.00,40.00,200000,2026-04-01,closed,Specialized,Research
+anthropic/claude-opus-4.8-fast,Claude Opus 4.8 Fast,Anthropic,Proprietary,10.00,50.00,1000000,2026-06-01,closed,Frontier,Fast Opus
+anthropic/claude-opus-4.8,Claude Opus 4.8,Anthropic,Proprietary,5.00,25.00,1000000,2026-06-01,closed,Frontier,Flagship Opus
+anthropic/claude-opus-4.7-fast,Claude Opus 4.7 Fast,Anthropic,Proprietary,30.00,150.00,1000000,2026-05-01,closed,Frontier,Fast Opus
+anthropic/claude-opus-4.7,Claude Opus 4.7,Anthropic,Proprietary,5.00,25.00,1000000,2026-05-01,closed,Frontier,Flagship Opus
+anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,Proprietary,5.00,25.00,200000,2026-04-01,closed,Frontier,Flagship Opus
+anthropic/claude-fable-5,Claude Fable 5,Anthropic,Proprietary,10.00,50.00,1000000,2026-06-01,closed,Frontier,Fable tier
+anthropic/claude-sonnet-4.6,Claude Sonnet 4.6,Anthropic,Proprietary,3.00,15.00,1000000,2026-06-01,closed,Frontier,Sonnet flagship
+anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,Proprietary,3.00,15.00,1000000,2026-05-01,closed,Frontier,Sonnet
+anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,Proprietary,2.00,10.00,1000000,2026-06-01,closed,Frontier,Sonnet
+x-ai/grok-5,Grok 5,xAI,Proprietary,5.00,15.00,400000,2026-05-01,closed,Frontier,xAI flagship
+x-ai/grok-5-pro,Grok 5 Pro,xAI,Proprietary,10.00,30.00,400000,2026-05-01,closed,Frontier,Pro reasoning
