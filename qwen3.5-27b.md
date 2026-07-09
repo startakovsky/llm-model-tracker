@@ -3,7 +3,7 @@ model: Qwen3.5-27B
 organization: Alibaba (Qwen Team)
 license: Apache 2.0
 release_date: 2026-02
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 ---
 
 # Qwen3.5-27B
@@ -57,3 +57,4 @@ Dense (non-MoE) Qwen3.5 model. All 27B params active per token. Multimodal (imag
 - Best dense alternative to Llama-4-Scout for local deployment
 - Video understanding support (video_preprocessor_config.json)
 - Sources: OpenRouter API, HuggingFace API, unsloth GGUF repo
+- **Superseded by Qwen3.6-27B** (April 2026) — same size, hybrid linear attention, 77.2% SWE-bench vs this model's lower score. See [qwen3.6-27b.md](qwen3.6-27b.md)
