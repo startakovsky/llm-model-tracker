@@ -47,3 +47,12 @@ anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,Proprietary,3.00,15.00,1
 anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,Proprietary,2.00,10.00,1000000,2026-06-01,closed,Frontier,Sonnet
 x-ai/grok-5,Grok 5,xAI,Proprietary,5.00,15.00,400000,2026-05-01,closed,Frontier,xAI flagship
 x-ai/grok-5-pro,Grok 5 Pro,xAI,Proprietary,10.00,30.00,400000,2026-05-01,closed,Frontier,Pro reasoning
+qwen/qwen3.6-flash,Qwen3.6 Flash,Alibaba,Apache 2.0,0.19,1.12,1000000,2026-06-01,closed,Frontier,Flash variant. 1M ctx. Closed-weight API
+qwen/qwen3.6-35b-a3b,Qwen3.6-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-06-01,open,Lightweight,35B/3B MoE
+qwen/qwen3.6-27b,Qwen3.6-27B,Alibaba,Apache 2.0,0.29,2.40,262144,2026-06-01,open,Lightweight,27B dense
+qwen/qwen3.6-plus,Qwen3.6 Plus,Alibaba,Apache 2.0,0.33,1.95,1000000,2026-06-01,closed,Frontier,Plus tier. 1M ctx. Closed-weight API
+qwen/qwen3.5-plus-20260420,Qwen3.5 Plus,Alibaba,Apache 2.0,0.30,1.80,1000000,2026-04-01,closed,Frontier,Plus tier. 1M ctx. Closed-weight API
+qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-03-01,open,Lightweight,35B/3B MoE
+qwen/qwen3.5-122b-a10b,Qwen3.5-122B-A10B,Alibaba,Apache 2.0,0.26,2.08,262144,2026-03-01,open,Self-hostable,122B/10B MoE. Single 96GB GPU feasible
+qwen/qwen3.5-flash-02-23,Qwen3.5 Flash,Alibaba,Apache 2.0,0.07,0.26,1000000,2026-02-01,closed,Frontier,Flash tier. 1M ctx. Closed-weight API
+qwen/qwen3.5-plus-02-15,Qwen3.5 Plus (Feb),Alibaba,Apache 2.0,0.26,1.56,1000000,2026-02-01,closed,Frontier,Plus tier. 1M ctx. Closed-weight API

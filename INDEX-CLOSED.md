@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-29 models. Sorted by API cost (proxy for capability tier).
+34 models. Sorted by API cost (proxy for capability tier).
 
 | Model | Org | Context | OR Price | Released | Notes |
 |---|---|---|---|---|---|
@@ -33,3 +33,8 @@
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | Closed-weight API |
 | [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | Closed-weight API |
 | [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | Closed-weight API |
+| [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | Plus tier. 1M ctx. Closed-weight API |
+| [Qwen3.5 Plus](closed/qwen3.5-plus-20260420.md) | Alibaba | 1M | $0.30+$1.80/M | 2026-04 | Plus tier. 1M ctx. Closed-weight API |
+| [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | Plus tier. 1M ctx. Closed-weight API |
+| [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | Flash variant. 1M ctx. Closed-weight API |
+| [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | Flash tier. 1M ctx. Closed-weight API |

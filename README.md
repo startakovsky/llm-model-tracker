@@ -12,10 +12,10 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07
 | 4 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.91+$2.86/M | 2026-06 | Reference model. 753B/40B MoE. 82.8% SWE-bench |
 | 5 | [DeepSeek R1](open/deepseek-r1.md) | DeepSeek | Frontier | 163K | $0.70+$2.50/M | 2026-01 | Reasoning model |
 | 6 | [Qwen3.5-397B-A17B](open/qwen3.5-397b-a17b.md) | Alibaba | Frontier | 256K | $0.39+$2.45/M | 2026-05 | 397B/17B MoE |
-| 7 | [Qwen3.5-27B](open/qwen3.5-27b.md) | Alibaba | Lightweight | 262K | $0.20+$1.56/M | 2026-03 | 27B dense |
-| 8 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 1.6T/49B MoE |
-| 9 | [GLM-4.5-Air](open/glm-4.5-air.md) | Z.ai | Self-hostable | 131K | $0.13+$0.85/M | 2025-08 | 106B/7B MoE. Designed for local |
-| 10 | [Gemma 4 31B-IT](open/gemma-4-31b-it.md) | Google | Lightweight | 256K | $0.12+$0.35/M | 2026-04 | 31B dense multimodal |
+| 7 | [Qwen3.6-27B](open/qwen3.6-27b.md) | Alibaba | Lightweight | 262K | $0.29+$2.40/M | 2026-06 | 27B dense |
+| 8 | [Qwen3.5-122B-A10B](open/qwen3.5-122b-a10b.md) | Alibaba | Self-hostable | 262K | $0.26+$2.08/M | 2026-03 | 122B/10B MoE. Single 96GB GPU feasible |
+| 9 | [Qwen3.5-27B](open/qwen3.5-27b.md) | Alibaba | Lightweight | 262K | $0.20+$1.56/M | 2026-03 | 27B dense |
+| 10 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 1.6T/49B MoE |
 
 ## Top 10 Closed-Source Models
 
@@ -34,6 +34,6 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07
 
 ## Full Index
 
-- [Open-source models (19)](INDEX-OPEN.md)
-- [Closed-source models (29)](INDEX-CLOSED.md)
+- [Open-source models (23)](INDEX-OPEN.md)
+- [Closed-source models (34)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
