@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-34 models. Sorted by API cost (proxy for capability tier).
+37 models. Sorted by API cost (proxy for capability tier).
 
 | Model | Org | Context | OR Price | Released | Notes |
 |---|---|---|---|---|---|
@@ -28,7 +28,10 @@
 | [GPT-5.6 Terra](closed/gpt-5.6-terra.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-06 | Terra |
 | [GPT-5.2](closed/gpt-5.2.md) | OpenAI | 400K | $1.75+$14.00/M | 2026-03 | Flagship |
 | [Claude Sonnet 5](closed/claude-sonnet-5.md) | Anthropic | 1M | $2.00+$10.00/M | 2026-06 | Sonnet |
+| [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | xAI smartest model. Frontier coding and STEM |
 | [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.04+$6.24/M | 2026-06 | Closed-weight preview |
+| [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-07 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx |
+| [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-07 | Luna with pro reasoning mode |
 | [Qwen3.7 Max](closed/qwen3.7-max.md) | Alibaba | 1M | $1.25+$3.75/M | 2026-06 | Closed-weight API |
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | Closed-weight API |
 | [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | Closed-weight API |

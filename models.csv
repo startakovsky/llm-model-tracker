@@ -1,5 +1,5 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.91,2.86,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.49,1.54,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped 46%
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.97,3.04,202752,2026-05-01,open,Frontier,744B/40B MoE
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,262144,2026-04-01,open,Frontier,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,Vision variant
@@ -17,7 +17,7 @@ qwen/qwen3-coder-30b-a3b-instruct,Qwen3-Coder-30B-A3B,Alibaba,Apache 2.0,0.07,0.
 qwen/qwen3.5-9b,Qwen3.5-9B,Alibaba,Apache 2.0,0.10,0.15,262144,2026-03-01,open,Lightweight,9B dense
 qwen/qwen3.5-27b,Qwen3.5-27B,Alibaba,Apache 2.0,0.195,1.56,262144,2026-03-01,open,Lightweight,27B dense
 qwen/qwen3.5-397b-a17b,Qwen3.5-397B-A17B,Alibaba,Apache 2.0,0.385,2.45,256000,2026-05-01,open,Frontier,397B/17B MoE
-openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.03,0.15,128000,2026-05-01,open,Self-hostable,120B/5B MoE. Cheapest API
+openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.036,0.18,128000,2026-05-01,open,Self-hostable,120B/5B MoE. Cheapest API
 openai/gpt-oss-20b,GPT-OSS-20B,OpenAI,Apache 2.0,0.029,0.14,128000,2026-05-01,open,Lightweight,20B/3B MoE
 meta-llama/llama-4-scout,Llama 4 Scout,Meta,Llama 4 License,0.10,0.30,10000000,2026-04-01,open,Self-hostable,109B/17B MoE. 10M ctx
 meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Meta,Llama 3 License,0.10,0.32,131072,2025-12-01,open,Lightweight,70B dense
@@ -56,3 +56,13 @@ qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-03
 qwen/qwen3.5-122b-a10b,Qwen3.5-122B-A10B,Alibaba,Apache 2.0,0.26,2.08,262144,2026-03-01,open,Self-hostable,122B/10B MoE. Single 96GB GPU feasible
 qwen/qwen3.5-flash-02-23,Qwen3.5 Flash,Alibaba,Apache 2.0,0.07,0.26,1000000,2026-02-01,closed,Frontier,Flash tier. 1M ctx. Closed-weight API
 qwen/qwen3.5-plus-02-15,Qwen3.5 Plus (Feb),Alibaba,Apache 2.0,0.26,1.56,1000000,2026-02-01,closed,Frontier,Plus tier. 1M ctx. Closed-weight API
+inclusionai/ring-2.6-1t,Ring-2.6-1T,inclusionAI,MIT,0.075,0.625,262144,2026-05-08,open,Self-hostable,1T/63B MoE. Coding agent. 262K ctx
+minimax/minimax-m3,MiniMax M3,MiniMax AI,other,0.30,1.20,1048576,2026-05-31,open,Frontier,428B MoE multimodal. 1M ctx
+nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,OpenMDW-1.1,0.50,2.20,1000000,2026-06-03,open,Self-hostable,550B/55B hybrid Mamba-Transformer MoE. 1M ctx
+nex-agi/nex-n2-pro,Nex-N2-Pro,Nex AGI,Apache 2.0,0.25,1.00,262144,2026-06-08,open,Frontier,397B/17B MoE multimodal. Built on Qwen3.5
+moonshotai/kimi-k2.7-code,Kimi K2.7 Code,Moonshot AI,other,0.72,3.49,262144,2026-06-12,open,Frontier,1T/32B MoE coding model. Native multimodal
+poolside/laguna-xs-2.1,Laguna XS 2.1,Poolside,OpenMDW-1.1,0.06,0.12,262144,2026-07-02,open,Lightweight,33B/3B MoE coding agent
+tencent/hy3,Hy3,Tencent,Apache 2.0,0.14,0.58,262144,2026-07-06,open,Self-hostable,295B/21B MoE. 192 experts. Configurable reasoning
+x-ai/grok-4.5,Grok 4.5,xAI,Proprietary,2.00,6.00,500000,2026-07-08,closed,Frontier,xAI smartest model. Frontier coding and STEM
+openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,Proprietary,1.00,6.00,1050000,2026-07-09,closed,Frontier,Fast cost-efficient GPT-5.6 tier. 1.05M ctx
+openai/gpt-5.6-luna-pro,GPT-5.6 Luna Pro,OpenAI,Proprietary,1.00,6.00,1050000,2026-07-09,closed,Frontier,Luna with pro reasoning mode

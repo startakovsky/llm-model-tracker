@@ -1,6 +1,6 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07-09
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07-10
 
 ## Top 10 Open-Source Models
 
@@ -8,14 +8,14 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07
 |---|---|---|---|---|---|---|---|
 | 1 | [GLM-5 Turbo](open/glm-5-turbo.md) | Z.ai | Frontier | 262K | $1.20+$4.00/M | 2026-04 | Turbo variant |
 | 2 | [GLM-5V Turbo](open/glm-5v-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | Vision variant |
-| 3 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 202K | $0.97+$3.04/M | 2026-05 | 744B/40B MoE |
-| 4 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.91+$2.86/M | 2026-06 | Reference model. 753B/40B MoE. 82.8% SWE-bench |
+| 3 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.72+$3.49/M | 2026-06 | 1T/32B MoE coding model. Native multimodal |
+| 4 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 202K | $0.97+$3.04/M | 2026-05 | 744B/40B MoE |
 | 5 | [DeepSeek R1](open/deepseek-r1.md) | DeepSeek | Frontier | 163K | $0.70+$2.50/M | 2026-01 | Reasoning model |
 | 6 | [Qwen3.5-397B-A17B](open/qwen3.5-397b-a17b.md) | Alibaba | Frontier | 256K | $0.39+$2.45/M | 2026-05 | 397B/17B MoE |
-| 7 | [Qwen3.6-27B](open/qwen3.6-27b.md) | Alibaba | Lightweight | 262K | $0.29+$2.40/M | 2026-06 | 27B dense |
-| 8 | [Qwen3.5-122B-A10B](open/qwen3.5-122b-a10b.md) | Alibaba | Self-hostable | 262K | $0.26+$2.08/M | 2026-03 | 122B/10B MoE. Single 96GB GPU feasible |
-| 9 | [Qwen3.5-27B](open/qwen3.5-27b.md) | Alibaba | Lightweight | 262K | $0.20+$1.56/M | 2026-03 | 27B dense |
-| 10 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 1.6T/49B MoE |
+| 7 | [Nemotron 3 Ultra](open/nemotron-3-ultra-550b-a55b.md) | NVIDIA | Self-hostable | 1M | $0.50+$2.20/M | 2026-06 | 550B/55B hybrid Mamba-Transformer MoE. 1M ctx |
+| 8 | [Qwen3.6-27B](open/qwen3.6-27b.md) | Alibaba | Lightweight | 262K | $0.29+$2.40/M | 2026-06 | 27B dense |
+| 9 | [Qwen3.5-122B-A10B](open/qwen3.5-122b-a10b.md) | Alibaba | Self-hostable | 262K | $0.26+$2.08/M | 2026-03 | 122B/10B MoE. Single 96GB GPU feasible |
+| 10 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.49+$1.54/M | 2026-06 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped 46% |
 
 ## Top 10 Closed-Source Models
 
@@ -34,6 +34,6 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07
 
 ## Full Index
 
-- [Open-source models (23)](INDEX-OPEN.md)
-- [Closed-source models (34)](INDEX-CLOSED.md)
+- [Open-source models (30)](INDEX-OPEN.md)
+- [Closed-source models (37)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
