@@ -1,5 +1,5 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.35,1.1,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.35/$1.10
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.42,1.32,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price increased to $0.42/$1.32
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.966,3.036,202752,2026-05-01,open,Frontier,744B/40B MoE
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,262144,2026-04-01,open,Frontier,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,Vision variant
@@ -84,3 +84,5 @@ x-ai/grok-build-0.1,Grok Build 0.1,xAI,Proprietary,1.00,2.00,256000,2026-05-20,c
 xiaomi/mimo-v2.5-pro,MiMo-V2.5-Pro,Xiaomi,Proprietary,0.435,0.87,1048576,2026-04-22,closed,Frontier,Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. 1M ctx
 stepfun/step-3.7-flash,Step 3.7 Flash,StepFun,Proprietary,0.20,1.15,256000,2026-05-28,closed,Frontier,196B/11B MoE multimodal. Native image+video understanding. High-efficiency
 kwaipilot/kat-coder-pro-v2,KAT-Coder-Pro V2,KwaiKAT,Proprietary,0.30,1.20,256000,2026-03-27,closed,Specialized,Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths
+meituan-longcat/longcat-2.0,LongCat-2.0,Meituan,MIT,0,0,1048576,2026-07-05,open,Frontier,1.6T/48B MoE. LongCat Sparse Attention. 1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. Not yet on OpenRouter
+internscience/agents-a1,Agents-A1,InternScience,Apache 2.0,0,0,262144,2026-06-22,open,Self-hostable,35B MoE agentic VLM. Vision+text. Built on Qwen3.5 MoE. 262K ctx. 502 HF likes. Not on OpenRouter

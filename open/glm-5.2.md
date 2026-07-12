@@ -3,7 +3,7 @@ model: GLM-5.2
 organization: Z.ai
 license: MIT
 release_date: 2026-06-13
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 ---
 
 # GLM-5.2
@@ -52,7 +52,7 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (z-ai/glm-5.2) | $0.35 | $1.10 | 1,048,576 | Daily driver (price dropped from $0.49+$1.54/M to $0.35+$1.10/M on ~July 11) |
+| OpenRouter (z-ai/glm-5.2) | $0.42 | $1.32 | 1,048,576 | Price increased from $0.35/$1.10 to $0.42/$1.32 on ~July 12 |
 | Z.ai direct (Coding Plan) | Subscription | Subscription | 1M | $1,344/yr Max tier |
 
 ## Quality Benchmarks
@@ -71,5 +71,6 @@ GLM-5.2 is the current reference point for open-weight frontier quality. It exce
 - GLM 5.5 rumored for August 2026
 - b12x is Luke Alonso's SM120 CuTe DSL kernel library, bundled in voipmonitor/vllm Docker images
 - DCP (Decode Context Parallelism) shards KV cache across GPUs: DCP4 = 250K ctx on 4 GPUs
-- Price dropped from $0.49+$1.54/M to $0.35+$1.10/M (~29% reduction) around July 11, 2026 — OpenRouter now lists $0.35+$1.10/M
+- Price dropped from $0.49+$1.54/M to $0.35+$1.10/M (~29% reduction) around July 11, 2026
+- Price increased from $0.35+$1.10/M to $0.42+$1.32/M (~20% increase) around July 12, 2026
 - Fireworks AI also hosts GLM-5.2 Fast at $0.14/M cached input tokens

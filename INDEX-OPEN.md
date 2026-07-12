@@ -1,6 +1,6 @@
 # Open-Source LLM Index
 
-38 models. Sorted by API cost (proxy for capability tier).
+40 models. Sorted by API cost (proxy for capability tier).
 
 | Model | Org | Category | Context | OR Price | Released | Self-Host? | Notes |
 |---|---|---|---|---|---|---|---|
@@ -15,8 +15,8 @@
 | [Qwen3.6-27B](open/qwen3.6-27b.md) | Alibaba | Lightweight | 262K | $0.28+$2.40/M | 2026-06 | Yes | 27B dense |
 | [Qwen3.5-122B-A10B](open/qwen3.5-122b-a10b.md) | Alibaba | Self-hostable | 262K | $0.26+$2.08/M | 2026-03 | Yes | 122B/10B MoE. Single 96GB GPU feasible |
 | [Qwen3.5-27B](open/qwen3.5-27b.md) | Alibaba | Lightweight | 262K | $0.20+$1.56/M | 2026-03 | Yes | 27B dense |
+| [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.42+$1.32/M | 2026-06 | Large | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price increased to $0.42/$1.32 |
 | [MiniMax M3](open/minimax-m3.md) | MiniMax AI | Frontier | 1M | $0.30+$1.20/M | 2026-05 | Large | 428B MoE multimodal. 1M ctx |
-| [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.35+$1.10/M | 2026-06 | Large | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.35/$1.10 |
 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | Large | 1.6T/49B MoE |
 | [Nex-N2-Pro](open/nex-n2-pro.md) | Nex AGI | Frontier | 262K | $0.25+$1.00/M | 2026-06 | Large | 397B/17B MoE multimodal. Built on Qwen3.5 |
 | [Qwen3.6-35B-A3B](open/qwen3.6-35b-a3b.md) | Alibaba | Lightweight | 262K | $0.14+$1.00/M | 2026-06 | Yes | 35B/3B MoE |
@@ -42,3 +42,5 @@
 | [Granite 4.1 8B](open/granite-4.1-8b.md) | IBM | Lightweight | 131K | $0.05+$0.10/M | 2026-04 | Yes | 8B dense. Enterprise tasks. 131K ctx. 1M HF downloads |
 | [Nex-N2-Mini](open/nex-n2-mini.md) | Nex AGI | Lightweight | 262K | $0.03+$0.10/M | 2026-06 | Yes | Open agentic MoE. Text+image input. Coding and tool use. Ultra-cheap |
 | [Ling-2.6-Flash](open/ling-2.6-flash.md) | inclusionAI | Lightweight | 262K | $0.01+$0.03/M | 2026-04 | Yes | 104B/7.4B MoE. Ultra-cheap at $0.01/$0.03/M. Fast agent responses |
+| [LongCat-2.0](open/longcat-2.0.md) | Meituan | Frontier | 1M | $0.00+$0.00/M | 2026-07 | Large | 1.6T/48B MoE. LongCat Sparse Attention. 1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. Not yet on OpenRouter |
+| [Agents-A1](open/agents-a1.md) | InternScience | Self-hostable | 262K | $0.00+$0.00/M | 2026-06 | Yes | 35B MoE agentic VLM. Vision+text. Built on Qwen3.5 MoE. 262K ctx. 502 HF likes. Not on OpenRouter |
