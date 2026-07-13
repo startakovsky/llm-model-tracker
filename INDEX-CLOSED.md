@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-47 models. Sorted by API cost (proxy for capability tier).
+46 models. Sorted by API cost (proxy for capability tier).
 
 | Model | Org | Context | OR Price | Released | Notes |
 |---|---|---|---|---|---|
@@ -13,14 +13,12 @@
 | [Claude Opus 4.8 Fast](closed/claude-opus-4.8-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | Fast Opus |
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | Fable tier |
 | [O3 Deep Research](closed/o3-deep-research.md) | OpenAI | 200K | $10.00+$40.00/M | 2026-04 | Research |
-| [Grok 5 Pro](closed/grok-5-pro.md) | xAI | 400K | $10.00+$30.00/M | 2026-05 | Pro reasoning |
 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | Flagship |
 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | Solid reasoning |
 | [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | Solid |
 | [Claude Opus 4.8](closed/claude-opus-4.8.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-06 | Flagship Opus |
 | [Claude Opus 4.7](closed/claude-opus-4.7.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-05 | Flagship Opus |
-| [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 200K | $5.00+$25.00/M | 2026-04 | Flagship Opus |
-| [Grok 5](closed/grok-5.md) | xAI | 400K | $5.00+$15.00/M | 2026-05 | xAI flagship |
+| [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-04 | Flagship Opus. Context expanded to 1M |
 | [Claude Sonnet 4.6](closed/claude-sonnet-4.6.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-06 | Sonnet flagship |
 | [Claude Sonnet 4.5](closed/claude-sonnet-4.5.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-05 | Sonnet |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | Flagship |
@@ -30,6 +28,7 @@
 | [Claude Sonnet 5](closed/claude-sonnet-5.md) | Anthropic | 1M | $2.00+$10.00/M | 2026-06 | Sonnet |
 | [Gemini 3.5 Flash](closed/gemini-3.5-flash.md) | Google | 1M | $1.50+$9.00/M | 2026-05 | Near-Pro coding at Flash-tier cost. Parallel agentic execution. 1M ctx |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
+| [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | xAI smartest model. Frontier coding and STEM |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | xAI smartest model. Frontier coding and STEM |
 | [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.04+$6.24/M | 2026-06 | Closed-weight preview |
 | [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-07 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx |

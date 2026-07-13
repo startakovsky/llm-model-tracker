@@ -3,7 +3,7 @@ model: GLM-5.2
 organization: Z.ai
 license: MIT
 release_date: 2026-06-13
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 ---
 
 # GLM-5.2
@@ -52,7 +52,7 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (z-ai/glm-5.2) | $0.42 | $1.32 | 1,048,576 | Price increased from $0.35/$1.10 to $0.42/$1.32 on ~July 12 |
+| OpenRouter (z-ai/glm-5.2) | $0.93 | $3.00 | 1,048,576 | Price jumped from $0.42/$1.32 to $0.93/$3.00 on ~July 13 (>2x increase) |
 | Z.ai direct (Coding Plan) | Subscription | Subscription | 1M | $1,344/yr Max tier |
 
 ## Quality Benchmarks
@@ -73,4 +73,5 @@ GLM-5.2 is the current reference point for open-weight frontier quality. It exce
 - DCP (Decode Context Parallelism) shards KV cache across GPUs: DCP4 = 250K ctx on 4 GPUs
 - Price dropped from $0.49+$1.54/M to $0.35+$1.10/M (~29% reduction) around July 11, 2026
 - Price increased from $0.35+$1.10/M to $0.42+$1.32/M (~20% increase) around July 12, 2026
+- Price jumped from $0.42+$1.32/M to $0.93+$3.00/M (>2x increase) around July 13, 2026. Reddit confirms: "GLM-5.2 quietly went from ~$0.57/$1.80 to $0.90/$3.08 per 1M this week."
 - Fireworks AI also hosts GLM-5.2 Fast at $0.14/M cached input tokens
