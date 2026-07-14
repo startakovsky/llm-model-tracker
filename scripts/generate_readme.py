@@ -18,6 +18,7 @@ def load_models(csv_path):
             row["completion_per_m"] = float(row["completion_per_m"])
             row["context_length"] = int(row["context_length"])
             row["is_open"] = row["is_open"].lower() == "open"
+            row["quality_score"] = int(row.get("quality_score", 0) or 0)
             models.append(row)
     return models
 
@@ -37,23 +38,25 @@ def fmt_date(m):
     d = m.get("release_date", "")
     if not d:
         return "?"
-    # Just YYYY-MM
     parts = d.split("-")
     if len(parts) >= 2:
         return f"{parts[0]}-{parts[1]}"
     return d
 
 
+def sort_key(m):
+    """Sort by quality_score descending, then by release_date descending."""
+    return (m.get("quality_score", 0), m.get("release_date", ""))
+
+
 def generate_readme(models, output_dir):
     today = date.today().isoformat()
 
-    # Split open/closed
     open_models = [m for m in models if m["is_open"]]
     closed_models = [m for m in models if not m["is_open"]]
 
-    # Top 10 by blended cost (proxy for capability)
-    open_sorted = sorted(open_models, key=lambda x: x["prompt_per_m"] + x["completion_per_m"], reverse=True)
-    closed_sorted = sorted(closed_models, key=lambda x: x["prompt_per_m"] + x["completion_per_m"], reverse=True)
+    open_sorted = sorted(open_models, key=sort_key, reverse=True)
+    closed_sorted = sorted(closed_models, key=sort_key, reverse=True)
 
     open_top10 = open_sorted[:10]
     closed_top10 = closed_sorted[:10]
@@ -65,21 +68,18 @@ def generate_readme(models, output_dir):
     lines.append("")
     lines.append("## Top 10 Open-Source Models")
     lines.append("")
-    lines.append("| # | Model | Org | Params | Context | OR Price | Released | Notes |")
-    lines.append("|---|---|---|---|---|---|---|---|")
+    lines.append("| # | Model | Org | Category | Context | OR Price | Released | Score | Notes |")
+    lines.append("|---|---|---|---|---|---|---|---|---|")
     for i, m in enumerate(open_top10, 1):
-        notes = m.get("notes", "")
-        param_info = m.get("name", m["id"])
-        lines.append(f"| {i} | [{m['name']}](open/{m['id'].split('/')[-1]}.md) | {m['org']} | {m.get('category','')} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {notes} |")
+        lines.append(f"| {i} | [{m['name']}](open/{m['id'].split('/')[-1]}.md) | {m['org']} | {m.get('category','')} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {m.get('quality_score','')} | {m.get('notes','')} |")
 
     lines.append("")
     lines.append("## Top 10 Closed-Source Models")
     lines.append("")
-    lines.append("| # | Model | Org | Context | OR Price | Released | Notes |")
-    lines.append("|---|---|---|---|---|---|---|")
+    lines.append("| # | Model | Org | Context | OR Price | Released | Score | Notes |")
+    lines.append("|---|---|---|---|---|---|---|---|")
     for i, m in enumerate(closed_top10, 1):
-        notes = m.get("notes", "")
-        lines.append(f"| {i} | [{m['name']}](closed/{m['id'].split('/')[-1]}.md) | {m['org']} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {notes} |")
+        lines.append(f"| {i} | [{m['name']}](closed/{m['id'].split('/')[-1]}.md) | {m['org']} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {m.get('quality_score','')} | {m.get('notes','')} |")
 
     lines.append("")
     lines.append("## Full Index")
@@ -96,19 +96,18 @@ def generate_readme(models, output_dir):
 
 def generate_open_index(models, output_dir):
     open_models = [m for m in models if m["is_open"]]
-    open_models.sort(key=lambda x: x["prompt_per_m"] + x["completion_per_m"], reverse=True)
+    open_models.sort(key=sort_key, reverse=True)
 
     lines = []
     lines.append("# Open-Source LLM Index")
     lines.append("")
-    lines.append(f"{len(open_models)} models. Sorted by API cost (proxy for capability tier).")
+    lines.append(f"{len(open_models)} models. Sorted by quality score.")
     lines.append("")
-    lines.append("| Model | Org | Category | Context | OR Price | Released | Self-Host? | Notes |")
-    lines.append("|---|---|---|---|---|---|---|---|")
+    lines.append("| Model | Org | Category | Context | OR Price | Released | Score | Self-Host? | Notes |")
+    lines.append("|---|---|---|---|---|---|---|---|---|")
     for m in open_models:
-        notes = m.get("notes", "")
         host = "Yes" if m.get("category") in ("Self-hostable", "Lightweight") else "Large"
-        lines.append(f"| [{m['name']}](open/{m['id'].split('/')[-1]}.md) | {m['org']} | {m.get('category','')} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {host} | {notes} |")
+        lines.append(f"| [{m['name']}](open/{m['id'].split('/')[-1]}.md) | {m['org']} | {m.get('category','')} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {m.get('quality_score','')} | {host} | {m.get('notes','')} |")
 
     path = Path(output_dir) / "INDEX-OPEN.md"
     path.write_text("\n".join(lines), encoding="utf-8")
@@ -117,18 +116,17 @@ def generate_open_index(models, output_dir):
 
 def generate_closed_index(models, output_dir):
     closed_models = [m for m in models if not m["is_open"]]
-    closed_models.sort(key=lambda x: x["prompt_per_m"] + x["completion_per_m"], reverse=True)
+    closed_models.sort(key=sort_key, reverse=True)
 
     lines = []
     lines.append("# Closed-Source LLM Index")
     lines.append("")
-    lines.append(f"{len(closed_models)} models. Sorted by API cost (proxy for capability tier).")
+    lines.append(f"{len(closed_models)} models. Sorted by quality score.")
     lines.append("")
-    lines.append("| Model | Org | Context | OR Price | Released | Notes |")
-    lines.append("|---|---|---|---|---|---|")
+    lines.append("| Model | Org | Context | OR Price | Released | Score | Notes |")
+    lines.append("|---|---|---|---|---|---|---|")
     for m in closed_models:
-        notes = m.get("notes", "")
-        lines.append(f"| [{m['name']}](closed/{m['id'].split('/')[-1]}.md) | {m['org']} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {notes} |")
+        lines.append(f"| [{m['name']}](closed/{m['id'].split('/')[-1]}.md) | {m['org']} | {fmt_ctx(m)} | {fmt_price(m)} | {fmt_date(m)} | {m.get('quality_score','')} | {m.get('notes','')} |")
 
     path = Path(output_dir) / "INDEX-CLOSED.md"
     path.write_text("\n".join(lines), encoding="utf-8")
