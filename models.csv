@@ -1,5 +1,5 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.93,3.00,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price jumped to $0.93/$3.00 (up from $0.42/$1.32)
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.924,2.904,1048576,2026-06-13,open,Frontier,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price slightly down to $0.924/$2.904
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.966,3.036,202752,2026-05-01,open,Frontier,744B/40B MoE
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,262144,2026-04-01,open,Frontier,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,Vision variant
@@ -17,11 +17,11 @@ qwen/qwen3-coder-30b-a3b-instruct,Qwen3-Coder-30B-A3B,Alibaba,Apache 2.0,0.07,0.
 qwen/qwen3.5-9b,Qwen3.5-9B,Alibaba,Apache 2.0,0.10,0.15,262144,2026-03-01,open,Lightweight,9B dense
 qwen/qwen3.5-27b,Qwen3.5-27B,Alibaba,Apache 2.0,0.195,1.56,262144,2026-03-01,open,Lightweight,27B dense
 qwen/qwen3.5-397b-a17b,Qwen3.5-397B-A17B,Alibaba,Apache 2.0,0.385,2.45,256000,2026-05-01,open,Frontier,397B/17B MoE
-openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.036,0.18,131072,2026-05-01,open,Self-hostable,120B/5B MoE. Cheapest API
+openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.03,0.15,131072,2026-05-01,open,Self-hostable,120B/5B MoE. Price dropped to $0.03/$0.15. Cheapest API
 openai/gpt-oss-20b,GPT-OSS-20B,OpenAI,Apache 2.0,0.029,0.14,131072,2026-05-01,open,Lightweight,20B/3B MoE
 meta-llama/llama-4-scout,Llama 4 Scout,Meta,Llama 4 License,0.10,0.30,10000000,2026-04-01,open,Self-hostable,109B/17B MoE. 10M ctx
 meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Meta,Llama 3 License,0.10,0.32,131072,2025-12-01,open,Lightweight,70B dense
-google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.12,0.35,262144,2026-04-01,open,Lightweight,31B dense multimodal
+google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.06,0.35,262144,2026-04-01,open,Lightweight,31B dense multimodal. Prompt price halved to $0.06
 nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super,NVIDIA,OpenMDW-1.1,0.08,0.45,1000000,2026-06-10,open,Self-hostable,120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes
 openai/gpt-5.5-pro,GPT-5.5 Pro,OpenAI,Proprietary,30.00,180.00,1050000,2026-06-01,closed,Frontier,Pro reasoning
 openai/gpt-5.5,GPT-5.5,OpenAI,Proprietary,5.00,30.00,1050000,2026-06-01,closed,Frontier,Flagship
@@ -48,7 +48,7 @@ anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,Proprietary,2.00,10.00,10000
 x-ai/grok-4.5,Grok 4.5,xAI,Proprietary,2.00,6.00,500000,2026-07-08,closed,Frontier,xAI smartest model. Frontier coding and STEM
 qwen/qwen3.6-flash,Qwen3.6 Flash,Alibaba,Apache 2.0,0.1875,1.125,1000000,2026-06-01,closed,Frontier,Flash variant. 1M ctx. Closed-weight API
 qwen/qwen3.6-35b-a3b,Qwen3.6-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-06-01,open,Lightweight,35B/3B MoE
-qwen/qwen3.6-27b,Qwen3.6-27B,Alibaba,Apache 2.0,0.285,2.4,262144,2026-06-01,open,Lightweight,27B dense
+qwen/qwen3.6-27b,Qwen3.6-27B,Alibaba,Apache 2.0,0.289,2.4,262144,2026-06-01,open,Lightweight,27B dense
 qwen/qwen3.6-plus,Qwen3.6 Plus,Alibaba,Apache 2.0,0.325,1.95,1000000,2026-06-01,closed,Frontier,Plus tier. 1M ctx. Closed-weight API
 qwen/qwen3.5-plus-20260420,Qwen3.5 Plus,Alibaba,Apache 2.0,0.30,1.80,1000000,2026-04-01,closed,Frontier,Plus tier. 1M ctx. Closed-weight API
 qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-03-01,open,Lightweight,35B/3B MoE
@@ -85,3 +85,5 @@ stepfun/step-3.7-flash,Step 3.7 Flash,StepFun,Proprietary,0.20,1.15,256000,2026-
 kwaipilot/kat-coder-pro-v2,KAT-Coder-Pro V2,KwaiKAT,Proprietary,0.30,1.20,256000,2026-03-27,closed,Specialized,Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths
 meituan-longcat/longcat-2.0,LongCat-2.0,Meituan,MIT,0,0,1048576,2026-07-05,open,Frontier,1.6T/48B MoE. LongCat Sparse Attention. 1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. Not yet on OpenRouter
 internscience/agents-a1,Agents-A1,InternScience,Apache 2.0,0,0,262144,2026-06-22,open,Self-hostable,35B MoE agentic VLM. Vision+text. Built on Qwen3.5 MoE. 262K ctx. 502 HF likes. Not on OpenRouter
+kwaipilot/kat-coder-pro-v2.5,KAT-Coder-Pro V2.5,KwaiKAT,Proprietary,0.74,2.96,256000,2026-07-10,closed,Specialized,Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths
+kwaipilot/kat-coder-air-v2.5,KAT-Coder-Air V2.5,KwaiKAT,Proprietary,0.15,0.6,256000,2026-07-10,closed,Specialized,Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx

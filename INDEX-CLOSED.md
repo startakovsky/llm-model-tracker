@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-46 models. Sorted by API cost (proxy for capability tier).
+48 models. Sorted by API cost (proxy for capability tier).
 
 | Model | Org | Context | OR Price | Released | Notes |
 |---|---|---|---|---|---|
@@ -39,6 +39,7 @@
 | [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | Closed-weight API |
 | [Grok 4.20](closed/grok-4.20.md) | xAI | 2M | $1.25+$2.50/M | 2026-03 | Lowest hallucination rate. 2M ctx. Agentic tool calling |
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
+| [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 256K | $0.74+$2.96/M | 2026-07 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |
 | [Grok Build 0.1](closed/grok-build-0.1.md) | xAI | 256K | $1.00+$2.00/M | 2026-05 | Fast coding model for agentic SWE workflows. Interactive coding |
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | Plus tier. 1M ctx. Closed-weight API |
 | [Qwen3.5 Plus](closed/qwen3.5-plus-20260420.md) | Alibaba | 1M | $0.30+$1.80/M | 2026-04 | Plus tier. 1M ctx. Closed-weight API |
@@ -49,4 +50,5 @@
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 256K | $0.20+$1.15/M | 2026-05 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | Flash variant. 1M ctx. Closed-weight API |
 | [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.43+$0.87/M | 2026-04 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. 1M ctx |
+| [KAT-Coder-Air V2.5](closed/kat-coder-air-v2.5.md) | KwaiKAT | 256K | $0.15+$0.60/M | 2026-07 | Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx |
 | [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | Flash tier. 1M ctx. Closed-weight API |
