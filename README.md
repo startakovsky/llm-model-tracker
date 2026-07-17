@@ -1,21 +1,21 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07-16
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07-17
 
 ## Top 10 Open-Source Models
 
 | # | Model | Org | Category | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|---|---|
-| 1 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.94+$2.95/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price down to $0.939/$2.952 |
-| 2 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 89 | 1.6T/49B MoE |
-| 3 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 202K | $0.95+$3.15/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE |
-| 4 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 202K | $0.97+$3.04/M | 2026-05 | 86 | 744B/40B MoE |
-| 5 | [Inkling](open/inkling.md) | Thinking Machines | Frontier | 1M | $0.00+$0.00/M | 2026-07 | 85 | First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. Relative attention + hybrid SWA. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. BF16+NVFP4. Not yet on OpenRouter |
-| 6 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.75+$3.50/M | 2026-06 | 85 | 1T/32B MoE coding model. Native multimodal |
-| 7 | [LongCat-2.0](open/longcat-2.0.md) | Meituan | Frontier | 1M | $0.00+$0.00/M | 2026-07 | 84 | 1.6T/48B MoE. LongCat Sparse Attention. 1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. Not yet on OpenRouter |
-| 8 | [Qwen: Qwen3 VL 235B A22B Thinking](open/qwen3-vl-235b-a22b-thinking.md) | qwen | Frontier | 131K | $0.26+$2.60/M | 2026-05 | 84 | Qwen3 VL 235B thinking |
-| 9 | [GLM-5 Turbo](open/glm-5-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | 84 | Turbo variant |
-| 10 | [DeepSeek R1](open/deepseek-r1.md) | DeepSeek | Frontier | 163K | $0.70+$2.50/M | 2026-01 | 84 | Reasoning model |
+| 1 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights promised July 27. 1M ctx |
+| 2 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.94+$2.95/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price down to $0.939/$2.952 |
+| 3 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 89 | 1.6T/49B MoE |
+| 4 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 202K | $0.95+$3.15/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE |
+| 5 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 202K | $0.97+$3.04/M | 2026-05 | 86 | 744B/40B MoE |
+| 6 | [Inkling](open/inkling.md) | Thinking Machines | Frontier | 1M | $0.00+$0.00/M | 2026-07 | 85 | First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. Relative attention + hybrid SWA. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. BF16+NVFP4. Not yet on OpenRouter |
+| 7 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.75+$3.50/M | 2026-06 | 85 | 1T/32B MoE coding model. Native multimodal |
+| 8 | [LongCat-2.0](open/longcat-2.0.md) | Meituan | Frontier | 1M | $0.00+$0.00/M | 2026-07 | 84 | 1.6T/48B MoE. LongCat Sparse Attention. 1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. Not yet on OpenRouter |
+| 9 | [Qwen: Qwen3 VL 235B A22B Thinking](open/qwen3-vl-235b-a22b-thinking.md) | qwen | Frontier | 131K | $0.26+$2.60/M | 2026-05 | 84 | Qwen3 VL 235B thinking |
+| 10 | [GLM-5 Turbo](open/glm-5-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | 84 | Turbo variant |
 
 ## Top 10 Closed-Source Models
 
@@ -34,6 +34,6 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07
 
 ## Full Index
 
-- [Open-source models (83)](INDEX-OPEN.md)
-- [Closed-source models (64)](INDEX-CLOSED.md)
+- [Open-source models (86)](INDEX-OPEN.md)
+- [Closed-source models (65)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)

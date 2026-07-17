@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-64 models. Sorted by quality score.
+65 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -32,6 +32,7 @@
 | [Gemini 3.5 Flash](closed/gemini-3.5-flash.md) | Google | 1M | $1.50+$9.00/M | 2026-05 | 87 | Near-Pro coding at Flash-tier cost. Parallel agentic execution. 1M ctx |
 | [Claude Sonnet 4.5](closed/claude-sonnet-4.5.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-05 | 87 | Sonnet |
 | [GPT-5.2](closed/gpt-5.2.md) | OpenAI | 400K | $1.75+$14.00/M | 2026-03 | 87 | Flagship |
+| [Muse Spark 1.1](closed/muse-spark-1.1.md) | Meta | 1M | $1.25+$4.25/M | 2026-07 | 86 | Meta proprietary multimodal. Text/image/video/audio/PDF input. Meta pivots closed after Llama. Now on OpenRouter. 1M ctx. Agentic tasks |
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | 86 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
 | [OpenAI: GPT-5.3-Codex](closed/gpt-5.3-codex.md) | openai | 400K | $1.75+$14.00/M | 2026-04 | 86 | GPT-5.3 Codex. 400K ctx |
 | [Google: Gemini 2.5 Pro](closed/gemini-2.5-pro.md) | google | 1M | $1.25+$10.00/M | 2026-01 | 86 | Gemini 2.5 Pro. 1M ctx. Older gen |
@@ -56,7 +57,7 @@
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | 79 | Plus tier. 1M ctx. Closed-weight API |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | 78 | Flash variant. 1M ctx. Closed-weight API |
-| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.30+$1.20/M | 2026-06 | 78 | MiniMax M2.7. 204K ctx |
+| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.25+$1.00/M | 2026-06 | 78 | MiniMax M2.7. 204K ctx. Price drop -17% |
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
 | [Qwen3.5 Plus](closed/qwen3.5-plus-20260420.md) | Alibaba | 1M | $0.30+$1.80/M | 2026-04 | 77 | Plus tier. 1M ctx. Closed-weight API |

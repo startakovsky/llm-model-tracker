@@ -3,21 +3,23 @@ model: Muse Spark 1.1
 organization: Meta (Meta Superintelligence Labs)
 license: Proprietary (API only)
 release_date: 2026-07-09
-last_updated: 2026-07-10
+last_updated: 2026-07-17
 sources:
   - https://www.reuters.com/business/meta-debuts-muse-spark-11-with-preview-open-developers-2026-07-09/
   - https://developers.facebook.com/docs/ai/model-api
+  - https://openrouter.ai/meta/muse-spark-1.1
 ---
 
 # Meta Muse Spark 1.1
 
 ## Overview
 - **Org:** Meta (Meta Superintelligence Labs)
-- **License:** Proprietary (API only, not on OpenRouter)
+- **OpenRouter ID:** `meta/muse-spark-1.1`
+- **License:** Proprietary (API only)
 - **Category:** Frontier
-- **Context length:** Unknown (Meta Model API)
-- **Released:** 2026-07-09
-- **Availability:** Public preview on Meta Model API (US only). $20 free credits for new signups.
+- **Context length:** 1,048,576 (1M)
+- **Released:** 2026-07-09 (Meta Model API), 2026-07-14 (OpenRouter)
+- **Availability:** OpenRouter + Meta Model API (US only). $20 free credits for new Meta signups.
 
 ## Pricing (Meta Model API)
 - **Input:** $1.25/M tokens

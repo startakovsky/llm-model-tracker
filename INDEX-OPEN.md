@@ -1,9 +1,10 @@
 # Open-Source LLM Index
 
-83 models. Sorted by quality score.
+86 models. Sorted by quality score.
 
 | Model | Org | Category | Context | OR Price | Released | Score | Self-Host? | Notes |
 |---|---|---|---|---|---|---|---|---|
+| [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | Large | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights promised July 27. 1M ctx |
 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.94+$2.95/M | 2026-06 | 90 | Large | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price down to $0.939/$2.952 |
 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 89 | Large | 1.6T/49B MoE |
 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 202K | $0.95+$3.15/M | 2026-03 | 87 | Large | GLM-5 base. 744B/40B MoE |
@@ -14,7 +15,7 @@
 | [Qwen: Qwen3 VL 235B A22B Thinking](open/qwen3-vl-235b-a22b-thinking.md) | qwen | Frontier | 131K | $0.26+$2.60/M | 2026-05 | 84 | Large | Qwen3 VL 235B thinking |
 | [GLM-5 Turbo](open/glm-5-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | 84 | Large | Turbo variant |
 | [DeepSeek R1](open/deepseek-r1.md) | DeepSeek | Frontier | 163K | $0.70+$2.50/M | 2026-01 | 84 | Large | Reasoning model |
-| [Qwen3.5-397B-A17B](open/qwen3.5-397b-a17b.md) | Alibaba | Frontier | 262K | $0.45+$3.00/M | 2026-05 | 83 | Large | 397B/17B MoE |
+| [Qwen3.5-397B-A17B](open/qwen3.5-397b-a17b.md) | Alibaba | Frontier | 262K | $0.39+$2.34/M | 2026-05 | 83 | Large | 397B/17B MoE. Price drop: prompt -13%, completion -22% |
 | [Kimi K2.6](open/kimi-k2.6.md) | Moonshot AI | Frontier | 262K | $0.95+$4.00/M | 2026-04 | 83 | Large | 1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price up to $0.95/$4.00 |
 | [GLM-5V Turbo](open/glm-5v-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | 83 | Large | Vision variant |
 | [Qwen: Qwen3 235B A22B Thinking 2507](open/qwen3-235b-a22b-thinking-2507.md) | qwen | Frontier | 262K | $0.15+$1.50/M | 2026-07 | 82 | Large | Qwen3 235B thinking July 2026 |
@@ -54,6 +55,7 @@
 | [Llama 4 Scout](open/llama-4-scout.md) | Meta | Self-hostable | 10M | $0.10+$0.30/M | 2026-04 | 72 | Yes | 109B/17B MoE. 10M ctx |
 | [Nemotron 3 Super](open/nemotron-3-super-120b-a12b.md) | NVIDIA | Self-hostable | 1M | $0.21+$0.46/M | 2026-06 | 70 | Yes | 120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes |
 | [Mistral: Codestral 2508](open/codestral-2508.md) | mistralai | Lightweight | 256K | $0.30+$0.90/M | 2026-04 | 70 | Yes | Codestral coding model |
+| [Qwen3 Coder Next](open/qwen3-coder-next.md) | Alibaba | Self-hostable | 262K | $0.11+$0.80/M | 2026-02 | 70 | Yes | 80B/3B MoE coding model. Open weights for local dev workflows. 262K ctx |
 | [GLM-4.5-Air](open/glm-4.5-air.md) | Z.ai | Self-hostable | 131K | $0.13+$0.85/M | 2025-08 | 70 | Yes | 106B/7B MoE. Designed for local |
 | [ByteDance Seed: Seed-2.0-Mini](open/seed-2.0-mini.md) | bytedance-seed | Lightweight | 262K | $0.10+$0.40/M | 2026-06 | 68 | Yes | Seed 2.0 Mini. 262K ctx |
 | [Z.ai: GLM 4.7 Flash](open/glm-4.7-flash.md) | z-ai | Lightweight | 200K | $0.06+$0.40/M | 2026-05 | 68 | Yes | Flash variant of GLM-4.7 |
@@ -62,6 +64,7 @@
 | [GPT-OSS-120B](open/gpt-oss-120b.md) | OpenAI | Self-hostable | 131K | $0.04+$0.17/M | 2026-05 | 65 | Yes | 120B/5B MoE. Price dropped to $0.03/$0.15. Cheapest API |
 | [Amazon: Nova 2 Lite](open/nova-2-lite-v1.md) | amazon | Self-hostable | 1M | $0.30+$2.50/M | 2026-05 | 65 | Yes | Nova 2 Lite. 1M ctx |
 | [Trinity Large Thinking](open/trinity-large-thinking.md) | Arcee AI | Self-hostable | 262K | $0.25+$0.80/M | 2026-04 | 65 | Yes | Open reasoning model. Strong PinchBench and agentic workload scores |
+| [Mistral Small 4](open/mistral-small-2603.md) | Mistral AI | Lightweight | 262K | $0.15+$0.60/M | 2026-03 | 65 | Yes | Mistral Small 4. Unifies flagship capabilities into efficient model. 262K ctx. Open weights |
 | [Qwen: Qwen3 32B](open/qwen3-32b.md) | qwen | Lightweight | 131K | $0.08+$0.28/M | 2025-12 | 65 | Yes | Qwen3 32B dense |
 | [Qwen: Qwen3 30B A3B Thinking 2507](open/qwen3-30b-a3b-thinking-2507.md) | qwen | Lightweight | 131K | $0.13+$1.56/M | 2026-07 | 64 | Yes | Qwen3 30B thinking July 2026 |
 | [Qwen3.6-35B-A3B](open/qwen3.6-35b-a3b.md) | Alibaba | Lightweight | 262K | $0.14+$1.00/M | 2026-06 | 64 | Yes | 35B/3B MoE |
@@ -80,7 +83,7 @@
 | [GPT-OSS-20B](open/gpt-oss-20b.md) | OpenAI | Lightweight | 131K | $0.03+$0.13/M | 2026-05 | 55 | Yes | 20B/3B MoE |
 | [Qwen: Qwen3 14B](open/qwen3-14b.md) | qwen | Lightweight | 131K | $0.10+$0.24/M | 2025-12 | 55 | Yes | Qwen3 14B dense |
 | [Gemma 4 26B A4B](open/gemma-4-26b-a4b-it.md) | Google | Lightweight | 262K | $0.10+$0.30/M | 2026-04 | 54 | Yes | 25.2B/3.8B MoE. Near-31B quality at fraction of cost. 14M HF downloads |
-| [Google: Gemma 3 27B](open/gemma-3-27b-it.md) | google | Lightweight | 131K | $0.08+$0.45/M | 2025-06 | 52 | Yes | Gemma 3 27B. Older gen |
+| [Google: Gemma 3 27B](open/gemma-3-27b-it.md) | google | Lightweight | 131K | $0.10+$0.30/M | 2025-06 | 52 | Yes | Gemma 3 27B. Older gen. Prompt up 25%, completion down 33% |
 | [Nex-N2-Mini](open/nex-n2-mini.md) | Nex AGI | Lightweight | 262K | $0.03+$0.10/M | 2026-06 | 50 | Yes | Open agentic MoE. Text+image input. Coding and tool use. Ultra-cheap |
 | [Qwen3.5-9B](open/qwen3.5-9b.md) | Alibaba | Lightweight | 262K | $0.10+$0.15/M | 2026-03 | 50 | Yes | 9B dense |
 | [Qwen: Qwen3 8B](open/qwen3-8b.md) | qwen | Lightweight | 131K | $0.12+$0.46/M | 2025-12 | 50 | Yes | Qwen3 8B dense |
