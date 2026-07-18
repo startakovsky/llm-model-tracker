@@ -1,5 +1,5 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,quality_score,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.9394,2.9524,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price down to $0.939/$2.952
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.2926,0.9196,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.293/$0.920 (was $0.939/$2.952 on Jul 13)
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.966,3.036,202752,2026-05-01,open,Frontier,86,744B/40B MoE
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,84,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,83,Vision variant
@@ -15,13 +15,13 @@ qwen/qwen3-coder-plus,Qwen3 Coder Plus,Alibaba,Apache 2.0,0.65,3.25,1000000,2026
 qwen/qwen3-235b-a22b-2507,Qwen3-235B-A22B-Instruct,Alibaba,Apache 2.0,0.09,0.55,262144,2026-07-01,open,Self-hostable,78,234B/7B MoE. Completion price up from $0.10
 qwen/qwen3-coder-30b-a3b-instruct,Qwen3-Coder-30B-A3B,Alibaba,Apache 2.0,0.07,0.27,160000,2026-04-01,open,Lightweight,60,30B/3B MoE coding
 qwen/qwen3.5-9b,Qwen3.5-9B,Alibaba,Apache 2.0,0.10,0.15,262144,2026-03-01,open,Lightweight,50,9B dense
-qwen/qwen3.5-27b,Qwen3.5-27B,Alibaba,Apache 2.0,0.195,1.56,262144,2026-03-01,open,Lightweight,58,27B dense
+qwen/qwen3.5-27b,Qwen3.5-27B,Alibaba,Apache 2.0,0.26,2.6,262144,2026-03-01,open,Lightweight,58,"27B dense. Price up: prompt +33%, completion +67%"
 qwen/qwen3.5-397b-a17b,Qwen3.5-397B-A17B,Alibaba,Apache 2.0,0.39,2.34,262144,2026-05-01,open,Frontier,83,"397B/17B MoE. Price drop: prompt -13%, completion -22%"
 openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.037,0.17,131072,2026-05-01,open,Self-hostable,65,120B/5B MoE. Price dropped to $0.03/$0.15. Cheapest API
 openai/gpt-oss-20b,GPT-OSS-20B,OpenAI,Apache 2.0,0.03,0.13,131072,2026-05-01,open,Lightweight,55,20B/3B MoE
 meta-llama/llama-4-scout,Llama 4 Scout,Meta,Llama 4 License,0.10,0.30,10000000,2026-04-01,open,Self-hostable,72,109B/17B MoE. 10M ctx
 meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Meta,Llama 3 License,0.13,0.4,131072,2025-12-01,open,Lightweight,58,70B dense
-google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.22,0.55,262144,2026-04-01,open,Lightweight,56,31B dense multimodal. Prompt price halved to $0.06
+google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.12,0.37,262144,2026-04-01,open,Lightweight,56,31B dense multimodal. Price down to $0.12/$0.37
 nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super,NVIDIA,OpenMDW-1.1,0.21,0.455,1000000,2026-06-10,open,Self-hostable,70,120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes
 openai/gpt-5.5-pro,GPT-5.5 Pro,OpenAI,Proprietary,30.00,180.00,1050000,2026-06-01,closed,Frontier,98,Pro reasoning
 openai/gpt-5.5,GPT-5.5,OpenAI,Proprietary,5.00,30.00,1050000,2026-06-01,closed,Frontier,95,Flagship
@@ -59,7 +59,7 @@ inclusionai/ring-2.6-1t,Ring-2.6-1T,inclusionAI,MIT,0.075,0.625,262144,2026-05-0
 minimax/minimax-m3,MiniMax M3,MiniMax AI,other,0.30,1.20,1048576,2026-05-31,open,Frontier,76,428B MoE multimodal. 1M ctx
 nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,OpenMDW-1.1,0.6,3.6,1000000,2026-06-03,open,Self-hostable,80,550B/55B hybrid Mamba-Transformer MoE. 1M ctx
 nex-agi/nex-n2-pro,Nex-N2-Pro,Nex AGI,Apache 2.0,0.25,1.00,262144,2026-06-08,open,Frontier,78,397B/17B MoE multimodal. Built on Qwen3.5
-moonshotai/kimi-k2.7-code,Kimi K2.7 Code,Moonshot AI,other,0.75,3.50,262144,2026-06-12,open,Frontier,85,1T/32B MoE coding model. Native multimodal
+moonshotai/kimi-k2.7-code,Kimi K2.7 Code,Moonshot AI,other,1.0,4.4,262144,2026-06-12,open,Frontier,85,1T/32B MoE coding model. Native multimodal. Price up to $1.00/$4.40
 poolside/laguna-xs-2.1,Laguna XS 2.1,Poolside,OpenMDW-1.1,0.06,0.12,262144,2026-07-02,open,Lightweight,58,33B/3B MoE coding agent
 tencent/hy3,Hy3,Tencent,Apache 2.0,0.2,0.8,262144,2026-07-06,open,Self-hostable,77,295B/21B MoE. 192 experts. Configurable reasoning
 x-ai/grok-4.5,Grok 4.5,xAI,Proprietary,2.00,6.00,500000,2026-07-08,closed,Frontier,88,xAI smartest model. Frontier coding and STEM
@@ -123,7 +123,7 @@ qwen/qwen3-30b-a3b-instruct-2507,Qwen: Qwen3 30B A3B Instruct 2507,qwen,Apache 2
 qwen/qwen3-30b-a3b-thinking-2507,Qwen: Qwen3 30B A3B Thinking 2507,qwen,Apache 2.0,0.13,1.56,131072,2026-07-01,open,Lightweight,64,Qwen3 30B thinking July 2026
 qwen/qwen3-235b-a22b-thinking-2507,Qwen: Qwen3 235B A22B Thinking 2507,qwen,Apache 2.0,0.15,1.495,262144,2026-07-01,open,Frontier,82,Qwen3 235B thinking July 2026
 qwen/qwen3-32b,Qwen: Qwen3 32B,qwen,Apache 2.0,0.08,0.28,131072,2025-12-01,open,Lightweight,65,Qwen3 32B dense
-qwen/qwen3-14b,Qwen: Qwen3 14B,qwen,Apache 2.0,0.10,0.24,131702,2025-12-01,open,Lightweight,55,Qwen3 14B dense
+qwen/qwen3-14b,Qwen: Qwen3 14B,qwen,Apache 2.0,0.2275,0.91,131702,2025-12-01,open,Lightweight,55,"Qwen3 14B dense. Price up: prompt +128%, completion +279%"
 qwen/qwen3-8b,Qwen: Qwen3 8B,qwen,Apache 2.0,0.117,0.455,131072,2025-12-01,open,Lightweight,50,Qwen3 8B dense
 amazon/nova-2-lite-v1,Amazon: Nova 2 Lite,amazon,Apache 2.0,0.3,2.5,1000000,2026-05-01,open,Self-hostable,65,Nova 2 Lite. 1M ctx
 amazon/nova-premier-v1,Amazon: Nova Premier 1.0,amazon,Apache 2.0,2.5,12.5,1000000,2026-05-01,open,Frontier,80,Nova Premier. 1M ctx
@@ -145,7 +145,7 @@ google/gemini-2.5-pro,Google: Gemini 2.5 Pro,google,Proprietary,1.25,10.0,104857
 google/gemini-2.5-flash,Google: Gemini 2.5 Flash,google,Proprietary,0.3,2.5,1048576,2026-01-01,closed,Frontier,80,Gemini 2.5 Flash. 1M ctx. Older gen
 bytedance-seed/seed-2.0-lite,ByteDance Seed: Seed-2.0-Lite,bytedance-seed,Apache 2.0,0.25,2.0,262144,2026-06-01,open,Frontier,72,Seed 2.0 Lite. 262K ctx
 bytedance-seed/seed-2.0-mini,ByteDance Seed: Seed-2.0-Mini,bytedance-seed,Apache 2.0,0.1,0.4,262144,2026-06-01,open,Lightweight,68,Seed 2.0 Mini. 262K ctx
-thinkingmachines/inkling,Inkling,Thinking Machines,Apache 2.0,0,0,1048576,2026-07-15,open,Frontier,85,"First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. Relative attention + hybrid SWA. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. BF16+NVFP4. Not yet on OpenRouter"
+thinkingmachines/inkling,Inkling,Thinking Machines,Apache 2.0,1.0,4.05,1048576,2026-07-15,open,Frontier,85,"First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. Now live on OpenRouter at $1.00/$4.05"
 moonshotai/kimi-k3,Kimi K3,Moonshot AI,MIT,3.0,15.0,1048576,2026-07-14,open,Frontier,93,"2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights promised July 27. 1M ctx"
 meta/muse-spark-1.1,Muse Spark 1.1,Meta,Proprietary,1.25,4.25,1048576,2026-07-09,closed,Frontier,86,Meta proprietary multimodal. Text/image/video/audio/PDF input. Meta pivots closed after Llama. Now on OpenRouter. 1M ctx. Agentic tasks
 mistralai/mistral-small-2603,Mistral Small 4,Mistral AI,Apache 2.0,0.15,0.6,262144,2026-03-15,open,Lightweight,65,Mistral Small 4. Unifies flagship capabilities into efficient model. 262K ctx. Open weights

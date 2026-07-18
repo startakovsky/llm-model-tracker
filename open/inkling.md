@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | **Org** | Thinking Machines (Mira Murati) |
-| **OpenRouter ID** | *(not yet listed)* |
+| **OpenRouter ID** | `thinkingmachines/inkling` (live as of ~Jul 18 2026) |
 | **HuggingFace** | [thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) |
 | **License** | Apache 2.0 |
 | **Release date** | 2026-07-15 |
-| **Pricing** | Not on OpenRouter (open weights; self-host or 3rd-party inference) |
+| **Pricing** | OpenRouter $1.00 prompt / $4.05 completion per M tokens (live ~Jul 18 2026); open weights also self-hostable |
 | **Context** | 1,048,576 (1M) |
 | **Category** | Frontier (open) |
 
@@ -46,4 +46,4 @@ The standout differentiator is **native multimodality at ~1T scale**: it is the 
 
 **Community signal:** 690 HuggingFace likes on day one — strong buzz, amplified by being Thinking Machines' first public model.
 
-**Verdict:** A landmark open release for multimodal reasoning, not yet a GLM-5.2 replacement on pure text/agentic coding. Watch for OpenRouter listing and provider pricing.
+**Verdict:** A landmark open release for multimodal reasoning, not yet a GLM-5.2 replacement on pure text/agentic coding. Now live on OpenRouter at $1.00/$4.05 per M (added ~Jul 18 2026) — a reasonable mid-tier price for a 975B/41B frontier open model with native multimodality.
