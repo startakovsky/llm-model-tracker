@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-65 models. Sorted by quality score.
+66 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -69,3 +69,4 @@
 | [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | 74 | Flash tier. 1M ctx. Closed-weight API |
 | [KAT-Coder-Pro V2](closed/kat-coder-pro-v2.md) | KwaiKAT | 256K | $0.30+$1.20/M | 2026-03 | 72 | Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths |
 | [KAT-Coder-Air V2.5](closed/kat-coder-air-v2.5.md) | KwaiKAT | 256K | $0.15+$0.60/M | 2026-07 | 68 | Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx |
+| [Mercury 2](closed/mercury-2.md) | Inception | 128K | $0.25+$0.75/M | 2026-03 | 68 | First reasoning diffusion LLM. 1000+ tok/s on Blackwell GPUs (5x faster than autoregressive). Tunable reasoning depth. Native tool use. Real-time agent latency. Architectural breakthrough |
