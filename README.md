@@ -37,3 +37,10 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07
 - [Open-source models (87)](INDEX-OPEN.md)
 - [Closed-source models (66)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
+
+## Insights
+
+Analysis derived from the tracker's daily data - why prices move and what it means.
+
+- [Insights index](insights/README.md)
+- [The GLM-5.2 Price War (2026-07-20)](insights/2026-07-20-glm-5.2-price-war.md)
