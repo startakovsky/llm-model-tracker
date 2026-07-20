@@ -1,5 +1,5 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,quality_score,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.2506,0.7876,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.25/$0.79 (was $0.29/$0.92 on Jul 18)
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.9646,3.0316,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price hiked to $0.96/$3.03 on Jul 20 (was $0.25/$0.79). Promo ended, now GLM-5.1-tier pricing
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.966,3.036,202752,2026-05-01,open,Frontier,86,744B/40B MoE
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,84,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,83,Vision variant
@@ -87,9 +87,9 @@ meituan-longcat/longcat-2.0,LongCat-2.0,Meituan,MIT,0,0,1048576,2026-07-05,open,
 internscience/agents-a1,Agents-A1,InternScience,Apache 2.0,0,0,262144,2026-06-22,open,Self-hostable,55,35B MoE agentic VLM. Vision+text. Built on Qwen3.5 MoE. 262K ctx. 502 HF likes. Not on OpenRouter
 kwaipilot/kat-coder-pro-v2.5,KAT-Coder-Pro V2.5,KwaiKAT,Proprietary,0.74,2.96,256000,2026-07-10,closed,Specialized,75,Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths
 kwaipilot/kat-coder-air-v2.5,KAT-Coder-Air V2.5,KwaiKAT,Proprietary,0.15,0.6,256000,2026-07-10,closed,Specialized,68,Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx
-z-ai/glm-5,Z.ai: GLM 5,z-ai,Apache 2.0,0.95,3.15,202752,2026-03-01,open,Frontier,87,GLM-5 base. 744B/40B MoE
+z-ai/glm-5,Z.ai: GLM 5,z-ai,Apache 2.0,0.95,2.55,202752,2026-03-01,open,Frontier,87,GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20
 z-ai/glm-4.7,Z.ai: GLM 4.7,z-ai,Apache 2.0,0.4,1.75,202752,2026-05-01,open,Self-hostable,78,GLM-4.7. Mid-tier Z.ai
-z-ai/glm-4.7-flash,Z.ai: GLM 4.7 Flash,z-ai,Apache 2.0,0.06,0.4,200000,2026-05-01,open,Lightweight,68,Flash variant of GLM-4.7
+z-ai/glm-4.7-flash,Z.ai: GLM 4.7 Flash,z-ai,Apache 2.0,0.0605,0.4,200000,2026-05-01,open,Lightweight,68,Flash variant of GLM-4.7
 z-ai/glm-4.6,Z.ai: GLM 4.6,z-ai,Apache 2.0,0.5,2.0,202752,2026-02-01,open,Self-hostable,76,GLM-4.6
 z-ai/glm-4.6v,Z.ai: GLM 4.6V,z-ai,Apache 2.0,0.3,0.9,131072,2026-02-01,open,Self-hostable,74,Vision variant of GLM-4.6
 z-ai/glm-4.5,Z.ai: GLM 4.5,z-ai,Apache 2.0,0.6,2.2,131072,2025-11-01,open,Self-hostable,73,GLM-4.5 base
@@ -116,12 +116,12 @@ qwen/qwen3-vl-235b-a22b-instruct,Qwen: Qwen3 VL 235B A22B Instruct,qwen,Apache 2
 qwen/qwen3-vl-235b-a22b-thinking,Qwen: Qwen3 VL 235B A22B Thinking,qwen,Apache 2.0,0.26,2.6,131072,2026-05-01,open,Frontier,84,Qwen3 VL 235B thinking
 qwen/qwen3-vl-32b-instruct,Qwen: Qwen3 VL 32B Instruct,qwen,Apache 2.0,0.104,0.416,262144,2026-05-01,open,Lightweight,68,Qwen3 VL 32B
 qwen/qwen3-next-80b-a3b-instruct,Qwen: Qwen3 Next 80B A3B Instruct,qwen,Apache 2.0,0.1,1.1,262144,2026-06-01,open,Self-hostable,72,Qwen3 Next 80B/3B
-qwen/qwen3-next-80b-a3b-thinking,Qwen: Qwen3 Next 80B A3B Thinking,qwen,Apache 2.0,0.098,0.78,262144,2026-06-01,open,Self-hostable,74,Qwen3 Next 80B thinking
+qwen/qwen3-next-80b-a3b-thinking,Qwen: Qwen3 Next 80B A3B Thinking,qwen,Apache 2.0,0.0975,0.78,262144,2026-06-01,open,Self-hostable,74,Qwen3 Next 80B thinking
 qwen/qwen3-coder-flash,Qwen: Qwen3 Coder Flash,qwen,Apache 2.0,0.195,0.975,1000000,2026-06-01,open,Frontier,73,Qwen3 Coder Flash. 1M ctx. Closed-weight API
 qwen/qwen3-coder,Qwen: Qwen3 Coder 480B A35B,qwen,Apache 2.0,0.3,1.0,1048576,2026-05-01,open,Self-hostable,78,Qwen3 Coder base. 1M ctx
 qwen/qwen3-30b-a3b-instruct-2507,Qwen: Qwen3 30B A3B Instruct 2507,qwen,Apache 2.0,0.1,0.3,262144,2026-07-01,open,Lightweight,62,Qwen3 30B A3B July 2026
 qwen/qwen3-30b-a3b-thinking-2507,Qwen: Qwen3 30B A3B Thinking 2507,qwen,Apache 2.0,0.13,1.56,131072,2026-07-01,open,Lightweight,64,Qwen3 30B thinking July 2026
-qwen/qwen3-235b-a22b-thinking-2507,Qwen: Qwen3 235B A22B Thinking 2507,qwen,Apache 2.0,0.15,1.495,262144,2026-07-01,open,Frontier,82,Qwen3 235B thinking July 2026
+qwen/qwen3-235b-a22b-thinking-2507,Qwen: Qwen3 235B A22B Thinking 2507,qwen,Apache 2.0,0.3,3.0,262144,2026-07-01,open,Frontier,82,Qwen3 235B thinking July 2026. Price doubled to $0.30/$3.00 on Jul 20
 qwen/qwen3-32b,Qwen: Qwen3 32B,qwen,Apache 2.0,0.08,0.28,131072,2025-12-01,open,Lightweight,65,Qwen3 32B dense
 qwen/qwen3-14b,Qwen: Qwen3 14B,qwen,Apache 2.0,0.12,0.24,131702,2025-12-01,open,Lightweight,55,"Qwen3 14B dense. Price down: prompt -47%, completion -74%"
 qwen/qwen3-8b,Qwen: Qwen3 8B,qwen,Apache 2.0,0.117,0.455,131072,2025-12-01,open,Lightweight,50,Qwen3 8B dense
