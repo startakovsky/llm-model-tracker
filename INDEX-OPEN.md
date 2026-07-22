@@ -1,12 +1,12 @@
 # Open-Source LLM Index
 
-87 models. Sorted by quality score.
+89 models. Sorted by quality score.
 
 | Model | Org | Category | Context | OR Price | Released | Score | Self-Host? | Notes |
 |---|---|---|---|---|---|---|---|---|
 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | Large | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights promised July 27. 1M ctx |
 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.81+$2.55/M | 2026-06 | 90 | Large | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.81/$2.55 on Jul 21 (-16%). Reversing Jul 20 hike |
-| [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 89 | Large | 1.6T/49B MoE |
+| [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 89 | Large | 1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning |
 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 202K | $0.95+$2.55/M | 2026-03 | 87 | Large | GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20 |
 | [Qwen3.8 Max Preview](open/qwen3.8-max-preview.md) | Alibaba | Frontier | 1M | $0.00+$0.00/M | 2026-07 | 86 | Large | 2.4T param multimodal MoE. First Qwen >1T multimodal (text+image+video+doc). Qwen says "second only to Fable 5". Outperforms Qwen3.7-Max in coding. Open weights promised by Jul 27. Preview via Token Plan/Qoder at 10% price. Not yet on OpenRouter. Benchmarks pending |
 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 202K | $0.97+$3.04/M | 2026-05 | 86 | Large | 744B/40B MoE |
@@ -19,8 +19,9 @@
 | [Qwen3.5-397B-A17B](open/qwen3.5-397b-a17b.md) | Alibaba | Frontier | 262K | $0.39+$2.34/M | 2026-05 | 83 | Large | 397B/17B MoE. Price drop: prompt -13%, completion -22% |
 | [Kimi K2.6](open/kimi-k2.6.md) | Moonshot AI | Frontier | 262K | $0.68+$3.42/M | 2026-04 | 83 | Large | 1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price down to $0.68/$3.42 |
 | [GLM-5V Turbo](open/glm-5v-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | 83 | Large | Vision variant |
+| [Laguna S 2.1](open/laguna-s-2.1.md) | Poolside | Frontier | 1M | $0.10+$0.20/M | 2026-07 | 82 | Large | 118B/8B MoE coding agent. 70.2% Terminal-Bench 2.1. 40.4% DeepSWE. Open weights (OpenMDW-1.1). 1M ctx. Forbes: most capable open model in the West in 118B class. GGUF/FP8/INT4 on HF. 327 likes in 1 day |
 | [Qwen: Qwen3 235B A22B Thinking 2507](open/qwen3-235b-a22b-thinking-2507.md) | qwen | Frontier | 262K | $0.30+$3.00/M | 2026-07 | 82 | Large | Qwen3 235B thinking July 2026. Price doubled to $0.30/$3.00 on Jul 20 |
-| [DeepSeek V4 Flash](open/deepseek-v4-flash.md) | DeepSeek | Self-hostable | 1M | $0.09+$0.19/M | 2026-06 | 82 | Yes | 290B/13.5B MoE. 1M ctx. Price down -4% on Jul 21 |
+| [DeepSeek V4 Flash](open/deepseek-v4-flash.md) | DeepSeek | Self-hostable | 1M | $0.09+$0.19/M | 2026-06 | 82 | Yes | 290B/13.5B MoE. 1M ctx. V4 goes GA Jul 24 with peak/off-peak surge pricing on DeepSeek API. Legacy aliases retire Jul 24 |
 | [MoonshotAI: Kimi K2 Thinking](open/kimi-k2-thinking.md) | moonshotai | Frontier | 262K | $0.60+$2.50/M | 2026-05 | 82 | Large | Thinking variant of Kimi K2 |
 | [Mistral: Mistral Large 3 2512](open/mistral-large-2512.md) | mistralai | Frontier | 262K | $0.50+$1.50/M | 2026-05 | 82 | Large | Mistral Large Dec 2026 |
 | [Qwen: Qwen3 VL 235B A22B Instruct](open/qwen3-vl-235b-a22b-instruct.md) | qwen | Frontier | 131K | $0.21+$1.90/M | 2026-05 | 82 | Large | Qwen3 VL 235B. Vision-language |
@@ -48,12 +49,13 @@
 | [Z.ai: GLM 4.6V](open/glm-4.6v.md) | z-ai | Self-hostable | 131K | $0.30+$0.90/M | 2026-02 | 74 | Yes | Vision variant of GLM-4.6 |
 | [Qwen: Qwen3 Coder Flash](open/qwen3-coder-flash.md) | qwen | Frontier | 1M | $0.20+$0.97/M | 2026-06 | 73 | Large | Qwen3 Coder Flash. 1M ctx. Closed-weight API |
 | [Z.ai: GLM 4.5](open/glm-4.5.md) | z-ai | Self-hostable | 131K | $0.60+$2.20/M | 2025-11 | 73 | Yes | GLM-4.5 base |
-| [Qwen: Qwen3 Next 80B A3B Instruct](open/qwen3-next-80b-a3b-instruct.md) | qwen | Self-hostable | 262K | $0.10+$0.78/M | 2026-06 | 72 | Yes | Qwen3 Next 80B/3B. Completion -29% on Jul 21 |
+| [Qwen: Qwen3 Next 80B A3B Instruct](open/qwen3-next-80b-a3b-instruct.md) | qwen | Self-hostable | 262K | $0.10+$1.10/M | 2026-06 | 72 | Yes | Qwen3 Next 80B/3B. Completion +41% to $1.10 on Jul 22 (was $0.78) |
 | [ByteDance Seed: Seed-2.0-Lite](open/seed-2.0-lite.md) | bytedance-seed | Frontier | 262K | $0.25+$2.00/M | 2026-06 | 72 | Large | Seed 2.0 Lite. 262K ctx |
 | [Ring-2.6-1T](open/ring-2.6-1t.md) | inclusionAI | Self-hostable | 262K | $0.07+$0.62/M | 2026-05 | 72 | Yes | 1T/63B MoE. Coding agent. 262K ctx |
 | [Mistral: Devstral 2 2512](open/devstral-2512.md) | mistralai | Self-hostable | 262K | $0.40+$2.00/M | 2026-05 | 72 | Yes | Devstral coding model |
 | [Ling-2.6-1T](open/ling-2.6-1t.md) | inclusionAI | Self-hostable | 262K | $0.07+$0.62/M | 2026-04 | 72 | Yes | 1T/63B MoE instant model. Fast execution for agents. Sister to Ring-2.6-1T |
 | [Llama 4 Scout](open/llama-4-scout.md) | Meta | Self-hostable | 10M | $0.10+$0.30/M | 2026-04 | 72 | Yes | 109B/17B MoE. 10M ctx |
+| [Step 3.5 Flash](open/step-3.5-flash.md) | StepFun | Self-hostable | 262K | $0.10+$0.30/M | 2026-01 | 72 | Yes | 196B/11B MoE. StepFun most capable open-source model. Apache 2.0. 828 HF likes. 123K downloads. 262K ctx. Predecessor to closed Step 3.7 Flash |
 | [Nemotron 3 Super](open/nemotron-3-super-120b-a12b.md) | NVIDIA | Self-hostable | 1M | $0.08+$0.45/M | 2026-06 | 70 | Yes | 120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes. Prompt -6% |
 | [Mistral: Codestral 2508](open/codestral-2508.md) | mistralai | Lightweight | 256K | $0.30+$0.90/M | 2026-04 | 70 | Yes | Codestral coding model |
 | [Qwen3 Coder Next](open/qwen3-coder-next.md) | Alibaba | Self-hostable | 262K | $0.11+$0.80/M | 2026-02 | 70 | Yes | 80B/3B MoE coding model. Open weights for local dev workflows. 262K ctx |
