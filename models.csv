@@ -1,10 +1,10 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,quality_score,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.812,2.552,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.81/$2.55 on Jul 21 (-16%). Reversing Jul 20 hike
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.7798,2.4508,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price drifts down -4% to $0.78/$2.45 on Jul 23
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.966,3.036,202752,2026-05-01,open,Frontier,86,744B/40B MoE
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,84,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,83,Vision variant
 z-ai/glm-4.5-air,GLM-4.5-Air,Z.ai,MIT,0.13,0.85,131072,2025-08-01,open,Self-hostable,70,106B/7B MoE. Designed for local
-deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,MIT,0.0938,0.1876,1048576,2026-06-01,open,Self-hostable,82,290B/13.5B MoE. 1M ctx. V4 goes GA Jul 24 with peak/off-peak surge pricing on DeepSeek API. Legacy aliases retire Jul 24
+deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,MIT,0.098,0.196,1048576,2026-06-01,open,Self-hostable,82,290B/13.5B MoE. 1M ctx. V4 goes GA Jul 24 with peak/off-peak surge pricing. Legacy aliases retire Jul 24. Price +4.5% on Jul 23
 deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,MIT,0.435,0.87,1048576,2026-06-01,open,Frontier,89,1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning
 deepseek/deepseek-r1,DeepSeek R1,DeepSeek,MIT,0.70,2.50,163840,2026-01-01,open,Frontier,84,Reasoning model
 qwen/qwen3.6-max-preview,Qwen3.6 Max Preview,Alibaba,Apache 2.0,1.04,6.24,262144,2026-06-01,closed,Frontier,85,Closed-weight preview
@@ -21,7 +21,7 @@ openai/gpt-oss-120b,GPT-OSS-120B,OpenAI,Apache 2.0,0.037,0.17,131072,2026-05-01,
 openai/gpt-oss-20b,GPT-OSS-20B,OpenAI,Apache 2.0,0.03,0.13,131072,2026-05-01,open,Lightweight,55,20B/3B MoE
 meta-llama/llama-4-scout,Llama 4 Scout,Meta,Llama 4 License,0.10,0.30,10000000,2026-04-01,open,Self-hostable,72,109B/17B MoE. 10M ctx
 meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Meta,Llama 3 License,0.13,0.4,131072,2025-12-01,open,Lightweight,58,70B dense
-google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.12,0.37,262144,2026-04-01,open,Lightweight,56,31B dense multimodal. Price reverted to $0.12/$0.37 on Jul 21 (was hiked to $0.22/$0.55)
+google/gemma-4-31b-it,Gemma 4 31B-IT,Google,Apache 2.0,0.12,0.35,262144,2026-04-01,open,Lightweight,56,31B dense multimodal. Completion -5% to $0.35 on Jul 23
 nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super,NVIDIA,OpenMDW-1.1,0.08,0.45,1000000,2026-06-10,open,Self-hostable,70,120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes. Prompt -6%, completion +12.5% on Jul 21
 openai/gpt-5.5-pro,GPT-5.5 Pro,OpenAI,Proprietary,30.00,180.00,1050000,2026-06-01,closed,Frontier,98,Pro reasoning
 openai/gpt-5.5,GPT-5.5,OpenAI,Proprietary,5.00,30.00,1050000,2026-06-01,closed,Frontier,95,Flagship
@@ -48,7 +48,7 @@ anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,Proprietary,2.00,10.00,10000
 x-ai/grok-4.5,Grok 4.5,xAI,Proprietary,2.00,6.00,500000,2026-07-08,closed,Frontier,88,xAI smartest model. Frontier coding and STEM
 qwen/qwen3.6-flash,Qwen3.6 Flash,Alibaba,Apache 2.0,0.1875,1.125,1000000,2026-06-01,closed,Frontier,78,Flash variant. 1M ctx. Closed-weight API
 qwen/qwen3.6-35b-a3b,Qwen3.6-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-06-01,open,Lightweight,64,35B/3B MoE
-qwen/qwen3.6-27b,Qwen3.6-27B,Alibaba,Apache 2.0,0.45,2.7,262144,2026-06-01,open,Lightweight,60,27B dense
+qwen/qwen3.6-27b,Qwen3.6-27B,Alibaba,Apache 2.0,0.6,3.6,262144,2026-06-01,open,Lightweight,60,27B dense. Price +33% to $0.60/$3.60 on Jul 23
 qwen/qwen3.6-plus,Qwen3.6 Plus,Alibaba,Apache 2.0,0.325,1.95,1000000,2026-06-01,closed,Frontier,79,Plus tier. 1M ctx. Closed-weight API
 qwen/qwen3.5-plus-20260420,Qwen3.5 Plus,Alibaba,Apache 2.0,0.30,1.80,1000000,2026-04-01,closed,Frontier,77,Plus tier. 1M ctx. Closed-weight API
 qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,Alibaba,Apache 2.0,0.14,1.00,262144,2026-03-01,open,Lightweight,62,35B/3B MoE
@@ -57,7 +57,7 @@ qwen/qwen3.5-flash-02-23,Qwen3.5 Flash,Alibaba,Apache 2.0,0.065,0.26,1000000,202
 qwen/qwen3.5-plus-02-15,Qwen3.5 Plus (Feb),Alibaba,Apache 2.0,0.26,1.56,1000000,2026-02-01,closed,Frontier,76,Plus tier. 1M ctx. Closed-weight API
 inclusionai/ring-2.6-1t,Ring-2.6-1T,inclusionAI,MIT,0.075,0.625,262144,2026-05-08,open,Self-hostable,72,1T/63B MoE. Coding agent. 262K ctx
 minimax/minimax-m3,MiniMax M3,MiniMax AI,other,0.30,1.20,1048576,2026-05-31,open,Frontier,76,428B MoE multimodal. 1M ctx
-nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,OpenMDW-1.1,0.6,3.6,1000000,2026-06-03,open,Self-hostable,80,550B/55B hybrid Mamba-Transformer MoE. 1M ctx
+nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,OpenMDW-1.1,0.5,2.2,512288,2026-06-03,open,Self-hostable,80,550B/55B hybrid Mamba-Transformer MoE. Price -17%/-39% to $0.50/$2.20 and context halved to 512K on Jul 23
 nex-agi/nex-n2-pro,Nex-N2-Pro,Nex AGI,Apache 2.0,0.25,1.00,262144,2026-06-08,open,Frontier,78,397B/17B MoE multimodal. Built on Qwen3.5
 moonshotai/kimi-k2.7-code,Kimi K2.7 Code,Moonshot AI,other,0.82,3.75,262144,2026-06-12,open,Frontier,85,1T/32B MoE coding model. Native multimodal. Price down to $0.82/$3.75 on Jul 21
 poolside/laguna-xs-2.1,Laguna XS 2.1,Poolside,OpenMDW-1.1,0.06,0.12,262144,2026-07-02,open,Lightweight,58,33B/3B MoE coding agent
@@ -66,7 +66,7 @@ x-ai/grok-4.5,Grok 4.5,xAI,Proprietary,2.00,6.00,500000,2026-07-08,closed,Fronti
 openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,Proprietary,1.00,6.00,1050000,2026-07-09,closed,Frontier,88,Fast cost-efficient GPT-5.6 tier. 1.05M ctx
 openai/gpt-5.6-luna-pro,GPT-5.6 Luna Pro,OpenAI,Proprietary,1.00,6.00,1050000,2026-07-09,closed,Frontier,90,Luna with pro reasoning mode
 moonshotai/kimi-k2.6,Kimi K2.6,Moonshot AI,other,0.684,3.42,262144,2026-04-20,open,Frontier,83,1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price down to $0.68/$3.42
-google/gemma-4-26b-a4b-it,Gemma 4 26B A4B,Google,Apache 2.0,0.07,0.34,262144,2026-04-03,open,Lightweight,54,"25.2B/3.8B MoE. Near-31B quality at fraction of cost. 14M HF downloads. Price mixed: prompt -30%, completion +13%"
+google/gemma-4-26b-a4b-it,Gemma 4 26B A4B,Google,Apache 2.0,0.12,0.35,262144,2026-04-03,open,Lightweight,54,"25.2B/3.8B MoE. Near-31B quality at fraction of cost. 14M HF downloads. Prompt +71% to $0.12 on Jul 23 (reverting Jul 22 drop)"
 poolside/laguna-m.1,Laguna M.1,Poolside,Apache 2.0,0.20,0.40,262144,2026-04-28,open,Frontier,76,Flagship coding agent model. Complex SWE tasks. 256K ctx
 nex-agi/nex-n2-mini,Nex-N2-Mini,Nex AGI,Apache 2.0,0.025,0.10,262144,2026-06-24,open,Lightweight,50,Open agentic MoE. Text+image input. Coding and tool use. Ultra-cheap
 ibm-granite/granite-4.1-8b,Granite 4.1 8B,IBM,Apache 2.0,0.05,0.10,131072,2026-04-30,open,Lightweight,45,8B dense. Enterprise tasks. 131K ctx. 1M HF downloads
@@ -115,7 +115,7 @@ meta-llama/llama-guard-4-12b,Meta: Llama Guard 4 12B,meta-llama,Apache 2.0,0.18,
 qwen/qwen3-vl-235b-a22b-instruct,Qwen: Qwen3 VL 235B A22B Instruct,qwen,Apache 2.0,0.21,1.9,131072,2026-05-01,open,Frontier,82,Qwen3 VL 235B. Vision-language
 qwen/qwen3-vl-235b-a22b-thinking,Qwen: Qwen3 VL 235B A22B Thinking,qwen,Apache 2.0,0.26,2.6,131072,2026-05-01,open,Frontier,84,Qwen3 VL 235B thinking
 qwen/qwen3-vl-32b-instruct,Qwen: Qwen3 VL 32B Instruct,qwen,Apache 2.0,0.104,0.416,262144,2026-05-01,open,Lightweight,68,Qwen3 VL 32B
-qwen/qwen3-next-80b-a3b-instruct,Qwen: Qwen3 Next 80B A3B Instruct,qwen,Apache 2.0,0.10,1.10,262144,2026-06-01,open,Self-hostable,72,Qwen3 Next 80B/3B. Completion +41% to $1.10 on Jul 22 (was $0.78)
+qwen/qwen3-next-80b-a3b-instruct,Qwen: Qwen3 Next 80B A3B Instruct,qwen,Apache 2.0,0.15,1.20,262144,2026-06-01,open,Self-hostable,72,Qwen3 Next 80B/3B. Prompt +50% to $0.15, completion +9% to $1.20 on Jul 23
 qwen/qwen3-next-80b-a3b-thinking,Qwen: Qwen3 Next 80B A3B Thinking,qwen,Apache 2.0,0.0975,0.78,262144,2026-06-01,open,Self-hostable,74,Qwen3 Next 80B thinking
 qwen/qwen3-coder-flash,Qwen: Qwen3 Coder Flash,qwen,Apache 2.0,0.195,0.975,1000000,2026-06-01,open,Frontier,73,Qwen3 Coder Flash. 1M ctx. Closed-weight API
 qwen/qwen3-coder,Qwen: Qwen3 Coder 480B A35B,qwen,Apache 2.0,0.3,1.0,1048576,2026-05-01,open,Self-hostable,78,Qwen3 Coder base. 1M ctx
@@ -123,7 +123,7 @@ qwen/qwen3-30b-a3b-instruct-2507,Qwen: Qwen3 30B A3B Instruct 2507,qwen,Apache 2
 qwen/qwen3-30b-a3b-thinking-2507,Qwen: Qwen3 30B A3B Thinking 2507,qwen,Apache 2.0,0.13,1.56,131072,2026-07-01,open,Lightweight,64,Qwen3 30B thinking July 2026
 qwen/qwen3-235b-a22b-thinking-2507,Qwen: Qwen3 235B A22B Thinking 2507,qwen,Apache 2.0,0.3,3.0,262144,2026-07-01,open,Frontier,82,Qwen3 235B thinking July 2026. Price doubled to $0.30/$3.00 on Jul 20
 qwen/qwen3-32b,Qwen: Qwen3 32B,qwen,Apache 2.0,0.08,0.28,131072,2025-12-01,open,Lightweight,65,Qwen3 32B dense
-qwen/qwen3-14b,Qwen: Qwen3 14B,qwen,Apache 2.0,0.12,0.24,131702,2025-12-01,open,Lightweight,55,"Qwen3 14B dense. Price down: prompt -47%, completion -74%"
+qwen/qwen3-14b,Qwen: Qwen3 14B,qwen,Apache 2.0,0.2275,0.91,131072,2025-12-01,open,Lightweight,55,"Qwen3 14B dense. Price reversed: prompt +90%, completion +279% to $0.23/$0.91 on Jul 23 (was Jul 22 drop)"
 qwen/qwen3-8b,Qwen: Qwen3 8B,qwen,Apache 2.0,0.117,0.455,131072,2025-12-01,open,Lightweight,50,Qwen3 8B dense
 amazon/nova-2-lite-v1,Amazon: Nova 2 Lite,amazon,Apache 2.0,0.3,2.5,1000000,2026-05-01,open,Self-hostable,65,Nova 2 Lite. 1M ctx
 amazon/nova-premier-v1,Amazon: Nova Premier 1.0,amazon,Apache 2.0,2.5,12.5,1000000,2026-05-01,open,Frontier,80,Nova Premier. 1M ctx

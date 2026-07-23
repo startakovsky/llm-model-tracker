@@ -1,13 +1,13 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07-22
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-07-23
 
 ## Top 10 Open-Source Models
 
 | # | Model | Org | Category | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|---|---|
 | 1 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights promised July 27. 1M ctx |
-| 2 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.81+$2.55/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price dropped to $0.81/$2.55 on Jul 21 (-16%). Reversing Jul 20 hike |
+| 2 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.78+$2.45/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price drifts down -4% to $0.78/$2.45 on Jul 23 |
 | 3 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-06 | 89 | 1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning |
 | 4 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 202K | $0.95+$2.55/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20 |
 | 5 | [Qwen3.8 Max Preview](open/qwen3.8-max-preview.md) | Alibaba | Frontier | 1M | $0.00+$0.00/M | 2026-07 | 86 | 2.4T param multimodal MoE. First Qwen >1T multimodal (text+image+video+doc). Qwen says "second only to Fable 5". Outperforms Qwen3.7-Max in coding. Open weights promised by Jul 27. Preview via Token Plan/Qoder at 10% price. Not yet on OpenRouter. Benchmarks pending |
