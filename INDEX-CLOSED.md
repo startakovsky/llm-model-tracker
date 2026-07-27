@@ -1,15 +1,18 @@
 # Closed-Source LLM Index
 
-66 models. Sorted by quality score.
+71 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
 | [GPT-5.5 Pro](closed/gpt-5.5-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-06 | 98 | Pro reasoning |
+| [Claude Opus 5](closed/claude-opus-5.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-07 | 96 | New Anthropic flagship (Jul 24). Approaches Fable 5 capability at half the price ($5/$25, same as Opus 4.8). Default for Claude Max. Effort dial. Most-aligned Opus. 1M ctx. 4th Claude 5 model in <2 months |
 | [Claude Opus 4.8 Fast](closed/claude-opus-4.8-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 96 | Fast Opus |
+| [Claude Opus 5 Fast](closed/claude-opus-5-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-07 | 95 | Fast-mode variant of Opus 5 (Jul 24). Identical capabilities, higher output speed at 2x pricing. 1M ctx |
 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 95 | Flagship |
 | [Claude Opus 4.8](closed/claude-opus-4.8.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-06 | 95 | Flagship Opus |
 | [GPT-5.4 Pro](closed/gpt-5.4-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-05 | 94 | Pro reasoning |
 | [Claude Opus 4.7 Fast](closed/claude-opus-4.7-fast.md) | Anthropic | 1M | $30.00+$150.00/M | 2026-05 | 94 | Fast Opus |
+| [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Solid reasoning |
 | [Claude Opus 4.7](closed/claude-opus-4.7.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-05 | 93 | Flagship Opus |
 | [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 92 | Solid |
@@ -32,6 +35,7 @@
 | [Gemini 3.5 Flash](closed/gemini-3.5-flash.md) | Google | 1M | $1.50+$9.00/M | 2026-05 | 87 | Near-Pro coding at Flash-tier cost. Parallel agentic execution. 1M ctx |
 | [Claude Sonnet 4.5](closed/claude-sonnet-4.5.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-05 | 87 | Sonnet |
 | [GPT-5.2](closed/gpt-5.2.md) | OpenAI | 400K | $1.75+$14.00/M | 2026-03 | 87 | Flagship |
+| [Gemini 3.6 Flash](closed/gemini-3.6-flash.md) | Google | 1M | $1.50+$7.50/M | 2026-07 | 86 | High-efficiency model for coding and agentic workflows. Multimodal (text+image+video+audio). 1M ctx. Cheaper completion than 3.5 Flash ($7.50 vs $9.00) |
 | [Muse Spark 1.1](closed/muse-spark-1.1.md) | Meta | 1M | $1.25+$4.25/M | 2026-07 | 86 | Meta proprietary multimodal. Text/image/video/audio/PDF input. Meta pivots closed after Llama. Now on OpenRouter. 1M ctx. Agentic tasks |
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | 86 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
 | [OpenAI: GPT-5.3-Codex](closed/gpt-5.3-codex.md) | openai | 400K | $1.75+$14.00/M | 2026-04 | 86 | GPT-5.3 Codex. 400K ctx |
@@ -61,6 +65,7 @@
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
 | [Qwen3.5 Plus](closed/qwen3.5-plus-20260420.md) | Alibaba | 1M | $0.30+$1.80/M | 2026-04 | 77 | Plus tier. 1M ctx. Closed-weight API |
+| [Gemini 3.5 Flash Lite](closed/gemini-3.5-flash-lite.md) | Google | 1M | $0.30+$2.50/M | 2026-07 | 76 | High-efficiency with upgraded agentic capabilities. Suited for subagents in multi-agent workflows. Multimodal. 1M ctx |
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 256K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency |
 | [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | 76 | Plus tier. 1M ctx. Closed-weight API |
 | [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 256K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |

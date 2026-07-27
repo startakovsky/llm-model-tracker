@@ -3,7 +3,7 @@ model: LongCat-2.0
 organization: Meituan
 license: MIT
 release_date: 2026-07-05
-last_updated: 2026-07-12
+last_updated: 2026-07-21
 ---
 
 # LongCat-2.0
@@ -40,7 +40,10 @@ Expands parameters in sparse dimensions orthogonal to MoE. 135B embedding parame
 - 1,767 downloads, 179 likes on HuggingFace
 
 ## API Providers
-Not yet available on OpenRouter. No public API pricing as of July 12, 2026.
+**Now live on OpenRouter** as `meituan/longcat-2.0` as of July 21, 2026.
+- Prompt: $0.30/M tokens
+- Completion: $1.20/M tokens
+- Context: 1,048,756 tokens
 
 ## Quality Assessment
 LongCat-2.0 is a frontier-scale open-weight model from Meituan, notable for being trained entirely on AI ASIC superpods rather than GPUs — demonstrating alternative hardware viability for frontier training. With 1.6T params and ~48B active, it competes with DeepSeek V4 Pro (1.6T/49B). Its LongCat Sparse Attention and N-gram Embedding innovations are architecturally distinct from standard MoE approaches. Benchmarks reportedly compare against Gemini 3.1 Pro, GPT-5.5, and Claude Opus 4.6-4.8, though specific scores were truncated. Integrated with Claude Code, OpenClaw, and Hermes harnesses for agentic workflows. Too early for definitive quality ranking but the scale and MIT license make it a significant addition to the open-weight frontier.
