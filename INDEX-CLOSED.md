@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-71 models. Sorted by quality score.
+72 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -18,16 +18,16 @@
 | [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 92 | Solid |
 | [O3 Pro](closed/o3-pro.md) | OpenAI | 200K | $20.00+$80.00/M | 2026-04 | 92 | Reasoning |
 | [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-04 | 92 | Flagship Opus. Context expanded to 1M |
-| [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-06 | 91 | Terra reasoning |
+| [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $1.25+$7.50/M | 2026-06 | 91 | Terra reasoning. Price -50% to $1.25/$7.50 on Jul 28 |
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 91 | Fable tier |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | 91 | Flagship |
-| [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-07 | 90 | Luna with pro reasoning mode |
+| [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $0.50+$3.00/M | 2026-07 | 90 | Luna with pro reasoning mode. Price -50% to $0.50/$3.00 on Jul 28 |
 | [Google: Gemini 3.1 Pro Preview](closed/gemini-3.1-pro-preview.md) | google | 1M | $2.00+$12.00/M | 2026-06 | 90 | Gemini 3.1 Pro preview. 1M ctx |
 | [GPT-5.2 Pro](closed/gpt-5.2-pro.md) | OpenAI | 400K | $21.00+$168.00/M | 2026-03 | 90 | Pro reasoning |
 | [Anthropic: Claude Opus 4.5](closed/claude-opus-4.5.md) | anthropic | 200K | $5.00+$25.00/M | 2026-03 | 90 | Claude Opus 4.5. 200K ctx |
-| [GPT-5.6 Terra](closed/gpt-5.6-terra.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-06 | 89 | Terra |
+| [GPT-5.6 Terra](closed/gpt-5.6-terra.md) | OpenAI | 1M | $1.25+$7.50/M | 2026-06 | 89 | Terra. Price -50% to $1.25/$7.50 on Jul 28 |
 | [Claude Sonnet 4.6](closed/claude-sonnet-4.6.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-06 | 89 | Sonnet flagship |
-| [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx |
+| [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.50+$3.00/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price -50% to $0.50/$3.00 on Jul 28 |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [GPT-5 Pro](closed/gpt-5-pro.md) | OpenAI | 400K | $15.00+$120.00/M | 2026-02 | 88 | Pro reasoning |
@@ -68,6 +68,7 @@
 | [Gemini 3.5 Flash Lite](closed/gemini-3.5-flash-lite.md) | Google | 1M | $0.30+$2.50/M | 2026-07 | 76 | High-efficiency with upgraded agentic capabilities. Suited for subagents in multi-agent workflows. Multimodal. 1M ctx |
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 256K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency |
 | [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | 76 | Plus tier. 1M ctx. Closed-weight API |
+| [Qwen3.7 Flash](closed/qwen3.7-flash.md) | Alibaba | 1M | $0.03+$0.13/M | 2026-07 | 75 | Flash tier. Vision-language reasoning. 1M ctx. Ultra-cheap at $0.03/$0.13. Closed-weight API. Open weights pending. Benchmarks not yet published |
 | [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 256K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |
 | [Grok Build 0.1](closed/grok-build-0.1.md) | xAI | 256K | $1.00+$2.00/M | 2026-05 | 75 | Fast coding model for agentic SWE workflows. Interactive coding |
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
