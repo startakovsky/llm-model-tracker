@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -1.8% to $0.77/$2.42 on Jul 28",
-      "prompt_per_m": 0.7686,
-      "completion_per_m": 2.4156,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -5.8% to $0.72/$2.27 on Jul 29",
+      "prompt_per_m": 0.7238,
+      "completion_per_m": 2.2748,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -24,10 +24,10 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "744B/40B MoE",
+      "notes": "744B/40B MoE. ctx 202752->204800 on Jul 29",
       "prompt_per_m": 0.966,
       "completion_per_m": 3.036,
-      "context_length": 202752,
+      "context_length": 204800,
       "quality_score": 86
     },
     {
@@ -122,9 +122,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": false,
-      "notes": "Closed-weight preview",
-      "prompt_per_m": 1.04,
-      "completion_per_m": 6.24,
+      "notes": "Closed-weight preview. Price -1.3% to $1.03/$6.16 on Jul 29",
+      "prompt_per_m": 1.027,
+      "completion_per_m": 6.162,
       "context_length": 262144,
       "quality_score": 85
     },
@@ -206,10 +206,10 @@
       "category": "Lightweight",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "30B/3B MoE coding",
+      "notes": "30B/3B MoE coding. ctx 160K->262K on Jul 29",
       "prompt_per_m": 0.07,
       "completion_per_m": 0.27,
-      "context_length": 160000,
+      "context_length": 262144,
       "quality_score": 60
     },
     {
@@ -276,9 +276,9 @@
       "category": "Lightweight",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "20B/3B MoE. Completion +8% to $0.14 on Jul 26 (prompt steady at $0.03)",
+      "notes": "20B/3B MoE. Completion -7% to $0.13 on Jul 29 (prompt steady at $0.03)",
       "prompt_per_m": 0.03,
-      "completion_per_m": 0.14,
+      "completion_per_m": 0.13,
       "context_length": 131072,
       "quality_score": 55
     },
@@ -290,10 +290,10 @@
       "category": "Self-hostable",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "109B/17B MoE. 10M ctx",
+      "notes": "109B/17B MoE. OpenRouter ctx corrected 10M->1.31M on Jul 29",
       "prompt_per_m": 0.1,
       "completion_per_m": 0.3,
-      "context_length": 10000000,
+      "context_length": 1310720,
       "quality_score": 72
     },
     {
@@ -948,9 +948,9 @@
       "category": "Lightweight",
       "release_date": "2026-04-03",
       "is_open": true,
-      "notes": "25.2B/3.8B MoE. Near-31B quality at fraction of cost. 14M HF downloads. Price +7% to $0.15/$0.45 on Jul 28",
-      "prompt_per_m": 0.15,
-      "completion_per_m": 0.45,
+      "notes": "25.2B/3.8B MoE. Near-31B quality at fraction of cost. 14M HF downloads. Price cut -53%/-24% to $0.07/$0.34 on Jul 29",
+      "prompt_per_m": 0.07,
+      "completion_per_m": 0.34,
       "context_length": 262144,
       "quality_score": 54
     },
@@ -1158,10 +1158,10 @@
       "category": "Frontier",
       "release_date": "2026-05-28",
       "is_open": false,
-      "notes": "196B/11B MoE multimodal. Native image+video understanding. High-efficiency",
+      "notes": "196B/11B MoE multimodal. Native image+video understanding. High-efficiency. ctx 256K->262K on Jul 29",
       "prompt_per_m": 0.2,
       "completion_per_m": 1.15,
-      "context_length": 256000,
+      "context_length": 262144,
       "quality_score": 76
     },
     {
@@ -1172,10 +1172,10 @@
       "category": "Specialized",
       "release_date": "2026-03-27",
       "is_open": false,
-      "notes": "Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths",
+      "notes": "Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths. ctx 256K->262K on Jul 29",
       "prompt_per_m": 0.3,
       "completion_per_m": 1.2,
-      "context_length": 256000,
+      "context_length": 262144,
       "quality_score": 72
     },
     {
@@ -1242,10 +1242,10 @@
       "category": "Frontier",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20",
+      "notes": "GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20. ctx 202752->204800 on Jul 29",
       "prompt_per_m": 0.95,
       "completion_per_m": 2.55,
-      "context_length": 202752,
+      "context_length": 204800,
       "quality_score": 87
     },
     {
@@ -1256,10 +1256,10 @@
       "category": "Self-hostable",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "GLM-4.7. Mid-tier Z.ai",
+      "notes": "GLM-4.7. Mid-tier Z.ai. ctx 202752->204800 on Jul 29",
       "prompt_per_m": 0.4,
       "completion_per_m": 1.75,
-      "context_length": 202752,
+      "context_length": 204800,
       "quality_score": 78
     },
     {
@@ -1270,10 +1270,10 @@
       "category": "Lightweight",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Flash variant of GLM-4.7. Prompt -0.8% to $0.06 on Jul 28",
+      "notes": "Flash variant of GLM-4.7. Prompt -0.8% to $0.06 on Jul 28. ctx 200000->202752 on Jul 29",
       "prompt_per_m": 0.06,
       "completion_per_m": 0.4,
-      "context_length": 200000,
+      "context_length": 202752,
       "quality_score": 68
     },
     {
@@ -1284,10 +1284,10 @@
       "category": "Self-hostable",
       "release_date": "2026-02-01",
       "is_open": true,
-      "notes": "GLM-4.6",
+      "notes": "GLM-4.6. ctx 202752->204800 on Jul 29",
       "prompt_per_m": 0.5,
       "completion_per_m": 2.0,
-      "context_length": 202752,
+      "context_length": 204800,
       "quality_score": 76
     },
     {
@@ -1368,10 +1368,10 @@
       "category": "Self-hostable",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "V3.1 Terminus",
+      "notes": "V3.1 Terminus. ctx 131K->163K on Jul 29",
       "prompt_per_m": 0.27,
       "completion_per_m": 1.0,
-      "context_length": 131072,
+      "context_length": 163840,
       "quality_score": 77
     },
     {
@@ -1550,10 +1550,10 @@
       "category": "Lightweight",
       "release_date": "2025-06-01",
       "is_open": true,
-      "notes": "Gemma 3 27B. Older gen. Prompt -20%, completion +50% to $0.08/$0.45 on Jul 24",
+      "notes": "Gemma 3 27B. Older gen. Prompt -20%, completion +50% to $0.08/$0.45 on Jul 24. ctx 131K->262K on Jul 29",
       "prompt_per_m": 0.08,
       "completion_per_m": 0.45,
-      "context_length": 131072,
+      "context_length": 262144,
       "quality_score": 52
     },
     {
@@ -1578,10 +1578,10 @@
       "category": "Specialized",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "Llama Guard 4 safety model",
+      "notes": "Llama Guard 4 safety model. ctx 164K->1M on Jul 29",
       "prompt_per_m": 0.18,
       "completion_per_m": 0.18,
-      "context_length": 163840,
+      "context_length": 1048576,
       "quality_score": 40
     },
     {
@@ -1592,10 +1592,10 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 VL 235B. Vision-language",
+      "notes": "Qwen3 VL 235B. Vision-language. ctx 131K->262K on Jul 29",
       "prompt_per_m": 0.21,
       "completion_per_m": 1.9,
-      "context_length": 131072,
+      "context_length": 262144,
       "quality_score": 82
     },
     {
@@ -1606,9 +1606,9 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 VL 235B thinking",
-      "prompt_per_m": 0.26,
-      "completion_per_m": 2.6,
+      "notes": "Qwen3 VL 235B thinking. Price +54% to $0.40/$4.00 on Jul 29",
+      "prompt_per_m": 0.4,
+      "completion_per_m": 4.0,
       "context_length": 131072,
       "quality_score": 84
     },
@@ -1620,10 +1620,10 @@
       "category": "Lightweight",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 VL 32B",
+      "notes": "Qwen3 VL 32B. ctx 262K->131K on Jul 29",
       "prompt_per_m": 0.104,
       "completion_per_m": 0.416,
-      "context_length": 262144,
+      "context_length": 131072,
       "quality_score": 68
     },
     {
@@ -1648,9 +1648,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Qwen3 Next 80B thinking",
-      "prompt_per_m": 0.0975,
-      "completion_per_m": 0.78,
+      "notes": "Qwen3 Next 80B thinking. Price +54% to $0.15/$1.20 on Jul 29 (reverses Jul 25 drop)",
+      "prompt_per_m": 0.15,
+      "completion_per_m": 1.2,
       "context_length": 262144,
       "quality_score": 74
     },
@@ -1676,10 +1676,10 @@
       "category": "Self-hostable",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 Coder base. 1M ctx",
+      "notes": "Qwen3 Coder base. OpenRouter ctx 1M->262K on Jul 29",
       "prompt_per_m": 0.3,
       "completion_per_m": 1.0,
-      "context_length": 1048576,
+      "context_length": 262144,
       "quality_score": 78
     },
     {
@@ -1704,10 +1704,10 @@
       "category": "Lightweight",
       "release_date": "2026-07-01",
       "is_open": true,
-      "notes": "Qwen3 30B thinking July 2026",
-      "prompt_per_m": 0.13,
-      "completion_per_m": 1.56,
-      "context_length": 131072,
+      "notes": "Qwen3 30B thinking July 2026. Price +54% to $0.20/$2.40 on Jul 29. Context cut 131K->82K",
+      "prompt_per_m": 0.2,
+      "completion_per_m": 2.4,
+      "context_length": 81920,
       "quality_score": 64
     },
     {
@@ -2110,9 +2110,9 @@
       "category": "Self-hostable",
       "release_date": "2026-02-02",
       "is_open": true,
-      "notes": "80B/3B MoE coding model. Open weights for local dev workflows. 262K ctx. Price +64%/+13% to $0.18/$0.90 on Jul 28",
-      "prompt_per_m": 0.18,
-      "completion_per_m": 0.9,
+      "notes": "80B/3B MoE coding model. Open weights for local dev workflows. 262K ctx. Price -33%/-11% to $0.12/$0.80 on Jul 29 (reverses Jul 28 jump)",
+      "prompt_per_m": 0.12,
+      "completion_per_m": 0.8,
       "context_length": 262144,
       "quality_score": 70
     },
