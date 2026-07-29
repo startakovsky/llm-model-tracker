@@ -40,7 +40,7 @@
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | 86 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
 | [OpenAI: GPT-5.3-Codex](closed/gpt-5.3-codex.md) | openai | 400K | $1.75+$14.00/M | 2026-04 | 86 | GPT-5.3 Codex. 400K ctx |
 | [Google: Gemini 2.5 Pro](closed/gemini-2.5-pro.md) | google | 1M | $1.25+$10.00/M | 2026-01 | 86 | Gemini 2.5 Pro. 1M ctx. Older gen |
-| [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.04+$6.24/M | 2026-06 | 85 | Closed-weight preview |
+| [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.03+$6.16/M | 2026-06 | 85 | Closed-weight preview. Price -1.3% to $1.03/$6.16 on Jul 29 |
 | [Claude Sonnet 5](closed/claude-sonnet-5.md) | Anthropic | 1M | $2.00+$10.00/M | 2026-06 | 85 | Sonnet |
 | [OpenAI: GPT-5.4 Mini](closed/gpt-5.4-mini.md) | openai | 400K | $0.75+$4.50/M | 2026-05 | 85 | GPT-5.4 Mini. 400K ctx |
 | [O3 Deep Research](closed/o3-deep-research.md) | OpenAI | 200K | $10.00+$40.00/M | 2026-04 | 85 | Research |
@@ -66,13 +66,13 @@
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
 | [Qwen3.5 Plus](closed/qwen3.5-plus-20260420.md) | Alibaba | 1M | $0.30+$1.80/M | 2026-04 | 77 | Plus tier. 1M ctx. Closed-weight API |
 | [Gemini 3.5 Flash Lite](closed/gemini-3.5-flash-lite.md) | Google | 1M | $0.30+$2.50/M | 2026-07 | 76 | High-efficiency with upgraded agentic capabilities. Suited for subagents in multi-agent workflows. Multimodal. 1M ctx |
-| [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 256K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency |
+| [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 262K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency. ctx 256K->262K on Jul 29 |
 | [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | 76 | Plus tier. 1M ctx. Closed-weight API |
 | [Qwen3.7 Flash](closed/qwen3.7-flash.md) | Alibaba | 1M | $0.03+$0.13/M | 2026-07 | 75 | Flash tier. Vision-language reasoning. 1M ctx. Ultra-cheap at $0.03/$0.13. Closed-weight API. Open weights pending. Benchmarks not yet published |
 | [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 256K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |
 | [Grok Build 0.1](closed/grok-build-0.1.md) | xAI | 256K | $1.00+$2.00/M | 2026-05 | 75 | Fast coding model for agentic SWE workflows. Interactive coding |
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
 | [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | 74 | Flash tier. 1M ctx. Closed-weight API |
-| [KAT-Coder-Pro V2](closed/kat-coder-pro-v2.md) | KwaiKAT | 256K | $0.30+$1.20/M | 2026-03 | 72 | Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths |
+| [KAT-Coder-Pro V2](closed/kat-coder-pro-v2.md) | KwaiKAT | 262K | $0.30+$1.20/M | 2026-03 | 72 | Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths. ctx 256K->262K on Jul 29 |
 | [KAT-Coder-Air V2.5](closed/kat-coder-air-v2.5.md) | KwaiKAT | 256K | $0.15+$0.60/M | 2026-07 | 68 | Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx |
 | [Mercury 2](closed/mercury-2.md) | Inception | 128K | $0.25+$0.75/M | 2026-03 | 68 | First reasoning diffusion LLM. 1000+ tok/s on Blackwell GPUs (5x faster than autoregressive). Tunable reasoning depth. Native tool use. Real-time agent latency. Architectural breakthrough |
