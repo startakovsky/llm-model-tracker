@@ -1,79 +1,40 @@
 {
-  "date": "2026-07-29",
-  "new_models": [],
+  "date": "2026-07-30",
+  "new_models": [
+    {
+      "id": "unsloth/ornith-1.0-397b",
+      "name": "Ornith-1.0-397B",
+      "org": "Unsloth"
+    }
+  ],
   "removed_models": [],
   "price_changes": [
     {
       "id": "z-ai/glm-5.2",
       "name": "GLM-5.2",
-      "old_prompt_per_m": 0.7686,
-      "new_prompt_per_m": 0.7238,
-      "old_completion_per_m": 2.4156,
-      "new_completion_per_m": 2.2748,
-      "pct_change_prompt": -5.83
+      "old_prompt_per_m": 0.7238,
+      "new_prompt_per_m": 0.966,
+      "old_completion_per_m": 2.2748,
+      "new_completion_per_m": 3.036,
+      "pct_change_prompt": 33.46
     },
     {
-      "id": "qwen/qwen3.6-max-preview",
-      "name": "Qwen3.6 Max Preview",
-      "old_prompt_per_m": 1.04,
-      "new_prompt_per_m": 1.027,
-      "old_completion_per_m": 6.24,
-      "new_completion_per_m": 6.162,
-      "pct_change_prompt": -1.25
-    },
-    {
-      "id": "openai/gpt-oss-20b",
-      "name": "GPT-OSS-20B",
-      "old_prompt_per_m": 0.03,
-      "new_prompt_per_m": 0.03,
-      "old_completion_per_m": 0.14,
-      "new_completion_per_m": 0.13,
-      "pct_change_prompt": 0.0
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Gemma 4 26B A4B",
-      "old_prompt_per_m": 0.15,
-      "new_prompt_per_m": 0.07,
-      "old_completion_per_m": 0.45,
+      "id": "google/gemma-4-31b-it",
+      "name": "Gemma 4 31B-IT",
+      "old_prompt_per_m": 0.14,
+      "new_prompt_per_m": 0.1,
+      "old_completion_per_m": 0.4,
       "new_completion_per_m": 0.34,
-      "pct_change_prompt": -53.33
+      "pct_change_prompt": -28.57
     },
     {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "old_prompt_per_m": 0.26,
-      "new_prompt_per_m": 0.4,
-      "old_completion_per_m": 2.6,
-      "new_completion_per_m": 4.0,
-      "pct_change_prompt": 53.85
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "old_prompt_per_m": 0.0975,
-      "new_prompt_per_m": 0.15,
-      "old_completion_per_m": 0.78,
-      "new_completion_per_m": 1.2,
-      "pct_change_prompt": 53.85
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "old_prompt_per_m": 0.13,
-      "new_prompt_per_m": 0.2,
-      "old_completion_per_m": 1.56,
-      "new_completion_per_m": 2.4,
-      "pct_change_prompt": 53.85
-    },
-    {
-      "id": "qwen/qwen3-coder-next",
-      "name": "Qwen3 Coder Next",
-      "old_prompt_per_m": 0.18,
-      "new_prompt_per_m": 0.12,
-      "old_completion_per_m": 0.9,
-      "new_completion_per_m": 0.8,
-      "pct_change_prompt": -33.33
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra",
+      "old_prompt_per_m": 0.5,
+      "new_prompt_per_m": 0.6,
+      "old_completion_per_m": 2.2,
+      "new_completion_per_m": 3.6,
+      "pct_change_prompt": 20.0
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29",
-  "count": 164,
+  "generated": "2026-07-30",
+  "count": 165,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -5.8% to $0.72/$2.27 on Jul 29",
-      "prompt_per_m": 0.7238,
-      "completion_per_m": 2.2748,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price +33%/+33% to $0.97/$3.04 on Jul 30 (reverses Jul 29 drop; now matches GLM-5.1 pricing)",
+      "prompt_per_m": 0.966,
+      "completion_per_m": 3.036,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -318,9 +318,9 @@
       "category": "Lightweight",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "31B dense multimodal. Prompt +17%, completion +14% to $0.14/$0.40 on Jul 24",
-      "prompt_per_m": 0.14,
-      "completion_per_m": 0.4,
+      "notes": "31B dense multimodal. Price -29%/-15% to $0.10/$0.34 on Jul 30",
+      "prompt_per_m": 0.1,
+      "completion_per_m": 0.34,
       "context_length": 262144,
       "quality_score": 56
     },
@@ -822,9 +822,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-03",
       "is_open": true,
-      "notes": "550B/55B hybrid Mamba-Transformer MoE. Price reversed to $0.50/$2.20 on Jul 27 (-17%/-39%",
-      "prompt_per_m": 0.5,
-      "completion_per_m": 2.2,
+      "notes": "550B/55B hybrid Mamba-Transformer MoE. Price +20%/+64% to $0.60/$3.60 on Jul 30",
+      "prompt_per_m": 0.6,
+      "completion_per_m": 3.6,
       "context_length": 512288,
       "quality_score": 80
     },
@@ -1536,10 +1536,10 @@
       "category": "Frontier",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "Ernie 4.5 VL. 424B/47B MoE multimodal",
+      "notes": "Ernie 4.5 VL. 424B/47B MoE multimodal. ctx 131K->123K on Jul 30",
       "prompt_per_m": 0.42,
       "completion_per_m": 1.25,
-      "context_length": 131072,
+      "context_length": 123000,
       "quality_score": 76
     },
     {
@@ -2297,6 +2297,20 @@
       "completion_per_m": 0.13,
       "context_length": 1000000,
       "quality_score": 75
+    },
+    {
+      "id": "unsloth/ornith-1.0-397b",
+      "name": "Ornith-1.0-397B",
+      "org": "Unsloth",
+      "license_type": "MIT",
+      "category": "Self-hostable",
+      "release_date": "2026-07-30",
+      "is_open": true,
+      "notes": "397B/17B MoE agentic coding. Self-improving RL (joint scaffold+solution optimization). Post-trained on Gemma 4 + Qwen3.5. MIT license. Terminal-Bench 2.1 77.5-78.2 (near GLM-5.2's 81). SWE-bench/NL2Repo/OpenClaw SOTA among open models of comparable size. Not on OpenRouter. GGUF quants on HF",
+      "prompt_per_m": 0.0,
+      "completion_per_m": 0.0,
+      "context_length": 262144,
+      "quality_score": 80
     }
   ]
 }
