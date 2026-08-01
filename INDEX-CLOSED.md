@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-72 models. Sorted by quality score.
+71 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -18,17 +18,16 @@
 | [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 92 | Solid |
 | [O3 Pro](closed/o3-pro.md) | OpenAI | 200K | $20.00+$80.00/M | 2026-04 | 92 | Reasoning |
 | [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-04 | 92 | Flagship Opus. Context expanded to 1M |
-| [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $1.25+$7.50/M | 2026-06 | 91 | Terra reasoning. Price -50% to $1.25/$7.50 on Jul 28 |
+| [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-06 | 91 | Terra reasoning. Price -20%/-20% to $1.00/$6.00 on Aug 1 |
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 91 | Fable tier |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | 91 | Flagship |
-| [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $0.50+$3.00/M | 2026-07 | 90 | Luna with pro reasoning mode. Price -50% to $0.50/$3.00 on Jul 28 |
+| [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $0.10+$0.60/M | 2026-07 | 90 | Luna with pro reasoning mode. Price -80%/-80% to $0.10/$0.60 on Aug 1 |
 | [Google: Gemini 3.1 Pro Preview](closed/gemini-3.1-pro-preview.md) | google | 1M | $2.00+$12.00/M | 2026-06 | 90 | Gemini 3.1 Pro preview. 1M ctx |
 | [GPT-5.2 Pro](closed/gpt-5.2-pro.md) | OpenAI | 400K | $21.00+$168.00/M | 2026-03 | 90 | Pro reasoning |
 | [Anthropic: Claude Opus 4.5](closed/claude-opus-4.5.md) | anthropic | 200K | $5.00+$25.00/M | 2026-03 | 90 | Claude Opus 4.5. 200K ctx |
-| [GPT-5.6 Terra](closed/gpt-5.6-terra.md) | OpenAI | 1M | $1.25+$7.50/M | 2026-06 | 89 | Terra. Price -50% to $1.25/$7.50 on Jul 28 |
+| [GPT-5.6 Terra](closed/gpt-5.6-terra.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-06 | 89 | Terra. Price -20%/-20% to $1.00/$6.00 on Aug 1 |
 | [Claude Sonnet 4.6](closed/claude-sonnet-4.6.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-06 | 89 | Sonnet flagship |
-| [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.50+$3.00/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price -50% to $0.50/$3.00 on Jul 28 |
-| [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
+| [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.10+$0.60/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price -80%/-80% to $0.10/$0.60 on Aug 1 |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [GPT-5 Pro](closed/gpt-5-pro.md) | OpenAI | 400K | $15.00+$120.00/M | 2026-02 | 88 | Pro reasoning |
 | [xAI: Grok 4.20 Multi-Agent](closed/grok-4.20-multi-agent.md) | x-ai | 2M | $1.25+$2.50/M | 2026-07 | 87 | Grok 4.20 multi-agent. 2M ctx |
@@ -49,13 +48,13 @@
 | [Qwen3.7 Max](closed/qwen3.7-max.md) | Alibaba | 1M | $1.48+$4.42/M | 2026-06 | 84 | Closed-weight API |
 | [OpenAI: GPT-5.3 Chat](closed/gpt-5.3-chat.md) | openai | 128K | $1.75+$14.00/M | 2026-04 | 84 | GPT-5.3 Chat. 128K ctx |
 | [OpenAI: o4 Mini Deep Research](closed/o4-mini-deep-research.md) | openai | 200K | $2.00+$8.00/M | 2026-05 | 83 | O4 Mini Deep Research. 200K ctx |
-| [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.43+$0.87/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. 1M ctx |
+| [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.43+$0.87/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx |
 | [Google: Gemini 3 Flash Preview](closed/gemini-3-flash-preview.md) | google | 1M | $0.50+$3.00/M | 2026-06 | 82 | Gemini 3 Flash preview. 1M ctx |
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
 | [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 81 | Closed-weight API |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
-| [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.14+$0.28/M | 2026-06 | 80 | MiMo V2.5. 1M ctx |
+| [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.14+$0.28/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx |
 | [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | 80 | Closed-weight API |
 | [OpenAI: GPT-5.4 Image 2](closed/gpt-5.4-image-2.md) | openai | 272K | $8.00+$15.00/M | 2026-05 | 80 | GPT-5.4 Image. 272K ctx |
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
