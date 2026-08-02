@@ -52,7 +52,7 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (z-ai/glm-5.2) | $0.96 | $3.03 | 1,048,576 | Hiked from $0.29/$0.92 to $0.96/$3.03 on July 20 (~3.85x). Promotional pricing ended; now matches the GLM-5.1 tier ($0.97/$3.04) |
+| OpenRouter (z-ai/glm-5.2) | $0.28 | $0.89 | 1,048,576 | Crashed -63%/-63% on Aug 2 to $0.28/$0.89 (near Jul 18 low). Z.ai continues dramatic week-to-week swings |
 | Z.ai direct (Coding Plan) | Subscription | Subscription | 1M | $1,344/yr Max tier |
 
 ## Quality Benchmarks
@@ -77,3 +77,4 @@ GLM-5.2 is the current reference point for open-weight frontier quality. It exce
 - Fireworks AI also hosts GLM-5.2 Fast at $0.14/M cached input tokens
 - Price dropped from $0.93/$3.00/M to $0.29/$0.92/M (~69% reduction) around July 18, 2026, following the Kimi K3 launch. Returns near the July 11 low of $0.35/$1.10; Z.ai has been highly volatile week-over-week.
 - Price hiked from $0.29/$0.92/M to $0.96/$3.03/M (~3.85x) on July 20, 2026. The promotional cheap tier ended and GLM-5.2 reverted to GLM-5.1-equivalent pricing. Z.ai continues to swing pricing dramatically week-to-week.
+- Price crashed from $0.76/$2.39/M to $0.28/$0.89/M (~63% drop) on Aug 2, 2026, near the July 18 low. Now the cheapest GLM-5.2 has been since tracking began — roughly 1/3 the July 20 peak and well below GLM-5.1 ($0.97/$3.04).

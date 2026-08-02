@@ -1,6 +1,31 @@
 {
-  "date": "2026-08-01",
-  "new_models": [],
+  "date": "2026-08-02",
+  "new_models": [
+    {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "org": "DeepSeek"
+    }
+  ],
   "removed_models": [],
-  "price_changes": []
+  "price_changes": [
+    {
+      "id": "z-ai/glm-5.2",
+      "name": "GLM-5.2",
+      "old_prompt_per_m": 0.7601,
+      "new_prompt_per_m": 0.2842,
+      "old_completion_per_m": 2.3888,
+      "new_completion_per_m": 0.8932,
+      "pct_change_prompt": -62.61
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra",
+      "old_prompt_per_m": 0.5,
+      "new_prompt_per_m": 0.6,
+      "old_completion_per_m": 2.2,
+      "new_completion_per_m": 3.6,
+      "pct_change_prompt": 20.0
+    }
+  ]
 }

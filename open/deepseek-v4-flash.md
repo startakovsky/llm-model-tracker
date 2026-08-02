@@ -50,7 +50,8 @@ llama serve -hf unsloth/DeepSeek-V4-Flash-GGUF:UD-Q4_K_XL
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4-flash) | $0.09 | $0.18 | 1,048,576 | 10x cheaper than GLM-5.2 |
+| OpenRouter (deepseek/deepseek-v4-flash) | $0.14 | $0.28 | 1,048,576 | Base ID at surge pricing since Jul 26 |
+| OpenRouter (deepseek/deepseek-v4-flash-0731) | $0.09 | $0.18 | 1,048,576 | 0731 re-post-trained revision; non-surge pricing restored |
 
 ## Quality Benchmarks
 - Coding average: 72.2 (benchlm.ai)
@@ -66,3 +67,4 @@ DeepSeek V4 Flash scores 72.2 coding average (benchlm.ai) — roughly 85-90% of 
 - DeepSeek V4 Pro also exists (1.6T total, 49B active, IQ2: 465GB)
 - DeepSeek V4 architecture uses CSA + HCA for KV cache compression
 - Unsloth Dynamic 2.0 quants achieve superior accuracy vs other quants
+- A 0731 re-post-trained revision (deepseek/deepseek-v4-flash-0731) went live on OpenRouter July 31 at $0.09/$0.18 — the non-surge price. The base ID remains at $0.14/$0.28 (surge pricing since Jul 26).

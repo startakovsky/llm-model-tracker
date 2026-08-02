@@ -1,10 +1,11 @@
 id,name,org,license_type,prompt_per_m,completion_per_m,context_length,release_date,is_open,category,quality_score,notes
-z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.7601,2.3888,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -21%/-21% to $0.76/$2.39 on Aug 1 (reverses Jul 30 hike; now cheapest since tracking began)
+z-ai/glm-5.2,GLM-5.2,Z.ai,MIT,0.2842,0.8932,1048576,2026-06-13,open,Frontier,90,Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -63%/-63% to $0.28/$0.89 on Aug 2 (crash; now ~70% below Jul 30 peak, near Jul 18 low. Cheapest since tracking began)
 z-ai/glm-5.1,GLM-5.1,Z.ai,MIT,0.966,3.036,204800,2026-05-01,open,Frontier,86,744B/40B MoE. ctx 202752->204800 on Jul 29
 z-ai/glm-5-turbo,GLM-5 Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,84,Turbo variant
 z-ai/glm-5v-turbo,GLM-5V Turbo,Z.ai,MIT,1.20,4.00,202752,2026-04-01,open,Frontier,83,Vision variant
 z-ai/glm-4.5-air,GLM-4.5-Air,Z.ai,MIT,0.13,0.85,131072,2025-08-01,open,Self-hostable,70,106B/7B MoE. Designed for local
-deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,MIT,0.14,0.28,1048576,2026-06-01,open,Self-hostable,82,290B/13.5B MoE. 1M ctx. V4 GA Jul 24 with peak/off-peak surge pricing. Price +49% to $0.14/$0.28 on Jul 26 (surge pricing in effect)
+deepseek/deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,MIT,0.14,0.28,1048576,2026-06-01,open,Self-hostable,82,284B/13B MoE. 1M ctx. V4 GA Jul 24. Base ID still at surge pricing $0.14/$0.28; cheaper 0731 snapshot ($0.09/$0.18) now live
+deepseek/deepseek-v4-flash-0731,DeepSeek V4 Flash 0731,DeepSeek,MIT,0.09,0.18,1048576,2026-07-31,open,Self-hostable,82,284B/13B MoE re-post-trained revision. 1M ctx. Non-surge pricing ($0.09/$0.18 vs base $0.14/$0.28). Coding/reasoning/agent workflows. ~10x cheaper than GLM-5.2
 deepseek/deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,MIT,0.435,0.87,1048576,2026-06-01,open,Frontier,89,1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning
 deepseek/deepseek-r1,DeepSeek R1,DeepSeek,MIT,0.70,2.50,163840,2026-01-01,open,Frontier,84,Reasoning model
 qwen/qwen3.6-max-preview,Qwen3.6 Max Preview,Alibaba,Apache 2.0,1.027,6.162,262144,2026-06-01,closed,Frontier,85,Closed-weight preview. Price -1.3% to $1.03/$6.16 on Jul 29
@@ -57,7 +58,7 @@ qwen/qwen3.5-flash-02-23,Qwen3.5 Flash,Alibaba,Apache 2.0,0.065,0.26,1000000,202
 qwen/qwen3.5-plus-02-15,Qwen3.5 Plus (Feb),Alibaba,Apache 2.0,0.26,1.56,1000000,2026-02-01,closed,Frontier,76,Plus tier. 1M ctx. Closed-weight API
 inclusionai/ring-2.6-1t,Ring-2.6-1T,inclusionAI,MIT,0.075,0.625,262144,2026-05-08,open,Self-hostable,72,1T/63B MoE. Coding agent. 262K ctx
 minimax/minimax-m3,MiniMax M3,MiniMax AI,other,0.30,1.20,1048576,2026-05-31,open,Frontier,76,428B MoE multimodal. 1M ctx
-nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,OpenMDW-1.1,0.5,2.2,512288,2026-06-03,open,Self-hostable,80,550B/55B hybrid Mamba-Transformer MoE. Price -17%/-39% to $0.50/$2.20 on Aug 1
+nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,OpenMDW-1.1,0.6,3.6,512288,2026-06-03,open,Self-hostable,80,550B/55B hybrid Mamba-Transformer MoE. Price +20%/+64% to $0.60/$3.60 on Aug 2 (reverses Aug 1 drop)
 nex-agi/nex-n2-pro,Nex-N2-Pro,Nex AGI,Apache 2.0,0.25,1.00,262144,2026-06-08,open,Frontier,78,397B/17B MoE multimodal. Built on Qwen3.5
 moonshotai/kimi-k2.7-code,Kimi K2.7 Code,Moonshot AI,other,0.73,3.5,262144,2026-06-12,open,Frontier,85,1T/32B MoE coding model. Native multimodal. Prompt -3% to $0.73 on Jul 27 (completion steady at $3.50)
 poolside/laguna-xs-2.1,Laguna XS 2.1,Poolside,OpenMDW-1.1,0.06,0.12,262144,2026-07-02,open,Lightweight,58,33B/3B MoE coding agent

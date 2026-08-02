@@ -47,7 +47,7 @@ No community GGUF quants yet. The NVFP4 format is NVIDIA-specific; community Q4_
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (nvidia/nemotron-3-ultra-550b-a55b) | $0.50 | $2.20 | 1,000,000 | Competitive with GLM-5.2 |
+| OpenRouter (nvidia/nemotron-3-ultra-550b-a55b) | $0.60 | $3.60 | 1,000,000 | Hiked +20%/+64% on Aug 2 (reverses Aug 1 drop to $0.50/$2.20) |
 | OpenRouter (free tier) | $0.00 | $0.00 | 1,000,000 | Free tier available |
 | build.nvidia.com | TBD | TBD | 1M | NVIDIA's hosted endpoint |
 
