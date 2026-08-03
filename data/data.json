@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "count": 166,
   "models": [
     {
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -63%/-63% to $0.28/$0.89 on Aug 2 (crash; now ~70% below Jul 30 peak",
-      "prompt_per_m": 0.2842,
-      "completion_per_m": 0.8932,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price +121%/+121% to $0.63/$1.98 on Aug 3 (rebounds from Aug 2 crash; back near Jul 30 levels)",
+      "prompt_per_m": 0.6286,
+      "completion_per_m": 1.9756,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -206,9 +206,9 @@
       "category": "Self-hostable",
       "release_date": "2026-07-01",
       "is_open": true,
-      "notes": "234B/7B MoE. Completion price up from $0.10",
-      "prompt_per_m": 0.09,
-      "completion_per_m": 0.55,
+      "notes": "234B/7B MoE. Price +66%/+9% to $0.15/$0.60 on Aug 3 (reverses prior low)",
+      "prompt_per_m": 0.1495,
+      "completion_per_m": 0.598,
       "context_length": 262144,
       "quality_score": 78
     },
@@ -710,9 +710,9 @@
       "category": "Lightweight",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "27B dense. Completion -17% to $2.00 on Jul 26 (prompt +4% to $0.30)",
-      "prompt_per_m": 0.3,
-      "completion_per_m": 2.0,
+      "notes": "27B dense. Price: prompt -4% to $0.29",
+      "prompt_per_m": 0.289,
+      "completion_per_m": 2.4,
       "context_length": 262144,
       "quality_score": 60
     },
@@ -766,9 +766,9 @@
       "category": "Self-hostable",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "122B/10B MoE. Single 96GB GPU feasible",
-      "prompt_per_m": 0.26,
-      "completion_per_m": 2.08,
+      "notes": "122B/10B MoE. Single 96GB GPU feasible. Price +54%/+54% to $0.40/$3.20 on Aug 3",
+      "prompt_per_m": 0.4,
+      "completion_per_m": 3.2,
       "context_length": 262144,
       "quality_score": 75
     },
@@ -1606,9 +1606,9 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 VL 235B thinking. Price +54% to $0.40/$4.00 on Jul 29",
-      "prompt_per_m": 0.4,
-      "completion_per_m": 4.0,
+      "notes": "Qwen3 VL 235B thinking. Prompt +145% to $0.98 on Aug 3 (completion steady $3.95)",
+      "prompt_per_m": 0.98,
+      "completion_per_m": 3.95,
       "context_length": 131072,
       "quality_score": 84
     },
@@ -2118,17 +2118,17 @@
     },
     {
       "id": "qwen/qwen3.8-max-preview",
-      "name": "Qwen3.8 Max Preview",
+      "name": "Qwen3.8 Max",
       "org": "Alibaba",
       "license_type": "Apache 2.0",
       "category": "Frontier",
-      "release_date": "2026-07-19",
+      "release_date": "2026-08-02",
       "is_open": true,
-      "notes": "2.4T param multimodal MoE. First Qwen >1T multimodal (text+image+video+doc). Qwen says \"second only to Fable 5\". Outperforms Qwen3.7-Max in coding. Open weights promised by Jul 27. Preview via Token Plan/Qoder at 10% price. Not yet on OpenRouter. Benchmarks pending",
-      "prompt_per_m": 0.0,
-      "completion_per_m": 0.0,
+      "notes": "2.4T param multimodal MoE. First Qwen >1T multimodal (text+image+video+doc). Officially launched Aug 2 (preview Jul 19). Nikkei: falls short of 'second only to Fable 5' claim in benchmarks. Priced $2/$6 (below Kimi K3 $3/$15). Open weights promised next week. Not yet on OpenRouter",
+      "prompt_per_m": 2.0,
+      "completion_per_m": 6.0,
       "context_length": 1048576,
-      "quality_score": 86
+      "quality_score": 84
     },
     {
       "id": "inception/mercury-2",
