@@ -1,61 +1,72 @@
 {
-  "date": "2026-08-03",
-  "new_models": [],
-  "removed_models": [],
+  "date": "2026-08-04",
+  "new_models": [
+    {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "org": "Alibaba"
+    }
+  ],
+  "removed_models": [
+    {
+      "id": "qwen/qwen3.8-max-preview",
+      "name": "Qwen3.8 Max"
+    }
+  ],
   "price_changes": [
     {
       "id": "z-ai/glm-5.2",
       "name": "GLM-5.2",
-      "old_prompt_per_m": 0.2842,
-      "new_prompt_per_m": 0.6286,
-      "old_completion_per_m": 0.8932,
-      "new_completion_per_m": 1.9756,
-      "pct_change_prompt": 121.18
+      "old_prompt_per_m": 0.6286,
+      "new_prompt_per_m": 0.76,
+      "old_completion_per_m": 1.9756,
+      "new_completion_per_m": 2.42,
+      "pct_change_prompt": 20.9
     },
     {
-      "id": "qwen/qwen3-235b-a22b-2507",
-      "name": "Qwen3-235B-A22B-Instruct",
-      "old_prompt_per_m": 0.09,
-      "new_prompt_per_m": 0.1495,
-      "old_completion_per_m": 0.55,
-      "new_completion_per_m": 0.598,
-      "pct_change_prompt": 66.11
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen3-Coder-30B-A3B",
+      "old_prompt_per_m": 0.07,
+      "new_prompt_per_m": 0.07,
+      "old_completion_per_m": 0.28,
+      "new_completion_per_m": 0.27,
+      "pct_change_prompt": 0.0
     },
     {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen3.6-27B",
-      "old_prompt_per_m": 0.3,
-      "new_prompt_per_m": 0.289,
-      "old_completion_per_m": 2.0,
-      "new_completion_per_m": 2.4,
-      "pct_change_prompt": -3.67
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Llama 3.3 70B",
+      "old_prompt_per_m": 0.13,
+      "new_prompt_per_m": 0.1,
+      "old_completion_per_m": 0.4,
+      "new_completion_per_m": 0.32,
+      "pct_change_prompt": -23.08
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
       "name": "Qwen3.5-122B-A10B",
-      "old_prompt_per_m": 0.26,
-      "new_prompt_per_m": 0.4,
-      "old_completion_per_m": 2.08,
-      "new_completion_per_m": 3.2,
-      "pct_change_prompt": 53.85
-    },
-    {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
       "old_prompt_per_m": 0.4,
-      "new_prompt_per_m": 0.98,
-      "old_completion_per_m": 4.0,
-      "new_completion_per_m": 3.95,
-      "pct_change_prompt": 145.0
+      "new_prompt_per_m": 0.26,
+      "old_completion_per_m": 3.2,
+      "new_completion_per_m": 2.08,
+      "pct_change_prompt": -35.0
     },
     {
-      "id": "qwen/qwen3.8-max-preview",
-      "name": "Qwen3.8 Max",
-      "old_prompt_per_m": 0.0,
-      "new_prompt_per_m": 2.0,
-      "old_completion_per_m": 0.0,
-      "new_completion_per_m": 6.0,
-      "pct_change_prompt": null
+      "id": "moonshotai/kimi-k2.6",
+      "name": "Kimi K2.6",
+      "old_prompt_per_m": 0.6,
+      "new_prompt_per_m": 0.589,
+      "old_completion_per_m": 3.41,
+      "new_completion_per_m": 2.48,
+      "pct_change_prompt": -1.83
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "old_prompt_per_m": 0.1,
+      "new_prompt_per_m": 0.09,
+      "old_completion_per_m": 1.1,
+      "new_completion_per_m": 1.1,
+      "pct_change_prompt": -10.0
     }
   ]
 }

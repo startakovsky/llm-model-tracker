@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03",
+  "generated": "2026-08-04",
   "count": 166,
   "models": [
     {
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price +121%/+121% to $0.63/$1.98 on Aug 3 (rebounds from Aug 2 crash; back near Jul 30 levels)",
-      "prompt_per_m": 0.6286,
-      "completion_per_m": 1.9756,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price +21%/+23% to $0.76/$2.42 on Aug 4 (continues rebound from Aug 2 crash)",
+      "prompt_per_m": 0.76,
+      "completion_per_m": 2.42,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -220,9 +220,9 @@
       "category": "Lightweight",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "30B/3B MoE coding. Completion +0.01 to $0.28 on Aug 1. ctx 160K->262K on Jul 29",
+      "notes": "30B/3B MoE coding. Completion -4% to $0.27 on Aug 4. ctx 160K->262K on Jul 29",
       "prompt_per_m": 0.07,
-      "completion_per_m": 0.28,
+      "completion_per_m": 0.27,
       "context_length": 262144,
       "quality_score": 60
     },
@@ -318,9 +318,9 @@
       "category": "Lightweight",
       "release_date": "2025-12-01",
       "is_open": true,
-      "notes": "70B dense",
-      "prompt_per_m": 0.13,
-      "completion_per_m": 0.4,
+      "notes": "70B dense. Price -23%/-20% to $0.10/$0.32 on Aug 4",
+      "prompt_per_m": 0.1,
+      "completion_per_m": 0.32,
       "context_length": 131072,
       "quality_score": 58
     },
@@ -766,9 +766,9 @@
       "category": "Self-hostable",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "122B/10B MoE. Single 96GB GPU feasible. Price +54%/+54% to $0.40/$3.20 on Aug 3",
-      "prompt_per_m": 0.4,
-      "completion_per_m": 3.2,
+      "notes": "122B/10B MoE. Single 96GB GPU feasible. Price -35%/-35% to $0.26/$2.08 on Aug 4 (reverses Aug 3 +54% spike; now below pre-spike)",
+      "prompt_per_m": 0.26,
+      "completion_per_m": 2.08,
       "context_length": 262144,
       "quality_score": 75
     },
@@ -934,9 +934,9 @@
       "category": "Frontier",
       "release_date": "2026-04-20",
       "is_open": true,
-      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price: prompt -7% to $0.60, completion +25% to $3.41 on Aug 1",
-      "prompt_per_m": 0.6,
-      "completion_per_m": 3.41,
+      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price: prompt -2% to $0.589, completion -27% to $2.48 on Aug 4",
+      "prompt_per_m": 0.589,
+      "completion_per_m": 2.48,
       "context_length": 262144,
       "quality_score": 83
     },
@@ -1634,8 +1634,8 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Qwen3 Next 80B/3B. Price -33%/-8% to $0.10/$1.10 on Jul 25",
-      "prompt_per_m": 0.1,
+      "notes": "Qwen3 Next 80B/3B. Prompt -10% to $0.09 on Aug 4 (completion steady at $1.10)",
+      "prompt_per_m": 0.09,
       "completion_per_m": 1.1,
       "context_length": 262144,
       "quality_score": 72
@@ -2117,18 +2117,18 @@
       "quality_score": 70
     },
     {
-      "id": "qwen/qwen3.8-max-preview",
+      "id": "qwen/qwen3.8-max",
       "name": "Qwen3.8 Max",
       "org": "Alibaba",
       "license_type": "Apache 2.0",
       "category": "Frontier",
-      "release_date": "2026-08-02",
-      "is_open": true,
-      "notes": "2.4T param multimodal MoE. First Qwen >1T multimodal (text+image+video+doc). Officially launched Aug 2 (preview Jul 19). Nikkei: falls short of 'second only to Fable 5' claim in benchmarks. Priced $2/$6 (below Kimi K3 $3/$15). Open weights promised next week. Not yet on OpenRouter",
+      "release_date": "2026-08-03",
+      "is_open": false,
+      "notes": "2.4T/95B MoE multimodal (text+image+video+doc). First Qwen >1T multimodal. Officially launched Aug 3. OSWorld 86.1 (beats GPT-5.6 Sol Max 83.2, Fable 5 85.0). PaperBench 93.0. TerminalBench 2.1 86.6. Ranks 5th Text Arena, 2nd Vision Arena. Nikkei: falls short of 'second only to Fable 5' claim. Priced $2/$6 (below Kimi K3 $3/$15). NOW LIVE on OpenRouter. Open weights promised next week alongside Qwen3.8-27B. License TBD",
       "prompt_per_m": 2.0,
       "completion_per_m": 6.0,
-      "context_length": 1048576,
-      "quality_score": 84
+      "context_length": 1000000,
+      "quality_score": 86
     },
     {
       "id": "inception/mercury-2",
