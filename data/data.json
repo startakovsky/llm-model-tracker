@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04",
+  "generated": "2026-08-05",
   "count": 166,
   "models": [
     {
@@ -1606,9 +1606,9 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 VL 235B thinking. Prompt +145% to $0.98 on Aug 3 (completion steady $3.95)",
-      "prompt_per_m": 0.98,
-      "completion_per_m": 3.95,
+      "notes": "Qwen3 VL 235B thinking. Prompt -59% to $0.40 on Aug 5 (completion +1% to $4.00)",
+      "prompt_per_m": 0.4,
+      "completion_per_m": 4.0,
       "context_length": 131072,
       "quality_score": 84
     },
@@ -1942,9 +1942,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": false,
-      "notes": "MiniMax M2.7. 204K ctx. Price drop -17%",
-      "prompt_per_m": 0.25,
-      "completion_per_m": 1.0,
+      "notes": "MiniMax M2.7. 204K ctx. Price +8% to $0.27/$1.08 on Aug 5",
+      "prompt_per_m": 0.27,
+      "completion_per_m": 1.08,
       "context_length": 204800,
       "quality_score": 78
     },
