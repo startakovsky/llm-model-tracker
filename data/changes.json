@@ -1,25 +1,85 @@
 {
-  "date": "2026-08-05",
-  "new_models": [],
+  "date": "2026-08-06",
+  "new_models": [
+    {
+      "id": "meta/muse-spark-1.2",
+      "name": "Muse Spark 1.2",
+      "org": "Meta"
+    }
+  ],
   "removed_models": [],
   "price_changes": [
     {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "old_prompt_per_m": 0.98,
-      "new_prompt_per_m": 0.4,
-      "old_completion_per_m": 3.95,
-      "new_completion_per_m": 4.0,
-      "pct_change_prompt": -59.18
+      "id": "z-ai/glm-5.2",
+      "name": "GLM-5.2",
+      "old_prompt_per_m": 0.76,
+      "new_prompt_per_m": 0.56,
+      "old_completion_per_m": 2.42,
+      "new_completion_per_m": 1.76,
+      "pct_change_prompt": -26.32
     },
     {
-      "id": "minimax/minimax-m2.7",
-      "name": "MiniMax: MiniMax M2.7",
-      "old_prompt_per_m": 0.25,
-      "new_prompt_per_m": 0.27,
-      "old_completion_per_m": 1.0,
-      "new_completion_per_m": 1.08,
-      "pct_change_prompt": 8.0
+      "id": "z-ai/glm-5.1",
+      "name": "GLM-5.1",
+      "old_prompt_per_m": 0.966,
+      "new_prompt_per_m": 0.952,
+      "old_completion_per_m": 3.036,
+      "new_completion_per_m": 2.992,
+      "pct_change_prompt": -1.45
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "old_prompt_per_m": 0.14,
+      "new_prompt_per_m": 0.088,
+      "old_completion_per_m": 0.28,
+      "new_completion_per_m": 0.176,
+      "pct_change_prompt": -37.14
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "name": "Qwen3-235B-A22B-Instruct",
+      "old_prompt_per_m": 0.1495,
+      "new_prompt_per_m": 0.09,
+      "old_completion_per_m": 0.598,
+      "new_completion_per_m": 0.55,
+      "pct_change_prompt": -39.8
+    },
+    {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen3.6-27B",
+      "old_prompt_per_m": 0.289,
+      "new_prompt_per_m": 0.6,
+      "old_completion_per_m": 2.4,
+      "new_completion_per_m": 3.6,
+      "pct_change_prompt": 107.61
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "old_prompt_per_m": 0.73,
+      "new_prompt_per_m": 0.7,
+      "old_completion_per_m": 3.5,
+      "new_completion_per_m": 3.5,
+      "pct_change_prompt": -4.11
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "Kimi K2.6",
+      "old_prompt_per_m": 0.589,
+      "new_prompt_per_m": 0.57,
+      "old_completion_per_m": 2.48,
+      "new_completion_per_m": 2.4,
+      "pct_change_prompt": -3.23
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "old_prompt_per_m": 0.4,
+      "new_prompt_per_m": 0.98,
+      "old_completion_per_m": 4.0,
+      "new_completion_per_m": 3.95,
+      "pct_change_prompt": 145.0
     }
   ]
 }

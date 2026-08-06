@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05",
-  "count": 166,
+  "generated": "2026-08-06",
+  "count": 167,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price +21%/+23% to $0.76/$2.42 on Aug 4 (continues rebound from Aug 2 crash)",
-      "prompt_per_m": 0.76,
-      "completion_per_m": 2.42,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price -26%/-27% to $0.56/$1.76 on Aug 6 (reverses Aug 4 rebound",
+      "prompt_per_m": 0.56,
+      "completion_per_m": 1.76,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -24,9 +24,9 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "744B/40B MoE. ctx 202752->204800 on Jul 29",
-      "prompt_per_m": 0.966,
-      "completion_per_m": 3.036,
+      "notes": "744B/40B MoE. ctx 202752->204800 on Jul 29. Price -1.4% to $0.952/$2.992 on Aug 6",
+      "prompt_per_m": 0.952,
+      "completion_per_m": 2.992,
       "context_length": 204800,
       "quality_score": 86
     },
@@ -80,9 +80,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "284B/13B MoE. 1M ctx. V4 GA Jul 24. Base ID still at surge pricing $0.14/$0.28; cheaper 0731 snapshot ($0.09/$0.18) now live",
-      "prompt_per_m": 0.14,
-      "completion_per_m": 0.28,
+      "notes": "284B/13B MoE. 1M ctx. V4 GA Jul 24. Base ID -37% to $0.088/$0.176 on Aug 6 (now matches non-surge 0731 snapshot level; DeepSeek has flagged a future wide price hike)",
+      "prompt_per_m": 0.088,
+      "completion_per_m": 0.176,
       "context_length": 1048576,
       "quality_score": 82
     },
@@ -206,9 +206,9 @@
       "category": "Self-hostable",
       "release_date": "2026-07-01",
       "is_open": true,
-      "notes": "234B/7B MoE. Price +66%/+9% to $0.15/$0.60 on Aug 3 (reverses prior low)",
-      "prompt_per_m": 0.1495,
-      "completion_per_m": 0.598,
+      "notes": "234B/7B MoE. Price -40%/-8% to $0.09/$0.55 on Aug 6 (back near pre-Aug-3 levels)",
+      "prompt_per_m": 0.09,
+      "completion_per_m": 0.55,
       "context_length": 262144,
       "quality_score": 78
     },
@@ -710,9 +710,9 @@
       "category": "Lightweight",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "27B dense. Price: prompt -4% to $0.29",
-      "prompt_per_m": 0.289,
-      "completion_per_m": 2.4,
+      "notes": "27B dense. Price +108%/+50% to $0.60/$3.60 on Aug 6 (reverses Aug 3 reduction)",
+      "prompt_per_m": 0.6,
+      "completion_per_m": 3.6,
       "context_length": 262144,
       "quality_score": 60
     },
@@ -864,8 +864,8 @@
       "category": "Frontier",
       "release_date": "2026-06-12",
       "is_open": true,
-      "notes": "1T/32B MoE coding model. Native multimodal. Prompt -3% to $0.73 on Jul 27 (completion steady at $3.50)",
-      "prompt_per_m": 0.73,
+      "notes": "1T/32B MoE coding model. Native multimodal. Prompt -4% to $0.70 on Aug 6 (completion steady at $3.50)",
+      "prompt_per_m": 0.7,
       "completion_per_m": 3.5,
       "context_length": 262144,
       "quality_score": 85
@@ -934,9 +934,9 @@
       "category": "Frontier",
       "release_date": "2026-04-20",
       "is_open": true,
-      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price: prompt -2% to $0.589, completion -27% to $2.48 on Aug 4",
-      "prompt_per_m": 0.589,
-      "completion_per_m": 2.48,
+      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price -3%/-3% to $0.57/$2.40 on Aug 6",
+      "prompt_per_m": 0.57,
+      "completion_per_m": 2.4,
       "context_length": 262144,
       "quality_score": 83
     },
@@ -1606,9 +1606,9 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "Qwen3 VL 235B thinking. Prompt -59% to $0.40 on Aug 5 (completion +1% to $4.00)",
-      "prompt_per_m": 0.4,
-      "completion_per_m": 4.0,
+      "notes": "Qwen3 VL 235B thinking. Prompt +145% to $0.98 on Aug 6 (completion -1% to $3.95; reverses Aug 5 cut)",
+      "prompt_per_m": 0.98,
+      "completion_per_m": 3.95,
       "context_length": 131072,
       "quality_score": 84
     },
@@ -2325,6 +2325,20 @@
       "completion_per_m": 1.2,
       "context_length": 524288,
       "quality_score": 80
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "name": "Muse Spark 1.2",
+      "org": "Meta",
+      "license_type": "Proprietary",
+      "category": "Frontier",
+      "release_date": "2026-08-05",
+      "is_open": false,
+      "notes": "Coding-optimized multimodal reasoning model (Meta's 3rd release in 4 months). Powers new Muse Code terminal agent + Meta Model API, expanded global access. 70.6% on Meta internal coding benchmark (beats GPT-5.6 Terra 65.4%, Gemini 3.6 Flash). 54 Artificial Analysis Index. 1M ctx. $1.25/$4.25 on OpenRouter (same price as 1.1)",
+      "prompt_per_m": 1.25,
+      "completion_per_m": 4.25,
+      "context_length": 1048576,
+      "quality_score": 87
     }
   ]
 }
