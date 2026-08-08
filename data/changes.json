@@ -1,79 +1,52 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "new_models": [],
   "removed_models": [],
   "price_changes": [
     {
       "id": "z-ai/glm-5.2",
       "name": "GLM-5.2",
-      "old_prompt_per_m": 0.56,
-      "new_prompt_per_m": 0.76,
-      "old_completion_per_m": 1.76,
-      "new_completion_per_m": 2.42,
-      "pct_change_prompt": 35.71
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "old_prompt_per_m": 0.088,
-      "new_prompt_per_m": 0.14,
-      "old_completion_per_m": 0.176,
-      "new_completion_per_m": 0.28,
-      "pct_change_prompt": 59.09
+      "old_prompt_per_m": 0.76,
+      "new_prompt_per_m": 0.2058,
+      "old_completion_per_m": 2.42,
+      "new_completion_per_m": 0.6468,
+      "pct_change_prompt": -72.92
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "Nemotron 3 Super",
-      "old_prompt_per_m": 0.085,
-      "new_prompt_per_m": 0.3,
-      "old_completion_per_m": 0.4,
-      "new_completion_per_m": 0.9,
-      "pct_change_prompt": 252.94
-    },
-    {
-      "id": "qwen/qwen3.5-122b-a10b",
-      "name": "Qwen3.5-122B-A10B",
-      "old_prompt_per_m": 0.26,
-      "new_prompt_per_m": 0.29,
-      "old_completion_per_m": 2.08,
-      "new_completion_per_m": 2.4,
-      "pct_change_prompt": 11.54
+      "old_prompt_per_m": 0.3,
+      "new_prompt_per_m": 0.085,
+      "old_completion_per_m": 0.9,
+      "new_completion_per_m": 0.4,
+      "pct_change_prompt": -71.67
     },
     {
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
-      "old_prompt_per_m": 0.57,
-      "new_prompt_per_m": 0.589,
-      "old_completion_per_m": 2.4,
-      "new_completion_per_m": 2.48,
-      "pct_change_prompt": 3.33
+      "old_prompt_per_m": 0.589,
+      "new_prompt_per_m": 0.5795,
+      "old_completion_per_m": 2.48,
+      "new_completion_per_m": 2.44,
+      "pct_change_prompt": -1.61
     },
     {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "old_prompt_per_m": 0.98,
-      "new_prompt_per_m": 0.4,
-      "old_completion_per_m": 3.95,
-      "new_completion_per_m": 4.0,
-      "pct_change_prompt": -59.18
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "old_prompt_per_m": 0.269,
+      "new_prompt_per_m": 0.26,
+      "old_completion_per_m": 0.4,
+      "new_completion_per_m": 0.38,
+      "pct_change_prompt": -3.35
     },
     {
-      "id": "inclusionai/ling-3.0-flash",
-      "name": "Ling 3.0 Flash",
-      "old_prompt_per_m": 0.0,
-      "new_prompt_per_m": 0.021,
-      "old_completion_per_m": 0.0,
-      "new_completion_per_m": 0.063,
-      "pct_change_prompt": null
-    },
-    {
-      "id": "thinkingmachines/inkling-small",
-      "name": "Inkling Small",
-      "old_prompt_per_m": 0.5,
-      "new_prompt_per_m": 0.45,
-      "old_completion_per_m": 1.2,
-      "new_completion_per_m": 1.2,
-      "pct_change_prompt": -10.0
+      "id": "thinkingmachines/inkling",
+      "name": "Inkling",
+      "old_prompt_per_m": 1.0,
+      "new_prompt_per_m": 0.95,
+      "old_completion_per_m": 4.05,
+      "new_completion_per_m": 4.05,
+      "pct_change_prompt": -5.0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07",
+  "generated": "2026-08-08",
   "count": 167,
   "models": [
     {
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price +36%/+37% to $0.76/$2.42 on Aug 7 (reverses Aug 6 cut",
-      "prompt_per_m": 0.76,
-      "completion_per_m": 2.42,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price crashed -73%/-73% to $0.206/$0.647 on Aug 8 (OpenRouter API; drops below part of the historic $0.5-$0.8 range",
+      "prompt_per_m": 0.2058,
+      "completion_per_m": 0.6468,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -346,9 +346,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-10",
       "is_open": true,
-      "notes": "120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes. Price +253%/+125% to $0.30/$0.90 on Aug 7 (single largest jump this cycle, back to premium-for-size territory)",
-      "prompt_per_m": 0.3,
-      "completion_per_m": 0.9,
+      "notes": "120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes. Price crashed -72%/-56% to $0.085/$0.40 on Aug 8 (reverses Aug 7 +253%/+125% spike, back below pre-spike level)",
+      "prompt_per_m": 0.085,
+      "completion_per_m": 0.4,
       "context_length": 1000000,
       "quality_score": 70
     },
@@ -934,9 +934,9 @@
       "category": "Frontier",
       "release_date": "2026-04-20",
       "is_open": true,
-      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price +3%/+3% to $0.589/$2.48 on Aug 7",
-      "prompt_per_m": 0.589,
-      "completion_per_m": 2.48,
+      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price -1.6%/-1.6% to $0.58/$2.44 on Aug 8",
+      "prompt_per_m": 0.5795,
+      "completion_per_m": 2.44,
       "context_length": 262144,
       "quality_score": 83
     },
@@ -1326,9 +1326,9 @@
       "category": "Self-hostable",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "V3.2 update. 671B/37B MoE",
-      "prompt_per_m": 0.269,
-      "completion_per_m": 0.4,
+      "notes": "V3.2 update. 671B/37B MoE. Price -3.3%/-5% to $0.26/$0.38 on Aug 8",
+      "prompt_per_m": 0.26,
+      "completion_per_m": 0.38,
       "context_length": 163840,
       "quality_score": 80
     },
@@ -2054,8 +2054,8 @@
       "category": "Frontier",
       "release_date": "2026-07-15",
       "is_open": true,
-      "notes": "First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. Now live on OpenRouter at $1.00/$4.05",
-      "prompt_per_m": 1.0,
+      "notes": "First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. Now live on OpenRouter at $0.95/$4.05 on Aug 8 (prompt -5%)",
+      "prompt_per_m": 0.95,
       "completion_per_m": 4.05,
       "context_length": 1048576,
       "quality_score": 85
