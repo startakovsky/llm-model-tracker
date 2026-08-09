@@ -52,7 +52,7 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (z-ai/glm-5.2) | $0.206 | $0.647 | 1,048,576 | Crashed -73%/-73% on Aug 8 to $0.206/$0.647 (new all-time low, below prior Jul 18/Aug 2 floor of $0.28). Z.ai pricing remains highly volatile |
+| OpenRouter (z-ai/glm-5.2) | $0.07 | $0.22 | 1,048,576 | Crashed again -66%/-66% on Aug 9 to $0.07/$0.22 (sub-$0.10 prompt, new all-time low; OpenRouter API poll Aug 9). Z.ai pricing remains extremely volatile |
 | Z.ai direct (Coding Plan) | Subscription | Subscription | 1M | $1,344/yr Max tier |
 
 ## Quality Benchmarks
@@ -79,3 +79,4 @@ GLM-5.2 is the current reference point for open-weight frontier quality. It exce
 - Price hiked from $0.29/$0.92/M to $0.96/$3.03/M (~3.85x) on July 20, 2026. The promotional cheap tier ended and GLM-5.2 reverted to GLM-5.1-equivalent pricing. Z.ai continues to swing pricing dramatically week-to-week.
 - Price crashed from $0.76/$2.39/M to $0.28/$0.89/M (~63% drop) on Aug 2, 2026, near the July 18 low. Now the cheapest GLM-5.2 has been since tracking began — roughly 1/3 the July 20 peak and well below GLM-5.1 ($0.97/$3.04).
 - Price swung +36%/+37% to $0.76/$2.42 on Aug 7 (reverses Aug 6 cut), then crashed -73%/-73% to $0.206/$0.647 on Aug 8 — a new all-time low, breaking below the prior $0.28 floor. OpenRouter API corroborates ($0.206/$0.647 per M during Aug 8 poll).
+- Price crashed once more -66%/-66% to $0.07/$0.22 on Aug 9 per OpenRouter API poll — now sub-$0.10 prompt, a fresh all-time low and roughly 1/3 of even yesterday's depressed price. Z.ai pricing volatility continues unabated.

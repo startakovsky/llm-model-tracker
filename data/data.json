@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "count": 167,
   "models": [
     {
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price crashed -73%/-73% to $0.206/$0.647 on Aug 8 (OpenRouter API; drops below part of the historic $0.5-$0.8 range",
-      "prompt_per_m": 0.2058,
-      "completion_per_m": 0.6468,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price crashed again -66%/-66% to $0.07/$0.22 on Aug 9 (OpenRouter API; sub-$0.10 prompt, new all-time low)",
+      "prompt_per_m": 0.07,
+      "completion_per_m": 0.22,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -262,9 +262,9 @@
       "category": "Frontier",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "397B/17B MoE. Price drop: prompt -13%, completion -22%",
-      "prompt_per_m": 0.39,
-      "completion_per_m": 2.34,
+      "notes": "397B/17B MoE. Price up +28%/+54% to $0.50/$3.60 on Aug 9",
+      "prompt_per_m": 0.5,
+      "completion_per_m": 3.6,
       "context_length": 262144,
       "quality_score": 83
     },
@@ -346,9 +346,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-10",
       "is_open": true,
-      "notes": "120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes. Price crashed -72%/-56% to $0.085/$0.40 on Aug 8 (reverses Aug 7 +253%/+125% spike, back below pre-spike level)",
-      "prompt_per_m": 0.085,
-      "completion_per_m": 0.4,
+      "notes": "120B/12B hybrid Mamba-Transformer MoE. 1M ctx. Fully open weights/datasets/recipes. Price re-spiked +253%/+125% to $0.30/$0.90 on Aug 9 (reverses Aug 8 crash, volatile)",
+      "prompt_per_m": 0.3,
+      "completion_per_m": 0.9,
       "context_length": 1000000,
       "quality_score": 70
     },
@@ -696,8 +696,8 @@
       "category": "Lightweight",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "35B/3B MoE",
-      "prompt_per_m": 0.14,
+      "notes": "35B/3B MoE. Price prompt +7% to $0.15 on Aug 9",
+      "prompt_per_m": 0.15,
       "completion_per_m": 1.0,
       "context_length": 262144,
       "quality_score": 64
@@ -1326,9 +1326,9 @@
       "category": "Self-hostable",
       "release_date": "2026-05-01",
       "is_open": true,
-      "notes": "V3.2 update. 671B/37B MoE. Price -3.3%/-5% to $0.26/$0.38 on Aug 8",
-      "prompt_per_m": 0.26,
-      "completion_per_m": 0.38,
+      "notes": "V3.2 update. 671B/37B MoE. Price +3.5%/+5.3% to $0.269/$0.40 on Aug 9",
+      "prompt_per_m": 0.269,
+      "completion_per_m": 0.4,
       "context_length": 163840,
       "quality_score": 80
     },
@@ -1942,9 +1942,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": false,
-      "notes": "MiniMax M2.7. 204K ctx. Price +8% to $0.27/$1.08 on Aug 5",
-      "prompt_per_m": 0.27,
-      "completion_per_m": 1.08,
+      "notes": "MiniMax M2.7. 204K ctx. Price +11% to $0.30/$1.20 on Aug 9",
+      "prompt_per_m": 0.3,
+      "completion_per_m": 1.2,
       "context_length": 204800,
       "quality_score": 78
     },

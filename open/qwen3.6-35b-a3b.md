@@ -54,7 +54,7 @@ Unsloth Dynamic 2.0 quants with calibrated important-layer upcasting. Developer 
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (qwen/qwen3.6-35b-a3b) | $0.14 | $1.00 | 256K | Created 2026-04-27 |
+| OpenRouter (qwen/qwen3.6-35b-a3b) | $0.15 | $1.00 | 256K | Created 2026-04-27. Prompt +7% to $0.15 on Aug 9 |
 
 ## Quality Assessment
 Qwen3.6-35B-A3B achieves 73.4% SWE-bench Verified (vs GLM-5.2's 82.8%) and 51.5 Terminal-Bench 2.0 (vs GLM-5.2's 81.0). At only 3B active params, it delivers 88% of GLM-5.2's SWE-bench performance with extreme inference efficiency. It scores 1397 on QwenWebBench for frontend code generation. The `preserve_thinking` parameter supports iterative agentic coding.

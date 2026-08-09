@@ -1,52 +1,61 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "new_models": [],
   "removed_models": [],
   "price_changes": [
     {
       "id": "z-ai/glm-5.2",
       "name": "GLM-5.2",
-      "old_prompt_per_m": 0.76,
-      "new_prompt_per_m": 0.2058,
-      "old_completion_per_m": 2.42,
-      "new_completion_per_m": 0.6468,
-      "pct_change_prompt": -72.92
+      "old_prompt_per_m": 0.2058,
+      "new_prompt_per_m": 0.07,
+      "old_completion_per_m": 0.6468,
+      "new_completion_per_m": 0.22,
+      "pct_change_prompt": -65.99
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen3.5-397B-A17B",
+      "old_prompt_per_m": 0.39,
+      "new_prompt_per_m": 0.5,
+      "old_completion_per_m": 2.34,
+      "new_completion_per_m": 3.6,
+      "pct_change_prompt": 28.21
     },
     {
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "Nemotron 3 Super",
-      "old_prompt_per_m": 0.3,
-      "new_prompt_per_m": 0.085,
-      "old_completion_per_m": 0.9,
-      "new_completion_per_m": 0.4,
-      "pct_change_prompt": -71.67
+      "old_prompt_per_m": 0.085,
+      "new_prompt_per_m": 0.3,
+      "old_completion_per_m": 0.4,
+      "new_completion_per_m": 0.9,
+      "pct_change_prompt": 252.94
     },
     {
-      "id": "moonshotai/kimi-k2.6",
-      "name": "Kimi K2.6",
-      "old_prompt_per_m": 0.589,
-      "new_prompt_per_m": 0.5795,
-      "old_completion_per_m": 2.48,
-      "new_completion_per_m": 2.44,
-      "pct_change_prompt": -1.61
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen3.6-35B-A3B",
+      "old_prompt_per_m": 0.14,
+      "new_prompt_per_m": 0.15,
+      "old_completion_per_m": 1.0,
+      "new_completion_per_m": 1.0,
+      "pct_change_prompt": 7.14
     },
     {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
-      "old_prompt_per_m": 0.269,
-      "new_prompt_per_m": 0.26,
-      "old_completion_per_m": 0.4,
-      "new_completion_per_m": 0.38,
-      "pct_change_prompt": -3.35
+      "old_prompt_per_m": 0.26,
+      "new_prompt_per_m": 0.269,
+      "old_completion_per_m": 0.38,
+      "new_completion_per_m": 0.4,
+      "pct_change_prompt": 3.46
     },
     {
-      "id": "thinkingmachines/inkling",
-      "name": "Inkling",
-      "old_prompt_per_m": 1.0,
-      "new_prompt_per_m": 0.95,
-      "old_completion_per_m": 4.05,
-      "new_completion_per_m": 4.05,
-      "pct_change_prompt": -5.0
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax: MiniMax M2.7",
+      "old_prompt_per_m": 0.27,
+      "new_prompt_per_m": 0.3,
+      "old_completion_per_m": 1.08,
+      "new_completion_per_m": 1.2,
+      "pct_change_prompt": 11.11
     }
   ]
 }

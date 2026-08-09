@@ -19,17 +19,17 @@ Closed (API-only) model from **minimax**. No public weights; API access only.
 - **License:** Proprietary
 - **Category:** Frontier
 - **Quality score:** 78/100
-- **Notes:** MiniMax M2.7. 204K ctx. Price drop -17%
+- **Notes:** MiniMax M2.7. 204K ctx. Price +11% to $0.30/$1.20 on Aug 9
 
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context |
 |---|---|---|---|
-| OpenRouter (minimax/minimax-m2.7) | $0.2500 | $1.0000 | 204K |
+| OpenRouter (minimax/minimax-m2.7) | $0.3000 | $1.2000 | 204K |
 
 ## Self-Hosting
 Not applicable — closed/API-only model. Use OpenRouter or the provider's direct API.
 
 ## Quality Assessment
-Quality score 78/100 — strong mid-tier. MiniMax M2.7. 204K ctx. Price drop -17%
+Quality score 78/100 — strong mid-tier. MiniMax M2.7. 204K ctx. Price +11% to $0.30/$1.20 on Aug 9
 
 > This is an auto-generated stub derived from `models.csv` to keep README links valid. Enrich with architecture, GGUF quants, and benchmarks as the model gains traction.
