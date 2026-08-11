@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | **Org** | Meta (Meta Superintelligence Labs) |
-| **OpenRouter ID** | `meta-llama/muse-glimmer-30b` (not on OpenRouter — local/free) |
+| **OpenRouter ID** | `meta/muse-glimmer-30b` — live on OpenRouter at $0.35/$1.50 (as of Aug 11 2026); also self-hostable |
 | **License** | Apache 2.0 |
 | **Release date** | 2026-08-10 |
-| **Pricing** | free — open weights on HuggingFace (local deployment) |
+| **Pricing** | $0.35 / $1.50 per M tokens on OpenRouter (live Aug 11); free + open weights on HuggingFace (local deployment) |
 | **Context** | 131,072 (128K+) |
 | **Category** | Self-hostable (open) |
 | **Quality score** | 68 |
@@ -49,4 +49,4 @@ Glimmer is the strongest **open-weight model in the ~30B local class** as of mid
 
 **Community signal:** Massive launch buzz — Reuters, NYT, CNBC coverage (Aug 10), trending on r/LocalLLaMA, day-0 Unsloth GGUF, Ollama library. The first "open-source version" of Meta's most powerful model as a 30B distilled form factor.
 
-**Verdict:** Compelling open local-agent model. Not on OpenRouter (no API), so skipped there, but earns a tracker row as a trending self-hostable release. Ideal for local personal assistants and coding agents on consumer hardware.
+**Verdict:** Compelling open local-agent model. Now also available via OpenRouter at $0.35/$1.50, so it can be used as a low-cost API model in addition to fully self-hosted deployment. Ideal for local personal assistants and coding agents on consumer hardware.

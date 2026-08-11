@@ -1,76 +1,59 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "new_models": [
     {
-      "id": "meta-llama/muse-glimmer-30b",
+      "id": "meta/muse-glimmer-30b",
       "name": "Muse Glimmer 30B",
       "org": "Meta"
+    },
+    {
+      "id": "inclusionai/ling-3.0-tiny",
+      "name": "Ling 3.0 Tiny",
+      "org": "inclusionAI"
     }
   ],
-  "removed_models": [],
+  "removed_models": [
+    {
+      "id": "meta-llama/muse-glimmer-30b",
+      "name": "Muse Glimmer 30B"
+    }
+  ],
   "price_changes": [
     {
       "id": "z-ai/glm-5.2",
       "name": "GLM-5.2",
-      "old_prompt_per_m": 0.07,
-      "new_prompt_per_m": 0.76,
-      "old_completion_per_m": 0.22,
-      "new_completion_per_m": 2.42,
-      "pct_change_prompt": 985.71
+      "old_prompt_per_m": 0.76,
+      "new_prompt_per_m": 0.4886,
+      "old_completion_per_m": 2.42,
+      "new_completion_per_m": 1.5356,
+      "pct_change_prompt": -35.71
     },
     {
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "name": "DeepSeek V4 Flash 0731",
-      "old_prompt_per_m": 0.09,
-      "new_prompt_per_m": 0.08,
-      "old_completion_per_m": 0.18,
-      "new_completion_per_m": 0.18,
-      "pct_change_prompt": -11.11
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "old_prompt_per_m": 0.435,
+      "new_prompt_per_m": 0.6317,
+      "old_completion_per_m": 0.87,
+      "new_completion_per_m": 1.2634,
+      "pct_change_prompt": 45.22
+    },
+    {
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen3-Coder-30B-A3B",
+      "old_prompt_per_m": 0.07,
+      "new_prompt_per_m": 0.07,
+      "old_completion_per_m": 0.27,
+      "new_completion_per_m": 0.28,
+      "pct_change_prompt": 0.0
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
       "name": "Qwen3.5-397B-A17B",
-      "old_prompt_per_m": 0.5,
-      "new_prompt_per_m": 0.39,
-      "old_completion_per_m": 3.6,
-      "new_completion_per_m": 2.34,
-      "pct_change_prompt": -22.0
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "name": "Nemotron 3 Super",
-      "old_prompt_per_m": 0.3,
-      "new_prompt_per_m": 0.085,
-      "old_completion_per_m": 0.9,
-      "new_completion_per_m": 0.4,
-      "pct_change_prompt": -71.67
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Gemma 4 26B A4B",
-      "old_prompt_per_m": 0.07,
-      "new_prompt_per_m": 0.12,
-      "old_completion_per_m": 0.34,
-      "new_completion_per_m": 0.4,
-      "pct_change_prompt": 71.43
-    },
-    {
-      "id": "meta-llama/llama-4-maverick",
-      "name": "Meta: Llama 4 Maverick",
-      "old_prompt_per_m": 0.2,
-      "new_prompt_per_m": 0.2,
-      "old_completion_per_m": 0.8,
-      "new_completion_per_m": 0.696,
-      "pct_change_prompt": 0.0
-    },
-    {
-      "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
-      "old_prompt_per_m": 0.2275,
-      "new_prompt_per_m": 0.12,
-      "old_completion_per_m": 0.91,
-      "new_completion_per_m": 0.24,
-      "pct_change_prompt": -47.25
+      "old_prompt_per_m": 0.39,
+      "new_prompt_per_m": 0.5,
+      "old_completion_per_m": 2.34,
+      "new_completion_per_m": 3.6,
+      "pct_change_prompt": 28.21
     }
   ]
 }
