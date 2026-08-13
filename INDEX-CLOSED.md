@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-73 models. Sorted by quality score.
+74 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -21,6 +21,7 @@
 | [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $1.00+$6.00/M | 2026-06 | 91 | Terra reasoning. Price -20%/-20% to $1.00/$6.00 on Aug 1 |
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 91 | Fable tier |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | 91 | Flagship |
+| [Grok 4.6](closed/grok-4.6.md) | xAI | 500K | $2.00+$6.00/M | 2026-08 | 90 | AA Intelligence Index 61, in line with GPT-5.6 Sol, just ahead of Kimi K3, behind only Anthropic (Opus 5 63, Fable 5 62). GDPval-AA v2 Elo 1753 behind only Opus 5. Terminal-Bench v2.1 88.4%, tau3-Banking 50.7% (top 2). 500k ctx. Flat $2/$6 pricing, cache hits $0.5/M. Cost/task $0.84 (Pareto frontier; 60%+ below Opus 5/5.6 Sol) |
 | [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $0.10+$0.60/M | 2026-07 | 90 | Luna with pro reasoning mode. Price -80%/-80% to $0.10/$0.60 on Aug 1 |
 | [Google: Gemini 3.1 Pro Preview](closed/gemini-3.1-pro-preview.md) | google | 1M | $2.00+$12.00/M | 2026-06 | 90 | Gemini 3.1 Pro preview. 1M ctx |
 | [GPT-5.2 Pro](closed/gpt-5.2-pro.md) | OpenAI | 400K | $21.00+$168.00/M | 2026-03 | 90 | Pro reasoning |

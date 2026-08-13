@@ -1,21 +1,21 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-12
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-13
 
 ## Top 10 Open-Source Models
 
 | # | Model | Org | Category | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|---|---|
 | 1 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights LIVE on HuggingFace (moonshotai/Kimi-K3, ~594GB). 1M ctx |
-| 2 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.49+$1.54/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price down -36%/-37% to $0.49/$1.54 on Aug 11 (reverses Aug 10 spike back to $0.76; extremely volatile week) |
-| 3 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $1.17+$2.34/M | 2026-06 | 89 | 1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning. Price up +85%/+85% to $1.17/$2.34 on Aug 12 (second consecutive major hike; DeepSeek price rise underway) |
-| 4 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 204K | $0.95+$2.55/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20. ctx 202752->204800 on Jul 29 |
-| 5 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 204K | $1.40+$4.40/M | 2026-05 | 86 | 744B/40B MoE. ctx 202752->204800 on Jul 29. Price up +47%/+47% to $1.40/$4.40 on Aug 12 |
-| 6 | [Inkling](open/inkling.md) | Thinking Machines | Frontier | 1M | $0.95+$4.05/M | 2026-07 | 85 | First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. Now live on OpenRouter at $0.95/$4.05 on Aug 8 (prompt -5%) |
-| 7 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.70+$3.50/M | 2026-06 | 85 | 1T/32B MoE coding model. Native multimodal. Prompt -4% to $0.70 on Aug 6 (completion steady at $3.50) |
-| 8 | [LongCat-2.0](open/longcat-2.0.md) | Meituan | Frontier | 1M | $0.30+$1.20/M | 2026-07 | 84 | 1.6T/48B MoE. LongCat Sparse Attention. ~1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. LIVE on OpenRouter at $0.30/$1.20 |
-| 9 | [Qwen: Qwen3 VL 235B A22B Thinking](open/qwen3-vl-235b-a22b-thinking.md) | qwen | Frontier | 131K | $0.40+$4.00/M | 2026-05 | 84 | Qwen3 VL 235B thinking. Prompt -59% back to $0.40 on Aug 7 (completion +1% to $4.00; reverses Aug 6 +145% spike) |
-| 10 | [GLM-5 Turbo](open/glm-5-turbo.md) | Z.ai | Frontier | 202K | $1.20+$4.00/M | 2026-04 | 84 | Turbo variant |
+| 2 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.63+$1.98/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price up +29%/+29% to $0.63/$1.98 on Aug 13 (still extremely volatile week) |
+| 3 | [DeepSeek V4 Pro 0813](open/deepseek-v4-pro-0813.md) | DeepSeek | Frontier | 1M | $0.43+$0.87/M | 2026-08 | 89 | Official GA 0813 build of V4 Pro. 1.6T/49B MoE, MIT open weights. Equal-or-better results than prior V4 Pro at far lower cost ($0.435/$0.87 vs old $1.168/$2.336). Reportedly ahead of Claude Opus 4.8 on Terminal-Bench 2.1 & CyberGym |
+| 4 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $1.17+$2.34/M | 2026-06 | 89 | 1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning. Price up +85%/+85% to $1.17/$2.34 on Aug 12 (second consecutive major hike; DeepSeek price rise underway) |
+| 5 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 204K | $0.95+$2.55/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE. Completion -19% to $2.55 on Jul 20. ctx 202752->204800 on Jul 29 |
+| 6 | [Qwen3.8 2.4T A95B](open/qwen3.8-2.4t-a95b.md) | Alibaba | Frontier | 1M | $2.00+$6.00/M | 2026-08 | 86 | 2.4T/95B MoE. First Qwen-Max-class model to open release; post-trained weights on HF (Qwen/Qwen3.8-2.4T-A95B, 712 likes). Built on Qwen3.5 arch. Strong agentic/terminal/long-horizon. qwen3.8-max license. OpenRouter $2/$6. Qwen3.8-Max (cloud, closed) adds vision + non-thinking |
+| 7 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 204K | $0.95+$2.99/M | 2026-05 | 86 | 744B/40B MoE. ctx 202752->204800 on Jul 29. Price down -32%/-32% to $0.95/$2.99 on Aug 13 (reverses Aug 12 +47% hike) |
+| 8 | [Inkling](open/inkling.md) | Thinking Machines | Frontier | 1M | $0.95+$4.05/M | 2026-07 | 85 | First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. Now live on OpenRouter at $0.95/$4.05 on Aug 8 (prompt -5%) |
+| 9 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.67+$3.40/M | 2026-06 | 85 | 1T/32B MoE coding model. Native multimodal. Price down -4%/-3% to $0.67/$3.40 on Aug 13 |
+| 10 | [LongCat-2.0](open/longcat-2.0.md) | Meituan | Frontier | 1M | $0.30+$1.20/M | 2026-07 | 84 | 1.6T/48B MoE. LongCat Sparse Attention. ~1M ctx. Trained on AI ASIC superpods. 35T tokens. MIT license. LIVE on OpenRouter at $0.30/$1.20 |
 
 ## Top 10 Closed-Source Models
 
@@ -34,6 +34,6 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 
 ## Full Index
 
-- [Open-source models (97)](INDEX-OPEN.md)
-- [Closed-source models (73)](INDEX-CLOSED.md)
+- [Open-source models (99)](INDEX-OPEN.md)
+- [Closed-source models (74)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)

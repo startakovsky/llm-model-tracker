@@ -1,67 +1,77 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "new_models": [
     {
-      "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
-      "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "org": "nvidia"
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "org": "Alibaba"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "org": "DeepSeek"
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "name": "Grok 4.6",
+      "org": "xAI"
     }
   ],
   "removed_models": [],
   "price_changes": [
     {
+      "id": "z-ai/glm-5.2",
+      "name": "GLM-5.2",
+      "old_prompt_per_m": 0.4886,
+      "new_prompt_per_m": 0.63,
+      "old_completion_per_m": 1.5356,
+      "new_completion_per_m": 1.98,
+      "pct_change_prompt": 28.94
+    },
+    {
       "id": "z-ai/glm-5.1",
       "name": "GLM-5.1",
-      "old_prompt_per_m": 0.952,
-      "new_prompt_per_m": 1.4,
-      "old_completion_per_m": 2.992,
-      "new_completion_per_m": 4.4,
-      "pct_change_prompt": 47.06
+      "old_prompt_per_m": 1.4,
+      "new_prompt_per_m": 0.952,
+      "old_completion_per_m": 4.4,
+      "new_completion_per_m": 2.992,
+      "pct_change_prompt": -32.0
     },
     {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "old_prompt_per_m": 0.6317,
-      "new_prompt_per_m": 1.168,
-      "old_completion_per_m": 1.2634,
-      "new_completion_per_m": 2.336,
-      "pct_change_prompt": 84.9
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen3.5-35B-A3B",
+      "old_prompt_per_m": 0.14,
+      "new_prompt_per_m": 0.25,
+      "old_completion_per_m": 1.0,
+      "new_completion_per_m": 1.25,
+      "pct_change_prompt": 78.57
     },
     {
-      "id": "openai/gpt-oss-120b",
-      "name": "GPT-OSS-120B",
-      "old_prompt_per_m": 0.037,
-      "new_prompt_per_m": 0.03,
-      "old_completion_per_m": 0.17,
-      "new_completion_per_m": 0.17,
-      "pct_change_prompt": -18.92
+      "id": "moonshotai/kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "old_prompt_per_m": 0.7,
+      "new_prompt_per_m": 0.67,
+      "old_completion_per_m": 3.5,
+      "new_completion_per_m": 3.4,
+      "pct_change_prompt": -4.29
     },
     {
       "id": "z-ai/glm-4.6",
       "name": "Z.ai: GLM 4.6",
-      "old_prompt_per_m": 0.5,
-      "new_prompt_per_m": 0.55,
-      "old_completion_per_m": 2.0,
-      "new_completion_per_m": 2.2,
-      "pct_change_prompt": 10.0
+      "old_prompt_per_m": 0.55,
+      "new_prompt_per_m": 0.5,
+      "old_completion_per_m": 2.2,
+      "new_completion_per_m": 2.0,
+      "pct_change_prompt": -9.09
     },
     {
-      "id": "deepseek/deepseek-v3.1-terminus",
-      "name": "DeepSeek: DeepSeek V3.1 Terminus",
-      "old_prompt_per_m": 0.27,
-      "new_prompt_per_m": 0.27,
-      "old_completion_per_m": 1.0,
-      "new_completion_per_m": 0.95,
-      "pct_change_prompt": 0.0
-    },
-    {
-      "id": "qwen/qwen3-vl-235b-a22b-instruct",
-      "name": "Qwen: Qwen3 VL 235B A22B Instruct",
-      "old_prompt_per_m": 0.21,
-      "new_prompt_per_m": 0.26,
-      "old_completion_per_m": 1.9,
-      "new_completion_per_m": 1.04,
-      "pct_change_prompt": 23.81
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "old_prompt_per_m": 0.09,
+      "new_prompt_per_m": 0.1,
+      "old_completion_per_m": 1.1,
+      "new_completion_per_m": 1.1,
+      "pct_change_prompt": 11.11
     }
   ]
 }
