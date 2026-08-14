@@ -23,7 +23,8 @@ Gemini 3.6 Flash is Google's latest high-efficiency model, released July 21, 202
 
 ## Notes
 - Released July 21, 2026 alongside Gemini 3.5 Flash Lite
-- Cheaper completion than predecessor 3.5 Flash ($7.50 vs $9.00, -17%)
+- **Prompt:** $0.75/M tokens
+- **Completion:** $3.75/M tokens
 - Full multimodal: text, image, video, file, audio input
 - 1M context window
 - Supports reasoning_effort parameter for tunable thinking depth

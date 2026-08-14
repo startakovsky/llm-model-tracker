@@ -19,8 +19,8 @@ sources:
 - **OpenRouter ID:** `z-ai/glm-5.1`
 
 ## Pricing (OpenRouter)
-- **Prompt:** $0.97/M tokens
-- **Completion:** $3.04/M tokens
+- **Prompt:** $1.40/M tokens
+- **Completion:** $4.40/M tokens
 
 ## Notes
 744B/40B MoE

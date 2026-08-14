@@ -52,7 +52,7 @@ Source: https://huggingface.co/unsloth/GLM-5.2-GGUF
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (z-ai/glm-5.2) | $0.07 | $0.22 | 1,048,576 | Crashed again -66%/-66% on Aug 9 to $0.07/$0.22 (sub-$0.10 prompt, new all-time low; OpenRouter API poll Aug 9). Z.ai pricing remains extremely volatile |
+| OpenRouter (z-ai/glm-5.2) | $1.19 | $3.74 | 1,048,576 | Jumped back up +89%/+89% on Aug 14 to $1.19/$3.74 (fourth double-digit swing this week; GLM-5.3 same base launched today). Z.ai pricing remains extremely volatile |
 | Z.ai direct (Coding Plan) | Subscription | Subscription | 1M | $1,344/yr Max tier |
 
 ## Quality Benchmarks

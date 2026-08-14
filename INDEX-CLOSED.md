@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-74 models. Sorted by quality score.
+75 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -36,8 +36,9 @@
 | [Gemini 3.5 Flash](closed/gemini-3.5-flash.md) | Google | 1M | $1.50+$9.00/M | 2026-05 | 87 | Near-Pro coding at Flash-tier cost. Parallel agentic execution. 1M ctx |
 | [Claude Sonnet 4.5](closed/claude-sonnet-4.5.md) | Anthropic | 1M | $3.00+$15.00/M | 2026-05 | 87 | Sonnet |
 | [GPT-5.2](closed/gpt-5.2.md) | OpenAI | 400K | $1.75+$14.00/M | 2026-03 | 87 | Flagship |
+| [Gemini 3.7 Flash](closed/gemini-3.7-flash.md) | Google | 1M | $0.38+$1.88/M | 2026-08 | 86 | New Gemini Flash tier on OpenRouter Aug 13. High-efficiency multimodal. 1M ctx. $0.375/$1.875 undercuts Gemini 3.6 Flash at $0.75/$3.75. Closed API. |
 | [Qwen3.8 Max](closed/qwen3.8-max.md) | Alibaba | 1M | $2.00+$6.00/M | 2026-08 | 86 | 2.4T/95B MoE multimodal (text+image+video+doc). First Qwen >1T multimodal. Officially launched Aug 3. OSWorld 86.1 (beats GPT-5.6 Sol Max 83.2, Fable 5 85.0). PaperBench 93.0. TerminalBench 2.1 86.6. Ranks 5th Text Arena, 2nd Vision Arena. Nikkei: falls short of 'second only to Fable 5' claim. Priced $2/$6 (below Kimi K3 $3/$15). NOW LIVE on OpenRouter. Open weights promised next week alongside Qwen3.8-27B. License TBD |
-| [Gemini 3.6 Flash](closed/gemini-3.6-flash.md) | Google | 1M | $1.50+$7.50/M | 2026-07 | 86 | High-efficiency model for coding and agentic workflows. Multimodal (text+image+video+audio). 1M ctx. Cheaper completion than 3.5 Flash ($7.50 vs $9.00) |
+| [Gemini 3.6 Flash](closed/gemini-3.6-flash.md) | Google | 1M | $0.75+$3.75/M | 2026-07 | 86 | High-efficiency model for coding and agentic workflows. Multimodal (text+image+video+audio). 1M ctx. Cheaper completion than 3.5 Flash ($7.50 vs $9.00) Price down -50%/-50% to $0.75/$3.75 on Aug 14 (halved; undercuts Gemini 3.7 Flash launch pricing) |
 | [Muse Spark 1.1](closed/muse-spark-1.1.md) | Meta | 1M | $1.25+$4.25/M | 2026-07 | 86 | Meta proprietary multimodal. Text/image/video/audio/PDF input. Meta pivots closed after Llama. Now on OpenRouter. 1M ctx. Agentic tasks |
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | 86 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
 | [OpenAI: GPT-5.3-Codex](closed/gpt-5.3-codex.md) | openai | 400K | $1.75+$14.00/M | 2026-04 | 86 | GPT-5.3 Codex. 400K ctx |

@@ -19,8 +19,8 @@ sources:
 - **OpenRouter ID:** `qwen/qwen3.5-35b-a3b`
 
 ## Pricing (OpenRouter)
-- **Prompt:** $0.14/M tokens
-- **Completion:** $1.00/M tokens
+- **Prompt:** $0.225/M tokens
+- **Completion:** $1.80/M tokens
 
 ## Notes
 35B/3B MoE

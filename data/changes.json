@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "new_models": [
     {
-      "id": "qwen/qwen3.8-2.4t-a95b",
-      "name": "Qwen3.8 2.4T A95B",
+      "id": "z-ai/glm-5.3",
+      "name": "GLM-5.3",
+      "org": "Z.ai"
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8-27B",
       "org": "Alibaba"
     },
     {
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "name": "DeepSeek V4 Pro 0813",
-      "org": "DeepSeek"
-    },
-    {
-      "id": "x-ai/grok-4.6",
-      "name": "Grok 4.6",
-      "org": "xAI"
+      "id": "google/gemini-3.7-flash",
+      "name": "Gemini 3.7 Flash",
+      "org": "Google"
     }
   ],
   "removed_models": [],
@@ -22,56 +22,56 @@
     {
       "id": "z-ai/glm-5.2",
       "name": "GLM-5.2",
-      "old_prompt_per_m": 0.4886,
-      "new_prompt_per_m": 0.63,
-      "old_completion_per_m": 1.5356,
-      "new_completion_per_m": 1.98,
-      "pct_change_prompt": 28.94
+      "old_prompt_per_m": 0.63,
+      "new_prompt_per_m": 1.19,
+      "old_completion_per_m": 1.98,
+      "new_completion_per_m": 3.74,
+      "pct_change_prompt": 88.89
     },
     {
       "id": "z-ai/glm-5.1",
       "name": "GLM-5.1",
-      "old_prompt_per_m": 1.4,
-      "new_prompt_per_m": 0.952,
-      "old_completion_per_m": 4.4,
-      "new_completion_per_m": 2.992,
-      "pct_change_prompt": -32.0
+      "old_prompt_per_m": 0.952,
+      "new_prompt_per_m": 1.4,
+      "old_completion_per_m": 2.992,
+      "new_completion_per_m": 4.4,
+      "pct_change_prompt": 47.06
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "old_prompt_per_m": 0.08,
+      "new_prompt_per_m": 0.14,
+      "old_completion_per_m": 0.18,
+      "new_completion_per_m": 0.28,
+      "pct_change_prompt": 75.0
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
       "name": "Qwen3.5-35B-A3B",
-      "old_prompt_per_m": 0.14,
-      "new_prompt_per_m": 0.25,
-      "old_completion_per_m": 1.0,
-      "new_completion_per_m": 1.25,
-      "pct_change_prompt": 78.57
+      "old_prompt_per_m": 0.25,
+      "new_prompt_per_m": 0.225,
+      "old_completion_per_m": 1.25,
+      "new_completion_per_m": 1.8,
+      "pct_change_prompt": -10.0
     },
     {
       "id": "moonshotai/kimi-k2.7-code",
       "name": "Kimi K2.7 Code",
-      "old_prompt_per_m": 0.7,
-      "new_prompt_per_m": 0.67,
-      "old_completion_per_m": 3.5,
-      "new_completion_per_m": 3.4,
-      "pct_change_prompt": -4.29
+      "old_prompt_per_m": 0.67,
+      "new_prompt_per_m": 0.71,
+      "old_completion_per_m": 3.4,
+      "new_completion_per_m": 3.5,
+      "pct_change_prompt": 5.97
     },
     {
-      "id": "z-ai/glm-4.6",
-      "name": "Z.ai: GLM 4.6",
-      "old_prompt_per_m": 0.55,
-      "new_prompt_per_m": 0.5,
-      "old_completion_per_m": 2.2,
-      "new_completion_per_m": 2.0,
-      "pct_change_prompt": -9.09
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "old_prompt_per_m": 0.09,
-      "new_prompt_per_m": 0.1,
-      "old_completion_per_m": 1.1,
-      "new_completion_per_m": 1.1,
-      "pct_change_prompt": 11.11
+      "id": "google/gemini-3.6-flash",
+      "name": "Gemini 3.6 Flash",
+      "old_prompt_per_m": 1.5,
+      "new_prompt_per_m": 0.75,
+      "old_completion_per_m": 7.5,
+      "new_completion_per_m": 3.75,
+      "pct_change_prompt": -50.0
     }
   ]
 }
