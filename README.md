@@ -1,6 +1,6 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-17
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-18
 
 ## Top 10 Open-Source Models
 
@@ -8,9 +8,9 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 |---|---|---|---|---|---|---|---|---|
 | 1 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights LIVE on HuggingFace (moonshotai/Kimi-K3, ~594GB). 1M ctx |
 | 2 | [GLM-5.3](open/glm-5.3.md) | Z.ai | Frontier | 1M | $0.00+$0.00/M | 2026-08 | 91 | Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). Weights ~2 weeks post-security-review; API-only now. Not yet on OpenRouter. |
-| 3 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.31+$0.97/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price down -74%/-74% to $0.308/$0.968 on Aug 16 (reverts Aug 14 spike to $1.19/$3.74; fifth double-digit swing this week; GLM-5.3 launch normalizing 5.2 pricing) |
+| 3 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $0.49+$1.54/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price up +59%/+59% to $0.49/$1.54 on Aug 18 (rebounds from Aug 16 low $0.308/$0.968; sixth double-digit swing in 2 weeks; GLM-5.3 launch keeping 5.2 pricing volatile) |
 | 4 | [DeepSeek V4 Pro 0813](open/deepseek-v4-pro-0813.md) | DeepSeek | Frontier | 1M | $0.66+$1.98/M | 2026-08 | 89 | Official GA 0813 build of V4 Pro. 1.6T/49B MoE, MIT open weights. Equal-or-better results than prior V4 Pro at far lower cost. Reportedly ahead of Claude Opus 4.8 on Terminal-Bench 2.1 & CyberGym. Price up +52%/+128% to $0.66/$1.98 on Aug 17 (completion surges; DeepSeek 4x hike hits 0813 snapshot) |
-| 5 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $1.44+$2.88/M | 2026-06 | 89 | 1.6T/49B MoE. V4 GA Jul 24. Competes with GPT-5.5 and Claude Opus 4.8 on reasoning. Price up +23%/+23% to $1.44/$2.88 on Aug 17 (third consecutive major hike; DeepSeek 4x price rise now fully on OpenRouter) |
+| 5 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.66+$1.98/M | 2026-06 | 89 | 1.6T/49B MoE. Official V4 Pro GA Aug 18 (official price $1.32/$3.96). OR listing consolidated to $0.66/$1.98 (matches -0813). Down -54%/-31% from Aug 17 $1.44/$2.88 |
 | 6 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 204K | $0.60+$1.92/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE. Price down -37%/-25% to $0.60/$1.92 on Aug 16. ctx 202752->204800 on Jul 29 |
 | 7 | [Qwen3.8 2.4T A95B](open/qwen3.8-2.4t-a95b.md) | Alibaba | Frontier | 1M | $2.00+$6.00/M | 2026-08 | 86 | 2.4T/95B MoE. First Qwen-Max-class model to open release; post-trained weights on HF (Qwen/Qwen3.8-2.4T-A95B, 712 likes). Built on Qwen3.5 arch. Strong agentic/terminal/long-horizon. qwen3.8-max license. OpenRouter $2/$6. Qwen3.8-Max (cloud, closed) adds vision + non-thinking. Weights now fully released (CNBC Aug 17): Qwen accounts for 151,448 HF derivatives, 2.6x Meta's footprint. |
 | 8 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 204K | $0.97+$3.04/M | 2026-05 | 86 | 744B/40B MoE. ctx 202752->204800 on Jul 29. Price down -31%/-31% to $0.966/$3.036 on Aug 16 (follows GLM-5.2 down; GLM-5.3 launch normalizing 5.1 pricing) |
@@ -30,10 +30,10 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 | 7 | [GPT-5.4 Pro](closed/gpt-5.4-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-05 | 94 | Pro reasoning |
 | 8 | [Claude Opus 4.7 Fast](closed/claude-opus-4.7-fast.md) | Anthropic | 1M | $30.00+$150.00/M | 2026-05 | 94 | Fast Opus |
 | 9 | [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
-| 10 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Solid reasoning |
+| 10 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-06 | 93 | Solid reasoning. Price -50%/-50% to $2.50/$15.00 on Aug 18 |
 
 ## Full Index
 
-- [Open-source models (101)](INDEX-OPEN.md)
-- [Closed-source models (77)](INDEX-CLOSED.md)
+- [Open-source models (102)](INDEX-OPEN.md)
+- [Closed-source models (79)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
