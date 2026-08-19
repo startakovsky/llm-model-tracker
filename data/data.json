@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-18",
-  "count": 181,
+  "generated": "2026-08-19",
+  "count": 182,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -10,9 +10,9 @@
       "category": "Frontier",
       "release_date": "2026-06-13",
       "is_open": true,
-      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price up +59%/+59% to $0.49/$1.54 on Aug 18 (rebounds from Aug 16 low $0.308/$0.968; sixth double-digit swing in 2 weeks; GLM-5.3 launch keeping 5.2 pricing volatile)",
-      "prompt_per_m": 0.49,
-      "completion_per_m": 1.54,
+      "notes": "Reference model. 753B/40B MoE. 82.8% SWE-bench. Price up +59%/+59% to $0.49/$1.54 on Aug 18 (rebounds from Aug 16 low $0.308/$0.968; sixth double-digit swing in 2 weeks; GLM-5.3 launch keeping 5.2 pricing volatile). Price up +97%/+97% to $0.966/$3.036 on Aug 19 (GLM-5.3 launch normalizes 5.2 back to list/parity with 5.1; seventh swing in 2 weeks)",
+      "prompt_per_m": 0.966,
+      "completion_per_m": 3.036,
       "context_length": 1048576,
       "quality_score": 90
     },
@@ -108,9 +108,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "1.6T/49B MoE. Official V4 Pro GA Aug 18 (official price $1.32/$3.96). OR listing consolidated to $0.66/$1.98 (matches -0813). Down -54%/-31% from Aug 17 $1.44/$2.88",
-      "prompt_per_m": 0.66,
-      "completion_per_m": 1.98,
+      "notes": "1.6T/49B MoE. Official V4 Pro GA Aug 18 (official price $1.32/$3.96). OR listing consolidated to $0.66/$1.98 (matches -0813). Down -54%/-31% from Aug 17 $1.44/$2.88. Price up +118%/+45% to $1.44/$2.88 on Aug 19 (bounces off Aug 18 consolidated-low of $0.66/$1.98; DeepSeek 4x pricing volatile)",
+      "prompt_per_m": 1.44,
+      "completion_per_m": 2.88,
       "context_length": 1048576,
       "quality_score": 89
     },
@@ -710,9 +710,9 @@
       "category": "Lightweight",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "27B dense. Price -52%/-33% to $0.289/$2.40 on Aug 18",
-      "prompt_per_m": 0.289,
-      "completion_per_m": 2.4,
+      "notes": "27B dense. Price -52%/-33% to $0.289/$2.40 on Aug 18. Completion -17% to $0.30/$2.00 on Aug 19",
+      "prompt_per_m": 0.3,
+      "completion_per_m": 2.0,
       "context_length": 262144,
       "quality_score": 60
     },
@@ -752,9 +752,9 @@
       "category": "Lightweight",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "35B/3B MoE. Price up +79%/+25% to $0.25/$1.25 on Aug 13 Price p-10%/+44% to $0.225/$1.80 on Aug 14 (prompt falls, completion jumps)",
-      "prompt_per_m": 0.225,
-      "completion_per_m": 1.8,
+      "notes": "35B/3B MoE. Price up +79%/+25% to $0.25/$1.25 on Aug 13 Price p-10%/+44% to $0.225/$1.80 on Aug 14 (prompt falls, completion jumps). Completion -31% to $0.25/$1.25 on Aug 19, reverting Aug 14 upswing",
+      "prompt_per_m": 0.25,
+      "completion_per_m": 1.25,
       "context_length": 262144,
       "quality_score": 62
     },
@@ -766,9 +766,9 @@
       "category": "Self-hostable",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "122B/10B MoE. Single 96GB GPU feasible. Price +12%/+15% to $0.29/$2.40 on Aug 7 (creeps back up after Aug 4 cut)",
-      "prompt_per_m": 0.29,
-      "completion_per_m": 2.4,
+      "notes": "122B/10B MoE. Single 96GB GPU feasible. Price +12%/+15% to $0.29/$2.40 on Aug 7 (creeps back up after Aug 4 cut). Price -10%/-13% to $0.26/$2.08 on Aug 19",
+      "prompt_per_m": 0.26,
+      "completion_per_m": 2.08,
       "context_length": 262144,
       "quality_score": 75
     },
@@ -934,9 +934,9 @@
       "category": "Frontier",
       "release_date": "2026-04-20",
       "is_open": true,
-      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price +4%/+4% to $0.5605/$2.36 on Aug 17 (mild uptick)",
-      "prompt_per_m": 0.5605,
-      "completion_per_m": 2.36,
+      "notes": "1T/32B MoE multimodal coding model. Next-gen from K2.7. Native coding in Python/Rust/Go. Price +4%/+4% to $0.5605/$2.36 on Aug 17 (mild uptick). Price +15%/+15% to $0.646/$2.72 on Aug 19 (mild uptick)",
+      "prompt_per_m": 0.646,
+      "completion_per_m": 2.72,
       "context_length": 262144,
       "quality_score": 83
     },
@@ -1410,9 +1410,9 @@
       "category": "Frontier",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "1T/32B MoE. Predecessor to K2.6",
-      "prompt_per_m": 0.57,
-      "completion_per_m": 2.85,
+      "notes": "1T/32B MoE. Predecessor to K2.6. Price -21%/-21% to $0.45/$2.25 on Aug 19",
+      "prompt_per_m": 0.45,
+      "completion_per_m": 2.25,
       "context_length": 262144,
       "quality_score": 80
     },
@@ -2432,9 +2432,9 @@
       "category": "Frontier",
       "release_date": "2026-08-14",
       "is_open": true,
-      "notes": "Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). Weights ~2 weeks post-security-review; API-only now. Not yet on OpenRouter.",
-      "prompt_per_m": 0.0,
-      "completion_per_m": 0.0,
+      "notes": "Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). AA Index ~59.5, in line with GPT-5.6 Sol. NOW LIVE on OpenRouter Aug 19 at $1.40/$4.40 (per VentureBeat). Weights expected within ~1 week of API launch (security review); API-only for now.",
+      "prompt_per_m": 1.4,
+      "completion_per_m": 4.4,
       "context_length": 1048576,
       "quality_score": 91
     },
@@ -2535,6 +2535,20 @@
       "completion_per_m": 6.0,
       "context_length": 131072,
       "quality_score": 72
+    },
+    {
+      "id": "bytedance-seed/seed-2-1-turbo",
+      "name": "ByteDance Seed: Seed 2.1 Turbo",
+      "org": "bytedance-seed",
+      "license_type": "Apache 2.0",
+      "category": "Frontier",
+      "release_date": "2026-08-12",
+      "is_open": true,
+      "notes": "Multimodal (text/image/video) ByteDance Seed model (seed-2.1 line) for coding and long-horizon agent workflows. Low-latency tier, pitched as beating Claude Opus 4.x at up to 80% lower cost for high-frequency agent use. Open weights (self-hostable). Live on OpenRouter Aug ~18 at $0.50/$2.50. One of the cheapest capable models; strong IR/coding-per-dollar. From the ByteDance Seed 2.x open push (seed-2.0 family is Apache 2.0).",
+      "prompt_per_m": 0.5,
+      "completion_per_m": 2.5,
+      "context_length": 262144,
+      "quality_score": 76
     }
   ]
 }
