@@ -57,7 +57,7 @@
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
 | [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 81 | Closed-weight API |
-| [Upstage Solar Pro 4](closed/solar-pro-4.md) | Upstage | 524K | $0.03+$0.12/M | 2026-08 | 80 | First Korean model on OpenRouter (Aug 14). Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. OpenRouter $0.03/$0.12 is a 90% launch promo through Sep 10 (base $0.30/$1.20). Focus: tool calling, structured outputs, reasoning. |
+| [Upstage Solar Pro 4](closed/solar-pro4.md) | Upstage | 524K | $0.03+$0.12/M | 2026-08 | 80 | First Korean model on OpenRouter. Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. $0.03/$0.12 is 90% launch promo through Sep 10 (base $0.30/$1.20). OR id corrected to upstage/solar-pro4 |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
 | [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.14+$0.28/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx |
 | [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | 80 | Closed-weight API |
