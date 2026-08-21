@@ -1,6 +1,6 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-20
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-21
 
 ## Top 10 Open-Source Models
 
@@ -15,7 +15,7 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 | 7 | [Qwen3.8 2.4T A95B](open/qwen3.8-2.4t-a95b.md) | Alibaba | Frontier | 1M | $2.00+$6.00/M | 2026-08 | 86 | 2.4T/95B MoE. First Qwen-Max-class model to open release; post-trained weights on HF (Qwen/Qwen3.8-2.4T-A95B, 712 likes). Built on Qwen3.5 arch. Strong agentic/terminal/long-horizon. qwen3.8-max license. OpenRouter $2/$6. Qwen3.8-Max (cloud, closed) adds vision + non-thinking. Weights now fully released (CNBC Aug 17): Qwen accounts for 151,448 HF derivatives, 2.6x Meta's footprint. |
 | 8 | [GLM-5.1](open/glm-5.1.md) | Z.ai | Frontier | 204K | $0.97+$3.04/M | 2026-05 | 86 | 744B/40B MoE. ctx 202752->204800 on Jul 29. Price down -31%/-31% to $0.966/$3.036 on Aug 16 (follows GLM-5.2 down; GLM-5.3 launch normalizing 5.1 pricing) |
 | 9 | [Inkling](open/inkling.md) | Thinking Machines | Frontier | 1M | $0.95+$4.05/M | 2026-07 | 85 | First open model from Thinking Machines (Mira Murati). 975B/41B MoE multimodal (text+image+audio). 1M ctx. 45T tokens. 97.1% AIME, 87.2% GPQA, 77.6% SWE-bench. Now live on OpenRouter at $0.95/$4.05 on Aug 8 (prompt -5%) |
-| 10 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.71+$3.50/M | 2026-06 | 85 | 1T/32B MoE coding model. Native multimodal. Price down -4%/-3% to $0.67/$3.40 on Aug 13 Price up +6%/+3% to $0.71/$3.50 on Aug 14 |
+| 10 | [Kimi K2.7 Code](open/kimi-k2.7-code.md) | Moonshot AI | Frontier | 262K | $0.67+$3.40/M | 2026-06 | 85 | 1T/32B MoE coding model. Native multimodal. Price down -4%/-3% to $0.67/$3.40 on Aug 13 Price up +6%/+3% to $0.71/$3.50 on Aug 14. Price down -6%/-3% to $0.67/$3.40 on Aug 21 |
 
 ## Top 10 Closed-Source Models
 
@@ -34,6 +34,6 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 
 ## Full Index
 
-- [Open-source models (104)](INDEX-OPEN.md)
-- [Closed-source models (79)](INDEX-CLOSED.md)
+- [Open-source models (106)](INDEX-OPEN.md)
+- [Closed-source models (80)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)

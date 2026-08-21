@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20",
-  "count": 183,
+  "generated": "2026-08-21",
+  "count": 186,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -80,9 +80,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "284B/13B MoE. 1M ctx. V4 GA Jul 24. Price up to $0.084/$0.168 on Aug 20 (OpenRouter reflecting flagged DeepSeek 4x API hike)",
-      "prompt_per_m": 0.084,
-      "completion_per_m": 0.168,
+      "notes": "284B/13B MoE. 1M ctx. V4 GA Jul 24. Price eases -3.5%/-3.5% to $0.081/$0.162 on Aug 21 (off Aug 20 4x-hike spike)",
+      "prompt_per_m": 0.081,
+      "completion_per_m": 0.162,
       "context_length": 1048576,
       "quality_score": 82
     },
@@ -94,9 +94,9 @@
       "category": "Self-hostable",
       "release_date": "2026-07-31",
       "is_open": true,
-      "notes": "284B/13B MoE re-post-trained revision. 1.31M ctx (up from 1M on Aug 20). Coding/reasoning/agent workflows. ~10x cheaper than GLM-5.2",
-      "prompt_per_m": 0.14,
-      "completion_per_m": 0.28,
+      "notes": "284B/13B MoE re-post-trained revision. 1.31M ctx (up from 1M on Aug 20). Coding/reasoning/agent workflows. ~10x cheaper than GLM-5.2. Price down -43%/-36% to $0.08/$0.18 on Aug 21 (hike reverts)",
+      "prompt_per_m": 0.08,
+      "completion_per_m": 0.18,
       "context_length": 1310720,
       "quality_score": 82
     },
@@ -332,8 +332,8 @@
       "category": "Lightweight",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "31B dense multimodal. Price prompt -10% to $0.09 on Aug 20 (completion steady $0.34)",
-      "prompt_per_m": 0.09,
+      "notes": "31B dense multimodal. Price prompt +11% to $0.10 on Aug 21 (completion steady $0.34)",
+      "prompt_per_m": 0.1,
       "completion_per_m": 0.34,
       "context_length": 262144,
       "quality_score": 56
@@ -864,9 +864,9 @@
       "category": "Frontier",
       "release_date": "2026-06-12",
       "is_open": true,
-      "notes": "1T/32B MoE coding model. Native multimodal. Price down -4%/-3% to $0.67/$3.40 on Aug 13 Price up +6%/+3% to $0.71/$3.50 on Aug 14",
-      "prompt_per_m": 0.71,
-      "completion_per_m": 3.5,
+      "notes": "1T/32B MoE coding model. Native multimodal. Price down -4%/-3% to $0.67/$3.40 on Aug 13 Price up +6%/+3% to $0.71/$3.50 on Aug 14. Price down -6%/-3% to $0.67/$3.40 on Aug 21",
+      "prompt_per_m": 0.67,
+      "completion_per_m": 3.4,
       "context_length": 262144,
       "quality_score": 85
     },
@@ -2362,9 +2362,9 @@
       "category": "Self-hostable",
       "release_date": "2026-08-10",
       "is_open": true,
-      "notes": "30B dense multimodal (28B text decoder + 2B ViT). Distilled from Muse Spark for local agentic use. Apache 2.0 open weights on HF (meta-models/Muse-Glimmer-30B). Runs on a single consumer GPU (~58GB BF16, GGUF <20GB). Day-0 llama.cpp/vLLM/SGLang/Ollama support. Beats Gemma 4 31B and Qwen3.6-27B on most agentic benchmarks (MCP Atlas 75.5, DeepSearch QA 74.6, SWE-Bench Pro 51.2). Now live on OpenRouter at $0.35/$1.50 (Aug 11)",
-      "prompt_per_m": 0.35,
-      "completion_per_m": 1.5,
+      "notes": "30B dense multimodal (28B text decoder + 2B ViT). Distilled from Muse Spark for local agentic use. Apache 2.0 open weights on HF (meta-models/Muse-Glimmer-30B). Runs on a single consumer GPU (~58GB BF16, GGUF <20GB). Day-0 llama.cpp/vLLM/SGLang/Ollama support. Beats Gemma 4 31B and Qwen3.6-27B on most agentic benchmarks (MCP Atlas 75.5, DeepSearch QA 74.6, SWE-Bench Pro 51.2). Price down -14%/-27% to $0.30/$1.10 on Aug 21 (was $0.35/$1.50 Aug 11)",
+      "prompt_per_m": 0.3,
+      "completion_per_m": 1.1,
       "context_length": 131072,
       "quality_score": 68
     },
@@ -2563,6 +2563,48 @@
       "completion_per_m": 0.295,
       "context_length": 8192,
       "quality_score": 55
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "org": "DeepSeek",
+      "license_type": "MIT",
+      "category": "Self-hostable",
+      "release_date": "2026-08-21",
+      "is_open": true,
+      "notes": "Experimental vision-enabled DeepSeek V4 Flash (built on the 0731 revision). Adds image understanding; matches base model on text/agents/reasoning/world knowledge. 1M ctx. MIT weights on HF (deepseek-ai). Live on OpenRouter Aug 21 at $0.22/$0.66.",
+      "prompt_per_m": 0.22,
+      "completion_per_m": 0.66,
+      "context_length": 1048576,
+      "quality_score": 80
+    },
+    {
+      "id": "stealth/ox-alpha",
+      "name": "Ox Alpha",
+      "org": "Stealth",
+      "license_type": "MIT",
+      "category": "Frontier",
+      "release_date": "2026-08-20",
+      "is_open": false,
+      "notes": "Stealth model released on OpenRouter Aug 20 (identity unconfirmed, heavy r/LocalLLaMA / HN / X buzz). Reasoning model for coding and sustained agentic work. Claims SWE outperformance over Anthropic Fable. 1M ctx, text+image+video input. Currently free/free tier; no confirmed open weights yet (closed).",
+      "prompt_per_m": 0.0,
+      "completion_per_m": 0.0,
+      "context_length": 1048576,
+      "quality_score": 86
+    },
+    {
+      "id": "tencent/hy-mt2-1.8b",
+      "name": "Tencent Hy-MT2-1.8B",
+      "org": "Tencent",
+      "license_type": "Apache 2.0",
+      "category": "Specialized",
+      "release_date": "2026-08-20",
+      "is_open": true,
+      "notes": "Compact 1.8B translation model (33 language pairs + 5 Chinese dialect/minority-language pairs), sibling of Hy-MT2-30B. Apache 2.0 open weights on HF (tencent/Hy-MT2-1.8B). Structured/delimiter/context/glossary/style-guided workflows. Tiny model kept for tracker completeness alongside its 30B sibling. $0.044/$0.177.",
+      "prompt_per_m": 0.044,
+      "completion_per_m": 0.177,
+      "context_length": 8192,
+      "quality_score": 40
     }
   ]
 }
