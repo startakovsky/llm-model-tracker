@@ -13,9 +13,9 @@
 | [GPT-5.4 Pro](closed/gpt-5.4-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-05 | 94 | Pro reasoning |
 | [Claude Opus 4.7 Fast](closed/claude-opus-4.7-fast.md) | Anthropic | 1M | $30.00+$150.00/M | 2026-05 | 94 | Fast Opus |
 | [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
-| [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-06 | 93 | Solid reasoning. Price -50%/-50% to $2.50/$15.00 on Aug 18 |
+| [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $1.00+$5.00/M | 2026-06 | 93 | Solid reasoning. Price -50%/-50% to $1.00/$5.00 on Aug 22 (further cut; was $2.50/$15.00 Aug 18). New thinking slider for effort control |
 | [Claude Opus 4.7](closed/claude-opus-4.7.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-05 | 93 | Flagship Opus |
-| [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-06 | 92 | Solid. Price -50%/-50% to $2.50/$15.00 on Aug 18 |
+| [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $1.00+$5.00/M | 2026-06 | 92 | Solid. Price down -60% to $1.00/$5.00 on Aug 22 (further cut from Aug 18 $2.50/$15.00). New thinking slider (effort control) |
 | [O3 Pro](closed/o3-pro.md) | OpenAI | 200K | $20.00+$80.00/M | 2026-04 | 92 | Reasoning |
 | [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-04 | 92 | Flagship Opus. Context expanded to 1M |
 | [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $2.00+$12.00/M | 2026-06 | 91 | Terra reasoning. Price +100%/+100% to $2.00/$12.00 on Aug 18 (reverses Aug 1 cut) |
