@@ -1,88 +1,76 @@
 {
-  "date": "2026-08-25",
-  "new_models": [],
+  "date": "2026-08-26",
+  "new_models": [
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "org": "Z.ai"
+    }
+  ],
   "removed_models": [],
   "price_changes": [
     {
-      "id": "z-ai/glm-5.2",
-      "name": "GLM-5.2",
-      "old_prompt_per_m": 0.966,
-      "new_prompt_per_m": 1.19,
-      "old_completion_per_m": 3.036,
-      "new_completion_per_m": 3.74,
-      "pct_change_prompt": 23.19
-    },
-    {
-      "id": "z-ai/glm-5.1",
-      "name": "GLM-5.1",
-      "old_prompt_per_m": 0.966,
-      "new_prompt_per_m": 1.26,
-      "old_completion_per_m": 3.036,
-      "new_completion_per_m": 3.96,
-      "pct_change_prompt": 30.43
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "old_prompt_per_m": 0.056,
-      "new_prompt_per_m": 0.0826,
-      "old_completion_per_m": 0.112,
-      "new_completion_per_m": 0.1652,
-      "pct_change_prompt": 47.5
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek V4 Flash 0731",
-      "old_prompt_per_m": 0.0658,
-      "new_prompt_per_m": 0.0616,
-      "old_completion_per_m": 0.1316,
-      "new_completion_per_m": 0.1232,
-      "pct_change_prompt": -6.38
+      "old_prompt_per_m": 0.0616,
+      "new_prompt_per_m": 0.06,
+      "old_completion_per_m": 0.1232,
+      "new_completion_per_m": 0.12,
+      "pct_change_prompt": -2.6
     },
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek V4 Pro",
-      "old_prompt_per_m": 0.5222,
-      "new_prompt_per_m": 0.5728,
-      "old_completion_per_m": 1.0443,
-      "new_completion_per_m": 1.1456,
-      "pct_change_prompt": 9.69
+      "old_prompt_per_m": 0.5728,
+      "new_prompt_per_m": 0.87,
+      "old_completion_per_m": 1.1456,
+      "new_completion_per_m": 1.74,
+      "pct_change_prompt": 51.89
     },
     {
-      "id": "mistralai/devstral-2512",
-      "name": "Mistral: Devstral 2 2512",
-      "old_prompt_per_m": 0.4,
-      "new_prompt_per_m": 0.44,
-      "old_completion_per_m": 2.0,
-      "new_completion_per_m": 2.2,
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen3.5-397B-A17B",
+      "old_prompt_per_m": 0.5,
+      "new_prompt_per_m": 0.39,
+      "old_completion_per_m": 3.6,
+      "new_completion_per_m": 2.34,
+      "pct_change_prompt": -22.0
+    },
+    {
+      "id": "meta-llama/llama-4-scout",
+      "name": "Llama 4 Scout",
+      "old_prompt_per_m": 0.1,
+      "new_prompt_per_m": 0.11,
+      "old_completion_per_m": 0.3,
+      "new_completion_per_m": 0.34,
       "pct_change_prompt": 10.0
     },
     {
-      "id": "minimax/minimax-m2.7",
-      "name": "MiniMax: MiniMax M2.7",
-      "old_prompt_per_m": 0.24,
-      "new_prompt_per_m": 0.3,
-      "old_completion_per_m": 0.96,
-      "new_completion_per_m": 1.2,
-      "pct_change_prompt": 25.0
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Llama 3.3 70B",
+      "old_prompt_per_m": 0.1,
+      "new_prompt_per_m": 0.71,
+      "old_completion_per_m": 0.32,
+      "new_completion_per_m": 0.71,
+      "pct_change_prompt": 610.0
     },
     {
-      "id": "thinkingmachines/inkling",
-      "name": "Inkling",
-      "old_prompt_per_m": 1.0,
-      "new_prompt_per_m": 0.95,
-      "old_completion_per_m": 4.05,
-      "new_completion_per_m": 4.05,
-      "pct_change_prompt": -5.0
+      "id": "google/gemma-4-31b-it",
+      "name": "Gemma 4 31B-IT",
+      "old_prompt_per_m": 0.1,
+      "new_prompt_per_m": 0.09,
+      "old_completion_per_m": 0.34,
+      "new_completion_per_m": 0.34,
+      "pct_change_prompt": -10.0
     },
     {
-      "id": "qwen/qwen3.8-27b",
-      "name": "Qwen3.8-27B",
-      "old_prompt_per_m": 0.4,
-      "new_prompt_per_m": 0.425,
-      "old_completion_per_m": 3.0,
-      "new_completion_per_m": 2.55,
-      "pct_change_prompt": 6.25
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "old_prompt_per_m": 1.122,
+      "new_prompt_per_m": 1.32,
+      "old_completion_per_m": 3.366,
+      "new_completion_per_m": 3.96,
+      "pct_change_prompt": 17.65
     }
   ]
 }
