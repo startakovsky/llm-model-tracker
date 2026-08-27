@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26",
-  "count": 188,
+  "generated": "2026-08-27",
+  "count": 190,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -206,9 +206,9 @@
       "category": "Self-hostable",
       "release_date": "2026-07-01",
       "is_open": true,
-      "notes": "234B/7B MoE. Price -40%/-8% to $0.09/$0.55 on Aug 6 (back near pre-Aug-3 levels)",
-      "prompt_per_m": 0.09,
-      "completion_per_m": 0.55,
+      "notes": "234B/7B MoE. Price -40%/-8% to $0.09/$0.55 on Aug 6 (back near pre-Aug-3 levels) Price drop -3%/-36% to $0.0875/$0.35 on Aug 27 (completion cut; Qwen3.8 line repricing)",
+      "prompt_per_m": 0.0875,
+      "completion_per_m": 0.35,
       "context_length": 262144,
       "quality_score": 78
     },
@@ -696,9 +696,9 @@
       "category": "Lightweight",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "35B/3B MoE. Price prompt -7% to $0.14 on Aug 18",
-      "prompt_per_m": 0.14,
-      "completion_per_m": 1.0,
+      "notes": "35B/3B MoE. Price prompt -7% to $0.14 on Aug 18 Price drop -29%/-10% to $0.10/$0.90 on Aug 27",
+      "prompt_per_m": 0.1,
+      "completion_per_m": 0.9,
       "context_length": 262144,
       "quality_score": 64
     },
@@ -710,9 +710,9 @@
       "category": "Lightweight",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "27B dense. Price down -47%/-11% to $0.32/$3.20 on Aug 24 (volatile; was $0.60/$3.60 Aug 20)",
-      "prompt_per_m": 0.32,
-      "completion_per_m": 3.2,
+      "notes": "27B dense. Price down -47%/-11% to $0.32/$3.20 on Aug 24 (volatile; was $0.60/$3.60 Aug 20) Price up +88%/+13% to $0.60/$3.60 on Aug 27 (rebound to Aug 20 levels)",
+      "prompt_per_m": 0.6,
+      "completion_per_m": 3.6,
       "context_length": 262144,
       "quality_score": 60
     },
@@ -1284,9 +1284,9 @@
       "category": "Self-hostable",
       "release_date": "2026-02-01",
       "is_open": true,
-      "notes": "GLM-4.6. ctx 204800. Price -9%/-9% to $0.50/$2.00 on Aug 18",
-      "prompt_per_m": 0.5,
-      "completion_per_m": 2.0,
+      "notes": "GLM-4.6. ctx 204800. Price -9%/-9% to $0.50/$2.00 on Aug 18 Price drop -14%/-13% to $0.43/$1.75 on Aug 27",
+      "prompt_per_m": 0.43,
+      "completion_per_m": 1.75,
       "context_length": 204800,
       "quality_score": 76
     },
@@ -2404,9 +2404,9 @@
       "category": "Frontier",
       "release_date": "2026-08-13",
       "is_open": true,
-      "notes": "Price down on Aug 23 to $1.122/$3.366 (per-token repricing; ~6%/$6%) [Aug 26] Price up to $1.32/$3.96 (DeepSeek peak-rate repricing; ~+18% from $1.122/$3.366)",
-      "prompt_per_m": 1.32,
-      "completion_per_m": 3.96,
+      "notes": "Price down on Aug 23 to $1.122/$3.366 (per-token repricing; ~6%/$6%) [Aug 26] Price up to $1.32/$3.96 (DeepSeek peak-rate repricing; ~+18% from $1.122/$3.366) Price down -15%/-15% to $1.122/$3.366 on Aug 27 (reverts Aug 26 peak-rate bump)",
+      "prompt_per_m": 1.122,
+      "completion_per_m": 3.366,
       "context_length": 1048576,
       "quality_score": 89
     },
@@ -2437,6 +2437,34 @@
       "completion_per_m": 4.4,
       "context_length": 1048576,
       "quality_score": 91
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen3.8 Flash",
+      "org": "Alibaba",
+      "license_type": "qwen3.8-max",
+      "category": "Frontier",
+      "release_date": "2026-08-26",
+      "is_open": false,
+      "notes": "Production managed tier of the Qwen3.8 line (Qwen4 architecture), 1M ctx default, built-in tools. Live on OpenRouter Aug 26 at $0.15/$0.47. Strong at agentic/long-horizon at low cost. Closed API; open sibling is Qwen3.8-Flash-Next (research preview).",
+      "prompt_per_m": 0.15,
+      "completion_per_m": 0.47,
+      "context_length": 1000000,
+      "quality_score": 74
+    },
+    {
+      "id": "qwen/qwen3.8-flash-next",
+      "name": "Qwen3.8 Flash Next",
+      "org": "Alibaba",
+      "license_type": "qwen3.8-max",
+      "category": "Self-hostable",
+      "release_date": "2026-08-26",
+      "is_open": true,
+      "notes": "Open-weight Qwen4-architecture preview (125B total / 6B active MoE + 51B n-gram embedding + 4B MTP layer). First open model on the Qwen4 arch. 512 experts (10 routed+1 shared), Gated DeltaNet + Qwen Sparse Attention, 48 layers. 262K native ctx (ext to 1M via YaRN), text+vision. Qwen Community License 1.0 (not Apache). BenchLM 67.5 (#25/226), Agentic #13 (#91 pct), Coding #32, Inst-Following #10; SWE-bench Pro 62.5, GPQA-D 91.7, LiveCodeBench v6 91.9. Needs ~186GB FP8 / 123GB IQ1_S GGUF (256GB Mac Studio / 2xRTX PRO 6000). NOT yet on OpenRouter; self-host or Qwen Cloud only.",
+      "prompt_per_m": 0.0,
+      "completion_per_m": 0.0,
+      "context_length": 262144,
+      "quality_score": 77
     },
     {
       "id": "qwen/qwen3.8-27b",

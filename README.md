@@ -1,6 +1,6 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-26
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08-27
 
 ## Top 10 Open-Source Models
 
@@ -9,7 +9,7 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 | 1 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights LIVE on HuggingFace (moonshotai/Kimi-K3, ~594GB). 1M ctx |
 | 2 | [GLM-5.3](open/glm-5.3.md) | Z.ai | Frontier | 1M | $1.40+$4.40/M | 2026-08 | 91 | Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). AA Index ~59.5, in line with GPT-5.6 Sol. NOW LIVE on OpenRouter Aug 19 at $1.40/$4.40 (per VentureBeat). Weights expected within ~1 week of API launch (security review); API-only for now. |
 | 3 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $1.19+$3.74/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price up +59%/+59% to $0.49/$1.54 on Aug 18 (rebounds from Aug 16 low $0.308/$0.968; sixth double-digit swing in 2 weeks; GLM-5.3 launch keeping 5.2 pricing volatile). Price up +97%/+97% to $0.966/$3.036 on Aug 19 (GLM-5.3 launch normalizes 5.2 back to list/parity with 5.1; seventh swing in 2 weeks) Price up +23%/+23% to $1.19/$3.74 on Aug 25 (rebounds from Aug 19 low; volatile around GLM-5.3 launch) |
-| 4 | [DeepSeek V4 Pro 0813](open/deepseek-v4-pro-0813.md) | DeepSeek | Frontier | 1M | $1.32+$3.96/M | 2026-08 | 89 | Price down on Aug 23 to $1.122/$3.366 (per-token repricing; ~6%/$6%) [Aug 26] Price up to $1.32/$3.96 (DeepSeek peak-rate repricing; ~+18% from $1.122/$3.366) |
+| 4 | [DeepSeek V4 Pro 0813](open/deepseek-v4-pro-0813.md) | DeepSeek | Frontier | 1M | $1.12+$3.37/M | 2026-08 | 89 | Price down on Aug 23 to $1.122/$3.366 (per-token repricing; ~6%/$6%) [Aug 26] Price up to $1.32/$3.96 (DeepSeek peak-rate repricing; ~+18% from $1.122/$3.366) Price down -15%/-15% to $1.122/$3.366 on Aug 27 (reverts Aug 26 peak-rate bump) |
 | 5 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $0.87+$1.74/M | 2026-06 | 89 | Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) |
 | 6 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 204K | $0.60+$1.92/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE. Price down -37%/-25% to $0.60/$1.92 on Aug 16. ctx 202752->204800 on Jul 29 |
 | 7 | [Qwen3.8 2.4T A95B](open/qwen3.8-2.4t-a95b.md) | Alibaba | Frontier | 1M | $2.00+$6.00/M | 2026-08 | 86 | 2.4T/95B MoE. First Qwen-Max-class model to open release; post-trained weights on HF (Qwen/Qwen3.8-2.4T-A95B, 712 likes). Built on Qwen3.5 arch. Strong agentic/terminal/long-horizon. qwen3.8-max license. OpenRouter $2/$6. Qwen3.8-Max (cloud, closed) adds vision + non-thinking. Weights now fully released (CNBC Aug 17): Qwen accounts for 151,448 HF derivatives, 2.6x Meta's footprint. |
@@ -34,6 +34,6 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-08
 
 ## Full Index
 
-- [Open-source models (108)](INDEX-OPEN.md)
-- [Closed-source models (80)](INDEX-CLOSED.md)
+- [Open-source models (109)](INDEX-OPEN.md)
+- [Closed-source models (81)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
