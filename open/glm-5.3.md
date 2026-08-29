@@ -3,7 +3,7 @@ model: GLM-5.3
 organization: Z.ai (Zhipu AI)
 license: MIT
 release_date: 2026-08-14
-last_updated: 2026-08-19
+last_updated: 2026-08-29
 sources:
   - https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/
   - https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/
@@ -25,11 +25,11 @@ Released August 14, 2026. Reuses the same 743B (753B/40B MoE) base model as GLM-
 
 ## Availability
 - **Now:** Z.ai API, GLM Coding Plan, ZCode — works with Claude Code / OpenCode.
-- **OpenRouter:** **Live Aug 19 at $1.40/$4.40 per M** (prompt/completion, 1M ctx). Artificial Analysis Intelligence Index ~59.5 (in line with GPT-5.6 Sol ~60).
-- **Weights:** expected within ~1 week of API launch (security review); not public yet.
+- **OpenRouter:** **Live Aug 19 at $1.40/$4.40 per M** (prompt/completion, 1M ctx). Artificial Analysis Intelligence Index ~59.5 (in line with GPT-5.6 Sol ~60). Context listed at 1.31M on OpenRouter as of Aug 29.
+- **Weights:** **RELEASED Aug ~28 — zai-org/GLM-5.3 now on HuggingFace** (~1,230 likes, 8.8K downloads, safetensors + transformers). No longer API-only.
 
 ## Classification
-`open` (GLM family is MIT open-weights; weights pending security review). Quality score 91 — positioned ahead of GLM-5.2 (90) given the post-training gains, but weights/independently-verified benchmarks are still pending.
+`open` (MIT; weights now public on HuggingFace). Quality score 91 — positioned ahead of GLM-5.2 (90) given the post-training gains; weights plus vendor benchmarks now in hand, independent third-party verification still emerging.
 
 ## Sources
 - the-decoder: https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "count": 191,
   "models": [
     {
@@ -80,9 +80,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash volatile; repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up)",
-      "prompt_per_m": 0.0868,
-      "completion_per_m": 0.1736,
+      "notes": "Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up) [Aug 29] Price down -4%/-4% to $0.083/$0.167 (reverts Aug 28 drift; DeepSeek tone still volatile)",
+      "prompt_per_m": 0.083,
+      "completion_per_m": 0.166,
       "context_length": 1048576,
       "quality_score": 82
     },
@@ -94,9 +94,9 @@
       "category": "Self-hostable",
       "release_date": "2026-07-31",
       "is_open": true,
-      "notes": "284B/13B MoE re-post-trained revision. 1.31M ctx (up from 1M on Aug 20). Coding/reasoning/agent workflows. ~10x cheaper than GLM-5.2. Price down -18%/-27% to $0.0658/$0.1316 on Aug 24 (continues easing) Price down -6%/-6% to $0.0616/$0.1232 on Aug 25 (continues easing from Aug 24) [Aug 26] Price trim to $0.060/$0.120 (-2.6%/-2.6% from $0.0616/$0.1232) [Aug 28] Price up +17%/+17% to $0.07/$0.14 (reverts Aug 26 trim; DeepSeek Flash volatile)",
-      "prompt_per_m": 0.07,
-      "completion_per_m": 0.14,
+      "notes": "284B/13B MoE re-post-trained revision. 1.31M ctx (up from 1M on Aug 20). Coding/reasoning/agent workflows. ~10x cheaper than GLM-5.2. Price down -18%/-27% to $0.0658/$0.1316 on Aug 24 (continues easing) Price down -6%/-6% to $0.0616/$0.1232 on Aug 25 (continues easing from Aug 24) [Aug 26] Price trim to $0.060/$0.120 (-2.6%/-2.6% from $0.0616/$0.1232) [Aug 28] Price up +17%/+17% to $0.07/$0.14 (reverts Aug 26 trim; DeepSeek Flash volatile) [Aug 29] Price down -36%/-36% to $0.045/$0.09 (broad DeepSeek repricing; now ~half of V4 Flash base)",
+      "prompt_per_m": 0.045,
+      "completion_per_m": 0.09,
       "context_length": 1310720,
       "quality_score": 82
     },
@@ -108,9 +108,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump)",
-      "prompt_per_m": 0.7823,
-      "completion_per_m": 1.5646,
+      "notes": "Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump) [Aug 29] Price down -23%/-23% to $0.60/$1.20 (DeepSeek broad price cut alongside V4 Flash line)",
+      "prompt_per_m": 0.6,
+      "completion_per_m": 1.2,
       "context_length": 1048576,
       "quality_score": 89
     },
@@ -1396,9 +1396,9 @@
       "category": "Lightweight",
       "release_date": "2026-08-04",
       "is_open": true,
-      "notes": "Nemotron 3.5 Lightning 30B/3B MoE. Nemotron-H arch. Price -20%/-20% to $0.08/$0.20 on Aug 20. Open weights on HF (BF16 + NVFP4). GGUF quants + MLX released [Aug 28] Price up +25%/+25% to $0.10/$0.25 (reverts Aug 20 cut)",
-      "prompt_per_m": 0.1,
-      "completion_per_m": 0.25,
+      "notes": "Nemotron 3.5 Lightning 30B/3B MoE. Nemotron-H arch. Price -20%/-20% to $0.08/$0.20 on Aug 20. Open weights on HF (BF16 + NVFP4). GGUF quants + MLX released [Aug 28] Price up +25%/+25% to $0.10/$0.25 (reverts Aug 20 cut) [Aug 29] Price down -20%/-20% to $0.08/$0.20 (reverts Aug 28 bump)",
+      "prompt_per_m": 0.08,
+      "completion_per_m": 0.2,
       "context_length": 262144,
       "quality_score": 58
     },
@@ -2362,9 +2362,9 @@
       "category": "Self-hostable",
       "release_date": "2026-08-10",
       "is_open": true,
-      "notes": "Price up on Aug 23 to $0.35/$1.50 (prompt +17%, completion +36%)",
-      "prompt_per_m": 0.35,
-      "completion_per_m": 1.5,
+      "notes": "Price up on Aug 23 to $0.35/$1.50 (prompt +17%, completion +36%) [Aug 29] Price down -14%/-20% to $0.30/$1.20 (reverts Aug 23 bump)",
+      "prompt_per_m": 0.3,
+      "completion_per_m": 1.2,
       "context_length": 131072,
       "quality_score": 68
     },
@@ -2432,10 +2432,10 @@
       "category": "Frontier",
       "release_date": "2026-08-14",
       "is_open": true,
-      "notes": "Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). AA Index ~59.5, in line with GPT-5.6 Sol. NOW LIVE on OpenRouter Aug 19 at $1.40/$4.40 (per VentureBeat). Weights expected within ~1 week of API launch (security review); API-only for now.",
+      "notes": "Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). AA Index ~59.5, in line with GPT-5.6 Sol. NOW LIVE on OpenRouter Aug 19 at $1.40/$4.40 (per VentureBeat). [Aug 29] Open weights now released on HuggingFace (zai-org/GLM-5.3, ~1230 likes / 8.8K downloads); no longer API-only. QA ctx upped to 1.31M on OpenRouter.",
       "prompt_per_m": 1.4,
       "completion_per_m": 4.4,
-      "context_length": 1048576,
+      "context_length": 1310720,
       "quality_score": 91
     },
     {
@@ -2488,9 +2488,9 @@
       "category": "Frontier",
       "release_date": "2026-08-13",
       "is_open": false,
-      "notes": "New Gemini Flash tier on OpenRouter Aug 13. High-efficiency multimodal. 1M ctx. $0.375/$1.875 undercuts Gemini 3.6 Flash at $0.75/$3.75. Closed API.",
-      "prompt_per_m": 0.375,
-      "completion_per_m": 1.875,
+      "notes": "New Gemini Flash tier on OpenRouter Aug 13. High-efficiency multimodal. 1M ctx. $0.375/$1.875 undercuts Gemini 3.6 Flash at $0.75/$3.75. Closed API. [Aug 29] Price up +100%/+100% to $0.75/$3.75 (returns to Gemini 3.6 Flash parity; launch promo cut ended)",
+      "prompt_per_m": 0.75,
+      "completion_per_m": 3.75,
       "context_length": 1048576,
       "quality_score": 86
     },
