@@ -1,61 +1,79 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "new_models": [],
   "removed_models": [],
   "price_changes": [
     {
+      "id": "z-ai/glm-5.1",
+      "name": "GLM-5.1",
+      "old_prompt_per_m": 1.26,
+      "new_prompt_per_m": 0.966,
+      "old_completion_per_m": 3.96,
+      "new_completion_per_m": 3.036,
+      "pct_change_prompt": -23.33
+    },
+    {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek V4 Flash",
-      "old_prompt_per_m": 0.0868,
-      "new_prompt_per_m": 0.083,
-      "old_completion_per_m": 0.1736,
-      "new_completion_per_m": 0.166,
-      "pct_change_prompt": -4.38
+      "old_prompt_per_m": 0.083,
+      "new_prompt_per_m": 0.0792,
+      "old_completion_per_m": 0.166,
+      "new_completion_per_m": 0.1585,
+      "pct_change_prompt": -4.58
     },
     {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek V4 Flash 0731",
-      "old_prompt_per_m": 0.07,
-      "new_prompt_per_m": 0.045,
-      "old_completion_per_m": 0.14,
-      "new_completion_per_m": 0.09,
-      "pct_change_prompt": -35.71
+      "old_prompt_per_m": 0.045,
+      "new_prompt_per_m": 0.065,
+      "old_completion_per_m": 0.09,
+      "new_completion_per_m": 0.18,
+      "pct_change_prompt": 44.44
     },
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek V4 Pro",
-      "old_prompt_per_m": 0.7823,
-      "new_prompt_per_m": 0.6,
-      "old_completion_per_m": 1.5646,
-      "new_completion_per_m": 1.2,
-      "pct_change_prompt": -23.3
+      "old_prompt_per_m": 0.6,
+      "new_prompt_per_m": 0.4173,
+      "old_completion_per_m": 1.2,
+      "new_completion_per_m": 0.8345,
+      "pct_change_prompt": -30.45
     },
     {
-      "id": "nvidia/nemotron-3.5-lightning",
-      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "id": "arcee-ai/trinity-large-thinking",
+      "name": "Trinity Large Thinking",
+      "old_prompt_per_m": 0.22,
+      "new_prompt_per_m": 0.25,
+      "old_completion_per_m": 0.85,
+      "new_completion_per_m": 0.8,
+      "pct_change_prompt": 13.64
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "name": "Mistral: Devstral 2 2512",
+      "old_prompt_per_m": 0.44,
+      "new_prompt_per_m": 0.4,
+      "old_completion_per_m": 2.2,
+      "new_completion_per_m": 2.0,
+      "pct_change_prompt": -9.09
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "old_prompt_per_m": 0.1,
-      "new_prompt_per_m": 0.08,
-      "old_completion_per_m": 0.25,
-      "new_completion_per_m": 0.2,
-      "pct_change_prompt": -20.0
+      "new_prompt_per_m": 0.09,
+      "old_completion_per_m": 1.1,
+      "new_completion_per_m": 1.1,
+      "pct_change_prompt": -10.0
     },
     {
-      "id": "meta/muse-glimmer-30b",
-      "name": "Muse Glimmer 30B",
-      "old_prompt_per_m": 0.35,
-      "new_prompt_per_m": 0.3,
-      "old_completion_per_m": 1.5,
-      "new_completion_per_m": 1.2,
-      "pct_change_prompt": -14.29
-    },
-    {
-      "id": "google/gemini-3.7-flash",
-      "name": "Gemini 3.7 Flash",
-      "old_prompt_per_m": 0.375,
-      "new_prompt_per_m": 0.75,
-      "old_completion_per_m": 1.875,
-      "new_completion_per_m": 3.75,
-      "pct_change_prompt": 100.0
+      "id": "thinkingmachines/inkling",
+      "name": "Inkling",
+      "old_prompt_per_m": 0.95,
+      "new_prompt_per_m": 1.0,
+      "old_completion_per_m": 4.05,
+      "new_completion_per_m": 4.05,
+      "pct_change_prompt": 5.26
     }
   ]
 }
