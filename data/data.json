@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-08-31",
   "count": 191,
   "models": [
     {
@@ -80,9 +80,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up) [Aug 29] Price down -4%/-4% to $0.083/$0.167 (reverts Aug 28 drift; DeepSeek tone still volatile) [Aug 30] Price down -4.5%/-4.5% to $0.0792/$0.1585 (continues drift; DeepSeek broad repricing)",
-      "prompt_per_m": 0.0792,
-      "completion_per_m": 0.1585,
+      "notes": "Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up) [Aug 29] Price down -4%/-4% to $0.083/$0.167 (reverts Aug 28 drift; DeepSeek tone still volatile) [Aug 30] Price down -4.5%/-4.5% to $0.0792/$0.1585 (continues drift; DeepSeek broad repricing) [Aug 31] Price up +8%/+8% to $0.0855/$0.171 (continues drift)",
+      "prompt_per_m": 0.0855,
+      "completion_per_m": 0.1711,
       "context_length": 1048576,
       "quality_score": 82
     },
@@ -108,9 +108,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump) [Aug 29] Price down -23%/-23% to $0.60/$1.20 (DeepSeek broad price cut alongside V4 Flash line) [Aug 30] Price down -30%/-30% to $0.417/$0.835 (further DeepSeek broad price cut; now ~70% of list)",
-      "prompt_per_m": 0.4173,
-      "completion_per_m": 0.8345,
+      "notes": "Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump) [Aug 29] Price down -23%/-23% to $0.60/$1.20 (DeepSeek broad price cut alongside V4 Flash line) [Aug 30] Price down -30%/-30% to $0.417/$0.835 (further DeepSeek broad price cut; now ~70% of list) [Aug 31] Price up +149%/+149% to $1.039/$2.079 (rebounds from Aug 30 low; DeepSeek broad repricing)",
+      "prompt_per_m": 1.0393,
+      "completion_per_m": 2.0786,
       "context_length": 1048576,
       "quality_score": 89
     },
@@ -1410,9 +1410,9 @@
       "category": "Frontier",
       "release_date": "2026-03-01",
       "is_open": true,
-      "notes": "1T/32B MoE. Predecessor to K2.6. Price up +33%/+33% to $0.60/$3.00 on Aug 24 (reverses Aug 19 cut)",
-      "prompt_per_m": 0.6,
-      "completion_per_m": 3.0,
+      "notes": "1T/32B MoE. Predecessor to K2.6. Price up +33%/+33% to $0.60/$3.00 on Aug 24 (reverses Aug 19 cut) [Aug 31] Price down -25%/-25% to $0.45/$2.25 (reverts Aug 24 up)",
+      "prompt_per_m": 0.45,
+      "completion_per_m": 2.25,
       "context_length": 262144,
       "quality_score": 80
     },
@@ -1578,9 +1578,9 @@
       "category": "Self-hostable",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "Llama 4 Maverick. 400B/17B MoE. 1M ctx. Completion +15% to $0.80 on Aug 16 (prompt steady $0.20)",
+      "notes": "Llama 4 Maverick. 400B/17B MoE. 1M ctx. Completion +15% to $0.80 on Aug 16 (prompt steady $0.20) [Aug 31] Completion down -13% to $0.696 (prompt steady $0.20)",
       "prompt_per_m": 0.2,
-      "completion_per_m": 0.8,
+      "completion_per_m": 0.696,
       "context_length": 1048576,
       "quality_score": 74
     },
@@ -2334,10 +2334,10 @@
       "category": "Frontier",
       "release_date": "2026-07-30",
       "is_open": true,
-      "notes": "Smaller Inkling variant from Thinking Machines (Mira Murati). 524K ctx (half of flagship 1M). Apache 2.0 open weights. Cost-efficient tier of the 975B/41B MoE family. Prompt -10% to $0.45 on Aug 7 (completion steady $1.20)",
+      "notes": "Smaller Inkling variant from Thinking Machines (Mira Murati). 1M ctx on OpenRouter (up from 524K). Apache 2.0 open weights. Cost-efficient tier of the 975B/41B MoE family. Prompt -10% to $0.45 on Aug 7 (completion steady $1.20)",
       "prompt_per_m": 0.45,
       "completion_per_m": 1.2,
-      "context_length": 524288,
+      "context_length": 1048576,
       "quality_score": 80
     },
     {
@@ -2659,7 +2659,7 @@
       "notes": "Flash tier of GLM-5.3. Native multimodal (image-text-to-text). Hybrid sparse+linear attention, 1M ctx. Efficient coding + long-horizon agents. MIT weights on HF (zai-org/GLM-5.3-Flash, 317 likes). GGUF/BF16/FP8 available. Live on OpenRouter Aug 26 at $0.075/$0.25.",
       "prompt_per_m": 0.075,
       "completion_per_m": 0.25,
-      "context_length": 1048576,
+      "context_length": 1310720,
       "quality_score": 76
     },
     {

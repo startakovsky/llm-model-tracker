@@ -1,79 +1,43 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "new_models": [],
   "removed_models": [],
   "price_changes": [
     {
-      "id": "z-ai/glm-5.1",
-      "name": "GLM-5.1",
-      "old_prompt_per_m": 1.26,
-      "new_prompt_per_m": 0.966,
-      "old_completion_per_m": 3.96,
-      "new_completion_per_m": 3.036,
-      "pct_change_prompt": -23.33
-    },
-    {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek V4 Flash",
-      "old_prompt_per_m": 0.083,
-      "new_prompt_per_m": 0.0792,
-      "old_completion_per_m": 0.166,
-      "new_completion_per_m": 0.1585,
-      "pct_change_prompt": -4.58
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "name": "DeepSeek V4 Flash 0731",
-      "old_prompt_per_m": 0.045,
-      "new_prompt_per_m": 0.065,
-      "old_completion_per_m": 0.09,
-      "new_completion_per_m": 0.18,
-      "pct_change_prompt": 44.44
+      "old_prompt_per_m": 0.0792,
+      "new_prompt_per_m": 0.0855,
+      "old_completion_per_m": 0.1585,
+      "new_completion_per_m": 0.1711,
+      "pct_change_prompt": 7.95
     },
     {
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek V4 Pro",
+      "old_prompt_per_m": 0.4173,
+      "new_prompt_per_m": 1.0393,
+      "old_completion_per_m": 0.8345,
+      "new_completion_per_m": 2.0786,
+      "pct_change_prompt": 149.05
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
       "old_prompt_per_m": 0.6,
-      "new_prompt_per_m": 0.4173,
-      "old_completion_per_m": 1.2,
-      "new_completion_per_m": 0.8345,
-      "pct_change_prompt": -30.45
+      "new_prompt_per_m": 0.45,
+      "old_completion_per_m": 3.0,
+      "new_completion_per_m": 2.25,
+      "pct_change_prompt": -25.0
     },
     {
-      "id": "arcee-ai/trinity-large-thinking",
-      "name": "Trinity Large Thinking",
-      "old_prompt_per_m": 0.22,
-      "new_prompt_per_m": 0.25,
-      "old_completion_per_m": 0.85,
-      "new_completion_per_m": 0.8,
-      "pct_change_prompt": 13.64
-    },
-    {
-      "id": "mistralai/devstral-2512",
-      "name": "Mistral: Devstral 2 2512",
-      "old_prompt_per_m": 0.44,
-      "new_prompt_per_m": 0.4,
-      "old_completion_per_m": 2.2,
-      "new_completion_per_m": 2.0,
-      "pct_change_prompt": -9.09
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "old_prompt_per_m": 0.1,
-      "new_prompt_per_m": 0.09,
-      "old_completion_per_m": 1.1,
-      "new_completion_per_m": 1.1,
-      "pct_change_prompt": -10.0
-    },
-    {
-      "id": "thinkingmachines/inkling",
-      "name": "Inkling",
-      "old_prompt_per_m": 0.95,
-      "new_prompt_per_m": 1.0,
-      "old_completion_per_m": 4.05,
-      "new_completion_per_m": 4.05,
-      "pct_change_prompt": 5.26
+      "id": "meta-llama/llama-4-maverick",
+      "name": "Meta: Llama 4 Maverick",
+      "old_prompt_per_m": 0.2,
+      "new_prompt_per_m": 0.2,
+      "old_completion_per_m": 0.8,
+      "new_completion_per_m": 0.696,
+      "pct_change_prompt": 0.0
     }
   ]
 }
