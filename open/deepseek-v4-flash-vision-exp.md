@@ -3,7 +3,7 @@ model: DeepSeek V4 Flash Vision Exp
 organization: DeepSeek
 license: MIT
 release_date: 2026-08-21
-last_updated: 2026-08-21
+last_updated: 2026-09-01
 sources:
   - https://api-docs.deepseek.com/guides/vision/
   - https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp
@@ -21,7 +21,9 @@ Experimental vision-enabled variant of DeepSeek V4 Flash, built on the 0731 revi
 
 ## Availability
 - **OpenRouter:** Live Aug 21 at **$0.22/$0.66 per M** (prompt/completion), 1M ctx.
-- **Weights:** MIT, on HuggingFace under DeepSeek org (deepseek-ai), consistent with the open V4 Flash line.
+- **Weights:** MIT, published on HuggingFace Aug 31 under DeepSeek org (deepseek-ai). 305B total params (284B text backbone + 32-layer/1,024-dim vision encoder with 16 heads), ~13B active, expert routing selects 6 of 256 routed experts + 1 always-active shared expert. First open-weight V4-class multimodal MoE; first week two Chinese labs (DeepSeek + Z.ai GLM-5.3-Flash) offered MIT-licensed >300B multimodal checkpoints simultaneously.
+
+> **Weights update (Sep 1):** DeepSeek confirmed open weights Aug 31 (ten-day API-only window after the Aug 21 launch). Benchmark claims are still from DeepSeek's own harness — no independent lab reproduction as of publication.
 
 ## Classification
 `open` (MIT weights on HF). Quality score 80 — a capable multimodal workhorse at roughly 1/6th the cost of DeepSeek V4 Pro; strong self-hosting value on the 284B/13B MoE architecture. Vision is experimental, so below the flagship frontier mark.

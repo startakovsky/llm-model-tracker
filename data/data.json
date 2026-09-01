@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31",
-  "count": 191,
+  "generated": "2026-09-01",
+  "count": 192,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -80,9 +80,9 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up) [Aug 29] Price down -4%/-4% to $0.083/$0.167 (reverts Aug 28 drift; DeepSeek tone still volatile) [Aug 30] Price down -4.5%/-4.5% to $0.0792/$0.1585 (continues drift; DeepSeek broad repricing) [Aug 31] Price up +8%/+8% to $0.0855/$0.171 (continues drift)",
-      "prompt_per_m": 0.0855,
-      "completion_per_m": 0.1711,
+      "notes": "Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up) [Aug 29] Price down -4%/-4% to $0.083/$0.167 (reverts Aug 28 drift; DeepSeek tone still volatile) [Aug 30] Price down -4.5%/-4.5% to $0.0792/$0.1585 (continues drift; DeepSeek broad repricing) [Aug 31] Price up +8%/+8% to $0.0855/$0.171 (continues drift) [Sep 1] Price down -9%/-9% to $0.0778/$0.1557 (continues drift)",
+      "prompt_per_m": 0.0778,
+      "completion_per_m": 0.1557,
       "context_length": 1048576,
       "quality_score": 82
     },
@@ -108,9 +108,9 @@
       "category": "Frontier",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump) [Aug 29] Price down -23%/-23% to $0.60/$1.20 (DeepSeek broad price cut alongside V4 Flash line) [Aug 30] Price down -30%/-30% to $0.417/$0.835 (further DeepSeek broad price cut; now ~70% of list) [Aug 31] Price up +149%/+149% to $1.039/$2.079 (rebounds from Aug 30 low; DeepSeek broad repricing)",
-      "prompt_per_m": 1.0393,
-      "completion_per_m": 2.0786,
+      "notes": "Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump) [Aug 29] Price down -23%/-23% to $0.60/$1.20 (DeepSeek broad price cut alongside V4 Flash line) [Aug 30] Price down -30%/-30% to $0.417/$0.835 (further DeepSeek broad price cut; now ~70% of list) [Aug 31] Price up +149%/+149% to $1.039/$2.079 (rebounds from Aug 30 low; DeepSeek broad repricing) [Sep 1] Price up +54%/+54% to $1.60/$3.20 (rebounds; DeepSeek broad repricing)",
+      "prompt_per_m": 1.6,
+      "completion_per_m": 3.2,
       "context_length": 1048576,
       "quality_score": 89
     },
@@ -304,9 +304,9 @@
       "category": "Self-hostable",
       "release_date": "2026-04-01",
       "is_open": true,
-      "notes": "109B/17B MoE. OpenRouter ctx corrected 10M->1.31M on Jul 29 [Aug 26] Price up +10%/+13% to $0.11/$0.34",
-      "prompt_per_m": 0.11,
-      "completion_per_m": 0.34,
+      "notes": "109B/17B MoE. OpenRouter ctx corrected 10M->1.31M on Jul 29 [Aug 26] Price up +10%/+13% to $0.11/$0.34 [Sep 1] Price down -9%/-12% to $0.10/$0.30",
+      "prompt_per_m": 0.1,
+      "completion_per_m": 0.3,
       "context_length": 1310720,
       "quality_score": 72
     },
@@ -997,6 +997,20 @@
       "quality_score": 45
     },
     {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "Granite 4.2 8B",
+      "org": "IBM",
+      "license_type": "Apache 2.0",
+      "category": "Lightweight",
+      "release_date": "2026-08-25",
+      "is_open": true,
+      "notes": "8.8B dense. Granite 4.2 family (finetune of Granite 4.1 base). Apache 2.0 open weights on HF. 131K ctx. On OpenRouter at $0.10/$0.15. Enterprise lightweight tasks",
+      "prompt_per_m": 0.1,
+      "completion_per_m": 0.15,
+      "context_length": 131072,
+      "quality_score": 50
+    },
+    {
       "id": "inclusionai/ling-2.6-1t",
       "name": "Ling-2.6-1T",
       "org": "inclusionAI",
@@ -1648,8 +1662,8 @@
       "category": "Self-hostable",
       "release_date": "2026-06-01",
       "is_open": true,
-      "notes": "Qwen3 Next 80B/3B. Price prompt +11% to $0.10 on Aug 22 (completion steady $1.10) [Aug 30] Price prompt -10% to $0.09 (completion steady $1.10)",
-      "prompt_per_m": 0.09,
+      "notes": "Qwen3 Next 80B/3B. Price prompt +11% to $0.10 on Aug 22 (completion steady $1.10) [Aug 30] Price prompt -10% to $0.09 (completion steady $1.10) [Sep 1] Price prompt +11% to $0.10 (completion steady $1.10)",
+      "prompt_per_m": 0.1,
       "completion_per_m": 1.1,
       "context_length": 262144,
       "quality_score": 72
@@ -2600,7 +2614,7 @@
       "category": "Self-hostable",
       "release_date": "2026-08-21",
       "is_open": true,
-      "notes": "Experimental vision-enabled DeepSeek V4 Flash (built on the 0731 revision). Adds image understanding; matches base model on text/agents/reasoning/world knowledge. 1M ctx. MIT weights on HF (deepseek-ai). Live on OpenRouter Aug 21 at $0.22/$0.66.",
+      "notes": "Experimental vision-enabled DeepSeek V4 Flash (built on the 0731 revision). Adds image understanding; matches base model on text/agents/reasoning/world knowledge. 1M ctx. MIT weights on HF (deepseek-ai). Live on OpenRouter Aug 21 at $0.22/$0.66. [Sep 1] Open weights published Aug 31: 305B total (284B text backbone + 32-layer vision encoder)",
       "prompt_per_m": 0.22,
       "completion_per_m": 0.66,
       "context_length": 1048576,
