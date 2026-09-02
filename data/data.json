@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01",
-  "count": 192,
+  "generated": "2026-09-02",
+  "count": 194,
   "models": [
     {
       "id": "z-ai/glm-5.2",
@@ -2689,6 +2689,34 @@
       "completion_per_m": 2.501,
       "context_length": 1048576,
       "quality_score": 83
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Claude Fable 5.1",
+      "org": "Anthropic",
+      "license_type": "Proprietary",
+      "category": "Frontier",
+      "release_date": "2026-09-01",
+      "is_open": false,
+      "notes": "Fable 5.1 is the Sep  1 refresh of Anthropic's Fable 5 tier. Improves across the board with the biggest gains in agentic coding, long-running agent workflows, and knowledge work, including long code refactors and front-end/visual work. 1M ctx. Live on OpenRouter at $10/$50, same price tier asthe Fable 5 flagship.",
+      "prompt_per_m": 10.0,
+      "completion_per_m": 50.0,
+      "context_length": 1000000,
+      "quality_score": 92
+    },
+    {
+      "id": "inception/mercury-2.5-preview",
+      "name": "Mercury 2.5 Preview",
+      "org": "Inception",
+      "license_type": "Proprietary",
+      "category": "Specialized",
+      "release_date": "2026-08-31",
+      "is_open": false,
+      "notes": "Preview of Inception's fastest reasoning diffusion LLM, which refines multiple tokens in parallel instead of sequentially for much lower latency. 260K ctx. On OpenRouter at $0.04/$0.15, brutally undercutting Mercury 2's $0.25/$0.75.",
+      "prompt_per_m": 0.04,
+      "completion_per_m": 0.15,
+      "context_length": 260000,
+      "quality_score": 72
     }
   ]
 }

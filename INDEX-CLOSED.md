@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-81 models. Sorted by quality score.
+83 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -15,6 +15,7 @@
 | [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-06 | 93 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5) |
 | [Claude Opus 4.7](closed/claude-opus-4.7.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-05 | 93 | Flagship Opus |
+| [Claude Fable 5.1](closed/claude-fable-5.1.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-09 | 92 | Fable 5.1 is the Sep  1 refresh of Anthropic's Fable 5 tier. Improves across the board with the biggest gains in agentic coding, long-running agent workflows, and knowledge work, including long code refactors and front-end/visual work. 1M ctx. Live on OpenRouter at $10/$50, same price tier asthe Fable 5 flagship. |
 | [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-06 | 92 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5). Thinking slider |
 | [O3 Pro](closed/o3-pro.md) | OpenAI | 200K | $20.00+$80.00/M | 2026-04 | 92 | Reasoning |
 | [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-04 | 92 | Flagship Opus. Context expanded to 1M |
@@ -79,6 +80,7 @@
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
 | [Qwen3.8 Flash](closed/qwen3.8-flash.md) | Alibaba | 1M | $0.15+$0.47/M | 2026-08 | 74 | Production managed tier of the Qwen3.8 line (Qwen4 architecture), 1M ctx default, built-in tools. Live on OpenRouter Aug 26 at $0.15/$0.47. Strong at agentic/long-horizon at low cost. Closed API; open sibling is Qwen3.8-Flash-Next (research preview). |
 | [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | 74 | Flash tier. 1M ctx. Closed-weight API |
+| [Mercury 2.5 Preview](closed/mercury-2.5-preview.md) | Inception | 260K | $0.04+$0.15/M | 2026-08 | 72 | Preview of Inception's fastest reasoning diffusion LLM, which refines multiple tokens in parallel instead of sequentially for much lower latency. 260K ctx. On OpenRouter at $0.04/$0.15, brutally undercutting Mercury 2's $0.25/$0.75. |
 | [Morph V3 Large](closed/morph-v3-large.md) | Morph | 262K | $0.90+$1.90/M | 2026-07 | 72 | Specialized code-edit model that applies AI-generated code changes to source files (~98% merge accuracy on complex multi-scope edits, 2500+ tok/s). YC S23, HN/community traction. Agentic coding tool-use. 81.9K input / 16K output tokens per request. $0.90/$1.90 on OpenRouter. |
 | [AionLabs Aion-3.0](closed/aion-3.0.md) | AionLabs | 131K | $3.00+$6.00/M | 2026-07 | 72 | AionLabs' AI-native coding model (YC/a16z-backed startup, strong HN/community buzz). Agentic code editing and tool-use focus. 128K ctx. API-only, closed weights. On OpenRouter: $3.00/$6.00. |
 | [KAT-Coder-Pro V2](closed/kat-coder-pro-v2.md) | KwaiKAT | 262K | $0.30+$1.20/M | 2026-03 | 72 | Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths. ctx 256K->262K on Jul 29 |

@@ -1,49 +1,17 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "new_models": [
     {
-      "id": "ibm-granite/granite-4.2-8b",
-      "name": "Granite 4.2 8B",
-      "org": "IBM"
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Claude Fable 5.1",
+      "org": "Anthropic"
+    },
+    {
+      "id": "inception/mercury-2.5-preview",
+      "name": "Mercury 2.5 Preview",
+      "org": "Inception"
     }
   ],
   "removed_models": [],
-  "price_changes": [
-    {
-      "id": "deepseek/deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "old_prompt_per_m": 0.0855,
-      "new_prompt_per_m": 0.0778,
-      "old_completion_per_m": 0.1711,
-      "new_completion_per_m": 0.1557,
-      "pct_change_prompt": -9.01
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "old_prompt_per_m": 1.0393,
-      "new_prompt_per_m": 1.6,
-      "old_completion_per_m": 2.0786,
-      "new_completion_per_m": 3.2,
-      "pct_change_prompt": 53.95
-    },
-    {
-      "id": "meta-llama/llama-4-scout",
-      "name": "Llama 4 Scout",
-      "old_prompt_per_m": 0.11,
-      "new_prompt_per_m": 0.1,
-      "old_completion_per_m": 0.34,
-      "new_completion_per_m": 0.3,
-      "pct_change_prompt": -9.09
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "old_prompt_per_m": 0.09,
-      "new_prompt_per_m": 0.1,
-      "old_completion_per_m": 1.1,
-      "new_completion_per_m": 1.1,
-      "pct_change_prompt": 11.11
-    }
-  ]
+  "price_changes": []
 }
