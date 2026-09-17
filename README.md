@@ -1,6 +1,6 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-09-16
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-09-17
 
 ## Top 10 Open-Source Models
 
@@ -9,7 +9,7 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-09
 | 1 | [Kimi K3](open/kimi-k3.md) | Moonshot AI | Frontier | 1M | $3.00+$15.00/M | 2026-07 | 93 | 2.8T MoE. Largest open model ever. 93.5% GPQA, 56% HLE. Beats GLM-5.2 on all coding benchmarks. 91.2 agentic score. Weights LIVE on HuggingFace (moonshotai/Kimi-K3, ~594GB). 1M ctx |
 | 2 | [GLM-5.3](open/glm-5.3.md) | Z.ai | Frontier | 1M | $1.40+$4.40/M | 2026-08 | 91 | Same 743B base as GLM-5.2, all gains from post-training. Strongest open-weights coding claim. Officially launched Aug 17: +50% Z.ai Code Bench, Terminal-Bench 3.0 4.6->28.3, DeepSWE v1.1 46.2->66.9, CyberGym 84.5% (vs Mythos 5 83.8%). AA Index ~59.5, in line with GPT-5.6 Sol. NOW LIVE on OpenRouter Aug 19 at $1.40/$4.40 (per VentureBeat). [Aug 29] Open weights now released on HuggingFace (zai-org/GLM-5.3, ~1230 likes / 8.8K downloads); no longer API-only. QA ctx upped to 1.31M on OpenRouter. |
 | 3 | [GLM-5.2](open/glm-5.2.md) | Z.ai | Frontier | 1M | $1.40+$4.40/M | 2026-06 | 90 | Reference model. 753B/40B MoE. 82.8% SWE-bench. Price up +59%/+59% to $0.49/$1.54 on Aug 18 (rebounds from Aug 16 low $0.308/$0.968; sixth double-digit swing in 2 weeks; GLM-5.3 launch keeping 5.2 pricing volatile). Price up +97%/+97% to $0.966/$3.036 on Aug 19 (GLM-5.3 launch normalizes 5.2 back to list/parity with 5.1; seventh swing in 2 weeks) Price up +23%/+23% to $1.19/$3.74 on Aug 25 (rebounds from Aug 19 low; volatile around GLM-5.3 launch) [Sep 16] Price up +18%/+18% to $1.40/$4.40 (from $1.19/$3.74; continues volatility around GLM-5.3 line) [Sep 16] Price up +18%/+18% to $1.40/$4.40 (from $1.19/$3.74; volatility around GLM-5.3 line) |
-| 4 | [DeepSeek V4 Pro 0813](open/deepseek-v4-pro-0813.md) | DeepSeek | Frontier | 1M | $0.66+$1.98/M | 2026-08 | 89 | Price down on Aug 23 to $1.122/$3.366 (per-token repricing; ~6%/$6%) [Aug 26] Price up to $1.32/$3.96 (DeepSeek peak-rate repricing; ~+18% from $1.122/$3.366) Price down -15%/-15% to $1.122/$3.366 on Aug 27 (reverts Aug 26 peak-rate bump) [Aug 28] Price down -41%/-41% to $0.66/$1.98 (DeepSeek per-token repricing to ~V4 Pro parity) |
+| 4 | [DeepSeek V4 Pro 0813](open/deepseek-v4-pro-0813.md) | DeepSeek | Frontier | 1M | $0.58+$1.74/M | 2026-08 | 89 | Price down on Aug 23 to $1.122/$3.366 (per-token repricing; ~6%/$6%) [Aug 26] Price up to $1.32/$3.96 (DeepSeek peak-rate repricing; ~+18% from $1.122/$3.366) Price down -15%/-15% to $1.122/$3.366 on Aug 27 (reverts Aug 26 peak-rate bump) [Aug 28] Price down -41%/-41% to $0.66/$1.98 (DeepSeek per-token repricing to ~V4 Pro parity) [Sep 17] Price p-12%/c-12% to $0.57948/$1.73844 (from $0.66/$1.98; drift) |
 | 5 | [DeepSeek V4 Pro](open/deepseek-v4-pro.md) | DeepSeek | Frontier | 1M | $1.60+$3.20/M | 2026-06 | 89 | Price up on Aug 24 to $0.5222/$1.0443 (per-token repricing; +32%/+32% from Aug 23) Price up +10%/+10% to $0.573/$1.146 on Aug 25 (continues Aug 24 per-token repricing) [Aug 26] Price up +52%/+52% to $0.870/$1.740 (DeepSeek peak-hour repricing) [Aug 28] Price down -10%/-10% to $0.782/$1.565 (reverts peak-hour bump) [Aug 29] Price down -23%/-23% to $0.60/$1.20 (DeepSeek broad price cut alongside V4 Flash line) [Aug 30] Price down -30%/-30% to $0.417/$0.835 (further DeepSeek broad price cut; now ~70% of list) [Aug 31] Price up +149%/+149% to $1.039/$2.079 (rebounds from Aug 30 low; DeepSeek broad repricing) [Sep 1] Price up +54%/+54% to $1.60/$3.20 (rebounds; DeepSeek broad repricing) |
 | 6 | [Z.ai: GLM 5](open/glm-5.md) | z-ai | Frontier | 204K | $0.60+$1.92/M | 2026-03 | 87 | GLM-5 base. 744B/40B MoE. Price down -37%/-25% to $0.60/$1.92 on Aug 16. ctx 202752->204800 on Jul 29 |
 | 7 | [DeepSeek V4.1 Flash](open/deepseek-v4.1-flash.md) | DeepSeek | Self-hostable | 1M | $0.15+$0.60/M | 2026-09 | 86 | 552B backbone MoE (CED: 20-enc+20-dec). Multimodal image+text, 1M ctx, MIT. KV-cache compression focus: decoder KV cache projected from final encoder state -> ~8B active prefill/16B decode, cheap input-heavy agentic work. Fireworks touts Astra-level DeepSWE at 1/15th cost; HN dubs it best hacking model; strong r/LocalLLaMA buzz. Priced above base V4 Flash (smarter/faster, commensurate bump). GGUF/FP8 same week. HF deepseek-ai/DeepSeek-V4.1-Flash (2.8K likes). Live on OpenRouter Sep 10 at $0.15/$0.60. |
@@ -21,19 +21,19 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-09
 
 | # | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|---|
-| 1 | [GPT-5.5 Pro](closed/gpt-5.5-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-06 | 98 | Pro reasoning |
-| 2 | [Claude Opus 5](closed/claude-opus-5.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-07 | 96 | New Anthropic flagship (Jul 24). Approaches Fable 5 capability at half the price ($5/$25, same as Opus 4.8). Default for Claude Max. Effort dial. Most-aligned Opus. 1M ctx. 4th Claude 5 model in <2 months |
-| 3 | [Claude Opus 4.8 Fast](closed/claude-opus-4.8-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 96 | Fast Opus |
-| 4 | [Claude Opus 5 Fast](closed/claude-opus-5-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-07 | 95 | Fast-mode variant of Opus 5 (Jul 24). Identical capabilities, higher output speed at 2x pricing. 1M ctx |
-| 5 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 95 | Flagship |
-| 6 | [Claude Opus 4.8](closed/claude-opus-4.8.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-06 | 95 | Flagship Opus |
-| 7 | [GPT-5.4 Pro](closed/gpt-5.4-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-05 | 94 | Pro reasoning |
-| 8 | [Claude Opus 4.7 Fast](closed/claude-opus-4.7-fast.md) | Anthropic | 1M | $30.00+$150.00/M | 2026-05 | 94 | Fast Opus |
-| 9 | [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
-| 10 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-06 | 93 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5) |
+| 1 | [GPT-6 Astra](closed/gpt-6-astra.md) | OpenAI | 1M | $10.00+$50.00/M | 2026-09 | 98 | OpenAI flagship for demanding end-to-end work (advanced analysis, SWE, deep research, agentic). 1.05M ctx. First GPT-6 flagship on OpenRouter, live ~Sep 16 at $10/$50. Closed API. |
+| 2 | [GPT-6 Astra Pro](closed/gpt-6-astra-pro.md) | OpenAI | 1M | $10.00+$50.00/M | 2026-09 | 98 | GPT-6 Astra served with reasoning.mode=pro (same underlying model, max reasoning effort). Closed API. |
+| 3 | [GPT-5.5 Pro](closed/gpt-5.5-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-06 | 98 | Pro reasoning |
+| 4 | [Claude Fable 5.1](closed/claude-fable-5.1.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-09 | 97 | Fable 5.1 improves on Fable 5 across the board; biggest gains in agentic coding and long-running agentic workflows. 1M ctx. Live ~Sep 16 at $10/$50. Closed API. |
+| 5 | [Claude Opus 5](closed/claude-opus-5.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-07 | 96 | New Anthropic flagship (Jul 24). Approaches Fable 5 capability at half the price ($5/$25, same as Opus 4.8). Default for Claude Max. Effort dial. Most-aligned Opus. 1M ctx. 4th Claude 5 model in <2 months |
+| 6 | [Claude Opus 4.8 Fast](closed/claude-opus-4.8-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 96 | Fast Opus |
+| 7 | [Claude Opus 5 Fast](closed/claude-opus-5-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-07 | 95 | Fast-mode variant of Opus 5 (Jul 24). Identical capabilities, higher output speed at 2x pricing. 1M ctx |
+| 8 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 95 | Flagship |
+| 9 | [Claude Opus 4.8](closed/claude-opus-4.8.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-06 | 95 | Flagship Opus |
+| 10 | [Fugu Ultra v2](closed/fugu-ultra-v2.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-09 | 94 | Learned multi-agent orchestration engine, higher-performance tier of the Fugu family. 1M ctx. $5/$30 on OpenRouter (same as Fugu Ultra v1). Closed API. |
 
 ## Full Index
 
-- [Open-source models (107)](INDEX-OPEN.md)
-- [Closed-source models (80)](INDEX-CLOSED.md)
+- [Open-source models (113)](INDEX-OPEN.md)
+- [Closed-source models (91)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
