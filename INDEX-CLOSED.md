@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-91 models. Sorted by quality score.
+92 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -37,6 +37,7 @@
 | [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.20+$1.20/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price +100%/+100% to $0.20/$1.20 on Aug 17 (reverts Aug 1 cut) |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [GPT-5 Pro](closed/gpt-5-pro.md) | OpenAI | 400K | $15.00+$120.00/M | 2026-02 | 88 | Pro reasoning |
+| [Pareto 26.9](closed/pareto.md) | Unbiased | 262K | $2.50+$7.50/M | 2026-09 | 87 | Blended composite model from Unbiased (unbiased.ai): engages multiple LLMs in parallel per request, synthesizes one answer (text+vision). Surfaced Sep 17 as Unbiased's Pareto 26.9, a day after the Union Alpha stealth listing stopped serving. $2.5/$7.5 on OpenRouter, 262K ctx. Closed API. |
 | [Gemini 3.8 Flash](closed/gemini-3.8-flash.md) | Google | 1M | $0.75+$3.75/M | 2026-09 | 87 | Google's most intelligent Flash model; significant gains over 3.7 Flash in SWE, agentic tasks, long-horizon. Multimodal. 1M ctx. Live ~Sep 16 at $0.75/$3.75 (parity with 3.7 Flash). Closed API. |
 | [Muse Spark 1.2](closed/muse-spark-1.2.md) | Meta | 1M | $1.25+$4.25/M | 2026-08 | 87 | Coding-optimized multimodal reasoning model (Meta's 3rd release in 4 months). Powers new Muse Code terminal agent + Meta Model API, expanded global access. 70.6% on Meta internal coding benchmark (beats GPT-5.6 Terra 65.4%, Gemini 3.6 Flash). 54 Artificial Analysis Index. 1M ctx. $1.25/$4.25 on OpenRouter (same price as 1.1) |
 | [xAI: Grok 4.20 Multi-Agent](closed/grok-4.20-multi-agent.md) | x-ai | 2M | $1.25+$2.50/M | 2026-07 | 87 | Grok 4.20 multi-agent. 2M ctx |
@@ -82,7 +83,7 @@
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 262K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency. ctx 256K->262K on Jul 29 |
 | [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | 76 | Plus tier. 1M ctx. Closed-weight API |
 | [Qwen3.7 Flash](closed/qwen3.7-flash.md) | Alibaba | 1M | $0.03+$0.13/M | 2026-07 | 75 | Flash tier. Vision-language reasoning. 1M ctx. Ultra-cheap at $0.03/$0.13. Closed-weight API. Open weights pending. Benchmarks not yet published |
-| [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 256K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |
+| [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 262K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |
 | [Grok Build 0.1](closed/grok-build-0.1.md) | xAI | 256K | $1.00+$2.00/M | 2026-05 | 75 | Fast coding model for agentic SWE workflows. Interactive coding |
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
 | [Qwen3.8 Flash](closed/qwen3.8-flash.md) | Alibaba | 1M | $0.15+$0.47/M | 2026-08 | 74 | Production managed tier of the Qwen3.8 line (Qwen4 architecture), 1M ctx default, built-in tools. Live on OpenRouter Aug 26 at $0.15/$0.47. Strong at agentic/long-horizon at low cost. Closed API; open sibling is Qwen3.8-Flash-Next (research preview). |
