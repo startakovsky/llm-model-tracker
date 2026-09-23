@@ -1,6 +1,6 @@
 # Open-Source LLM Index
 
-121 models. Sorted by quality score.
+122 models. Sorted by quality score.
 
 | Model | Org | Category | Context | OR Price | Released | Score | Self-Host? | Notes |
 |---|---|---|---|---|---|---|---|---|
@@ -28,6 +28,7 @@
 | [Laguna S 2.1](open/laguna-s-2.1.md) | Poolside | Frontier | 1M | $0.09+$0.18/M | 2026-07 | 82 | Large | 118B/8B MoE coding agent. 70.2% Terminal-Bench 2.1. 40.4% DeepSWE. Open weights (OpenMDW-1.1). 1M ctx. Forbes: most capable open model in the West in 118B class. GGUF/FP8/INT4 on HF. 327 likes in 1 day. Price -10%/-10% to $0.09/$0.18 on Aug 1 |
 | [Qwen: Qwen3 235B A22B Thinking 2507](open/qwen3-235b-a22b-thinking-2507.md) | qwen | Frontier | 131K | $0.23+$2.30/M | 2026-07 | 82 | Large | Qwen3 235B thinking July 2026. Price -23%/-23% to $0.23/$2.30 on Aug 1 (reverses Jul 20 doubling) |
 | [DeepSeek V4 Flash](open/deepseek-v4-flash.md) | DeepSeek | Self-hostable | 1M | $0.05+$0.10/M | 2026-06 | 82 | Yes | Price up on Aug 24 to $0.056/$0.112 (per-token API repricing; +14.5%/+14.6% rebound from Aug 23 low) Price up +47%/+47% to $0.083/$0.165 on Aug 25 (DeepSeek Flash repriced up from Aug 24 low) [Aug 28] Price up +5%/+5% to $0.0868/$0.1736 (DeepSeek Flash volatile; continues drift up) [Aug 29] Price down -4%/-4% to $0.083/$0.167 (reverts Aug 28 drift; DeepSeek tone still volatile) [Aug 30] Price down -4.5%/-4.5% to $0.0792/$0.1585 (continues drift; DeepSeek broad repricing) [Aug 31] Price up +8%/+8% to $0.0855/$0.171 (continues drift) [Sep 1] Price down -9%/-9% to $0.0778/$0.1557 (continues drift) [Sep 17] Price p-10%/c-10% to $0.07/$0.14 (from $0.0778/$0.1557; drift) [Sep 18] Price down -29%/-29% to $0.0498/$0.0997 (from $0.07/$0.14; drift) [Sep 19] Price down -15%/-15% to $0.04256/$0.08512 (from $0.0498/$0.0997; DeepSeek tone easing) [Sep 20] Price down -16.4%/-16.4% to $0.0356/$0.0711 (from $0.04256/$0.08512; continues easing) [Sep 21] Price up +55.7%/+55.9% to $0.0554/$0.1109 (from $0.0356/$0.0711; rebounds Sep 20 easing) [Sep 22] Price down -11.6%/-11.6% to $0.0490/$0.0980 (from $0.0554/$0.1109; drift) |
+| [Cohere: Command A+](open/command-a-plus.md) | Cohere | Frontier | 192K | $0.30+$1.50/M | 2026-05 | 82 | Large | Cohere flagship enterprise agentic model; text+image input; 192K ctx; native tool calling and structured outputs; Apache-2.0 open weights CohereLabs/command-a-plus-05-2026-bf16; ~145 likes 43K DL; newly surfaced on OpenRouter Sep 22 at USD 0.3/1.5 intro pricing heavily discounted; currently cheapest capable open enterprise agentic model |
 | [MoonshotAI: Kimi K2 Thinking](open/kimi-k2-thinking.md) | moonshotai | Frontier | 262K | $0.60+$2.50/M | 2026-05 | 82 | Large | Thinking variant of Kimi K2 |
 | [Mistral: Mistral Large 3 2512](open/mistral-large-2512.md) | mistralai | Frontier | 262K | $0.50+$1.50/M | 2026-05 | 82 | Large | Mistral Large Dec 2026 |
 | [Qwen: Qwen3 VL 235B A22B Instruct](open/qwen3-vl-235b-a22b-instruct.md) | qwen | Frontier | 262K | $0.21+$1.90/M | 2026-05 | 82 | Large | Qwen3 VL 235B. Vision-language. ctx 262K. Price prompt -19% to $0.21 (completion +83% to $1.90) on Aug 18 |

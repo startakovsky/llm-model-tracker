@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-93 models. Sorted by quality score.
+97 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -79,6 +79,7 @@
 | [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.30+$1.20/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) |
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
+| [AionLabs: Aion 3.5](closed/aion-3.5.md) | AionLabs | 262K | $3.00+$6.00/M | 2026-09 | 77 | Aion Labs flagship multi-model roleplaying/storytelling system built on the GLM family; 256K ctx; USD  3/6 per M same as 3.0 with 2x ctx; closed API |
 | [Qwen3.5 Plus](closed/qwen3.5-plus-20260420.md) | Alibaba | 1M | $0.30+$1.80/M | 2026-04 | 77 | Plus tier. 1M ctx. Closed-weight API |
 | [Gemini 3.5 Flash Lite](closed/gemini-3.5-flash-lite.md) | Google | 1M | $0.30+$2.50/M | 2026-07 | 76 | High-efficiency with upgraded agentic capabilities. Suited for subagents in multi-agent workflows. Multimodal. 1M ctx |
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 262K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency. ctx 256K->262K on Jul 29 |
@@ -93,7 +94,10 @@
 | [Morph V3 Large](closed/morph-v3-large.md) | Morph | 262K | $0.90+$1.90/M | 2026-07 | 72 | Specialized code-edit model that applies AI-generated code changes to source files (~98% merge accuracy on complex multi-scope edits, 2500+ tok/s). YC S23, HN/community traction. Agentic coding tool-use. 81.9K input / 16K output tokens per request. $0.90/$1.90 on OpenRouter. |
 | [AionLabs Aion-3.0](closed/aion-3.0.md) | AionLabs | 131K | $3.00+$6.00/M | 2026-07 | 72 | AionLabs' AI-native coding model (YC/a16z-backed startup, strong HN/community buzz). Agentic code editing and tool-use focus. 128K ctx. API-only, closed weights. On OpenRouter: $3.00/$6.00. |
 | [KAT-Coder-Pro V2](closed/kat-coder-pro-v2.md) | KwaiKAT | 262K | $0.30+$1.20/M | 2026-03 | 72 | Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths. ctx 256K->262K on Jul 29 |
+| [AionLabs: Aion 3.5 Mini](closed/aion-3.5-mini.md) | AionLabs | 262K | $0.70+$1.40/M | 2026-09 | 70 | Low-cost sibling of Aion 3.5; 256K ctx RP/storytelling system on GLM family; USD 0.7/1.4 per M; closed API |
 | [Muse Spark 1.3 Contributor](closed/muse-spark-1.3-contributor.md) | Meta | 1M | $0.10+$0.20/M | 2026-09 | 70 | Cost-efficient contributor tier of Muse Spark 1.3 for experimentation/learning/agent sub-tasks. 1M ctx. Ultra-cheap $0.10/$0.20. Closed API. |
 | [Sakana Namazu](closed/sakana-namazu.md) | Sakana AI | 262K | $0.95+$4.00/M | 2026-08 | 70 | Japanese-culture-specialized reasoning model, built on Kimi K2.6. Live on OpenRouter Aug 11. High-performance Japanese + strong agent execution in Sakana Chat (file output, agent workflows). 262K ctx. $0.95/$4.00 on OpenRouter. Sakana AI flagship (Fugu Ultra = closed multi-agent routing engine). |
+| [Space Bunny Alpha](closed/space-bunny-alpha.md) | Stealth | 1M | $0.00+$0.00/M | 2026-09 | 68 | Anonymous multimodal text+image+video-to-text model; 1M ctx; fast inference strong coding claims; USD 0/0 free preview with no open weights found on HF; created on OR Sep 23; unverified stealth listing; may vanish pivot like the Union-Alpha/Pareto entries |
 | [KAT-Coder-Air V2.5](closed/kat-coder-air-v2.5.md) | KwaiKAT | 256K | $0.15+$0.60/M | 2026-07 | 68 | Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx |
+| [AionLabs: Aion 3.0 Mini](closed/aion-3.0-mini.md) | AionLabs | 131K | $0.70+$1.40/M | 2026-07 | 68 | Cheap tier of Aion 3.0 DeepSeek-family RP/storytelling system; 128K ctx; USD 0.7/1.4 per M; closed API; companion to tracked aion-3.0 |
 | [Mercury 2](closed/mercury-2.md) | Inception | 128K | $0.25+$0.75/M | 2026-03 | 68 | First reasoning diffusion LLM. 1000+ tok/s on Blackwell GPUs (5x faster than autoregressive). Tunable reasoning depth. Native tool use. Real-time agent latency. Architectural breakthrough |
