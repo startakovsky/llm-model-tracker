@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-106 models. Sorted by quality score.
+97 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -10,15 +10,12 @@
 | [Claude Opus 5.5](closed/claude-opus-5.5.md) | Anthropic | 1M | $4.00+$20.00/M | 2026-09 | 97 | New Anthropic flagship (Sep 22). Performs at Claude Fable 5.1 level on most tasks at 40% lower cost than Opus 5 ($4/$20 vs $5/$25). First release since Anthropic called for frontier-lab coordination. 1M ctx. Live on OpenRouter Sep 22 at $4/$20. Closed API. |
 | [Claude Fable 5.1](closed/claude-fable-5.1.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-09 | 97 | Fable 5.1 improves on Fable 5 across the board; biggest gains in agentic coding and long-running agentic workflows. 1M ctx. Live ~Sep 16 at $10/$50. Closed API. |
 | [Claude Opus 5](closed/claude-opus-5.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-07 | 96 | New Anthropic flagship (Jul 24). Approaches Fable 5 capability at half the price ($5/$25, same as Opus 4.8). Default for Claude Max. Effort dial. Most-aligned Opus. 1M ctx. 4th Claude 5 model in <2 months |
-| [Claude Opus 4.8 Fast](closed/claude-opus-4.8-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 96 | Fast Opus |
-| [Claude Opus 5 Fast](closed/claude-opus-5-fast.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-07 | 95 | Fast-mode variant of Opus 5 (Jul 24). Identical capabilities, higher output speed at 2x pricing. 1M ctx |
 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 95 | Flagship |
 | [Claude Opus 4.8](closed/claude-opus-4.8.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-06 | 95 | Flagship Opus |
 | [GPT-6 Sol](closed/gpt-6-sol.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 94 | GPT-6 Sol: OpenAI mid-tier with more reasoning capability, aimed at recurring coding/agent work (Sonnet-class). Introduced with Luna Sep 22; slashes API costs vs Astra. 1.05M ctx. $2/$10. Closed API. |
 | [GPT-6 Sol Pro](closed/gpt-6-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 94 | GPT-6 Sol served with reasoning.mode=pro (max reasoning effort), same underlying model and pricing ($2/$10). Closed API. |
 | [Fugu Ultra v2](closed/fugu-ultra-v2.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-09 | 94 | Learned multi-agent orchestration engine, higher-performance tier of the Fugu family. 1M ctx. $5/$30 on OpenRouter (same as Fugu Ultra v1). Closed API. |
 | [GPT-5.4 Pro](closed/gpt-5.4-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-05 | 94 | Pro reasoning |
-| [Claude Opus 4.7 Fast](closed/claude-opus-4.7-fast.md) | Anthropic | 1M | $30.00+$150.00/M | 2026-05 | 94 | Fast Opus |
 | [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
 | [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-06 | 93 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5) |
 | [Claude Opus 4.7](closed/claude-opus-4.7.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-05 | 93 | Flagship Opus |
@@ -52,7 +49,6 @@
 | [GPT-5.2](closed/gpt-5.2.md) | OpenAI | 400K | $1.75+$14.00/M | 2026-03 | 87 | Flagship |
 | [Qwen3.8 Max (0902)](closed/qwen3.8-max-0902.md) | Alibaba | 1M | $2.00+$6.00/M | 2026-09 | 86 | Updated snapshot of Qwen3.8 Max (2.4T/95B MoE). Replaces the short-lived qwen3.8-max id on OpenRouter (~Sep 16). $2/$6, 1M ctx. Closed API. |
 | [Gemini 3.7 Flash](closed/gemini-3.7-flash.md) | Google | 1M | $0.75+$3.75/M | 2026-08 | 86 | New Gemini Flash tier on OpenRouter Aug 13. High-efficiency multimodal. 1M ctx. $0.375/$1.875 undercuts Gemini 3.6 Flash at $0.75/$3.75. Closed API. [Aug 29] Price up +100%/+100% to $0.75/$3.75 (returns to Gemini 3.6 Flash parity; launch promo cut ended) |
-| [Qwen3.8 Max](closed/qwen3.8-max.md) | Alibaba | 1M | $2.00+$6.00/M | 2026-08 | 86 | 2.4T/95B MoE multimodal (text+image+video+doc). First Qwen >1T multimodal. Officially launched Aug 3. OSWorld 86.1 (beats GPT-5.6 Sol Max 83.2, Fable 5 85.0). PaperBench 93.0. TerminalBench 2.1 86.6. Ranks 5th Text Arena, 2nd Vision Arena. Nikkei: falls short of 'second only to Fable 5' claim. Priced $2/$6 (below Kimi K3 $3/$15). NOW LIVE on OpenRouter. Open weights promised next week alongside Qwen3.8-27B. License TBD |
 | [Gemini 3.6 Flash](closed/gemini-3.6-flash.md) | Google | 1M | $0.75+$3.75/M | 2026-07 | 86 | High-efficiency model for coding and agentic workflows. Multimodal (text+image+video+audio). 1M ctx. Cheaper completion than 3.5 Flash ($7.50 vs $9.00) Price down -50%/-50% to $0.75/$3.75 on Aug 14 (halved; undercuts Gemini 3.7 Flash launch pricing) |
 | [Muse Spark 1.1](closed/muse-spark-1.1.md) | Meta | 1M | $1.25+$4.25/M | 2026-07 | 86 | Meta proprietary multimodal. Text/image/video/audio/PDF input. Meta pivots closed after Llama. Now on OpenRouter. 1M ctx. Agentic tasks |
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | 86 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
@@ -61,14 +57,11 @@
 | [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.03+$6.16/M | 2026-06 | 85 | Closed-weight preview. Price -1.3% to $1.03/$6.16 on Jul 29 |
 | [Claude Sonnet 5](closed/claude-sonnet-5.md) | Anthropic | 1M | $2.00+$10.00/M | 2026-06 | 85 | Sonnet |
 | [OpenAI: GPT-5.4 Mini](closed/gpt-5.4-mini.md) | openai | 400K | $0.75+$4.50/M | 2026-05 | 85 | GPT-5.4 Mini. 400K ctx |
-| [O3 Deep Research](closed/o3-deep-research.md) | OpenAI | 200K | $10.00+$40.00/M | 2026-04 | 85 | Research |
 | [Grok 4.20](closed/grok-4.20.md) | xAI | 2M | $1.25+$2.50/M | 2026-03 | 85 | Lowest hallucination rate. 2M ctx. Agentic tool calling |
 | [OpenAI: GPT-5.2-Codex](closed/gpt-5.2-codex.md) | openai | 400K | $1.75+$14.00/M | 2026-03 | 85 | GPT-5.2 Codex. 400K ctx |
 | [GPT-6 Luna](closed/gpt-6-luna.md) | OpenAI | 1M | $0.10+$0.50/M | 2026-09 | 84 | GPT-6 Luna: cheap high-volume fast tier of GPT-6 (~140 tok/s), optimized for extraction/summarization; Sol has more reasoning. Per VentureBeat slashes API costs 50%+. 1.05M ctx. $0.1/$0.5. Closed API. |
 | [GPT-6 Luna Pro](closed/gpt-6-luna-pro.md) | OpenAI | 1M | $0.10+$0.50/M | 2026-09 | 84 | GPT-6 Luna served with reasoning.mode=pro, same underlying model and pricing ($0.1/$0.5). Closed API. |
 | [Qwen3.7 Max](closed/qwen3.7-max.md) | Alibaba | 1M | $1.48+$4.42/M | 2026-06 | 84 | Closed-weight API |
-| [OpenAI: GPT-5.3 Chat](closed/gpt-5.3-chat.md) | openai | 128K | $1.75+$14.00/M | 2026-04 | 84 | GPT-5.3 Chat. 128K ctx |
-| [OpenAI: o4 Mini Deep Research](closed/o4-mini-deep-research.md) | openai | 200K | $2.00+$8.00/M | 2026-05 | 83 | O4 Mini Deep Research. 200K ctx |
 | [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.43+$0.87/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx |
 | [Google: Gemini 3 Flash Preview](closed/gemini-3-flash-preview.md) | google | 1M | $0.50+$3.00/M | 2026-06 | 82 | Gemini 3 Flash preview. 1M ctx |
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API |
@@ -102,11 +95,9 @@
 | [Mercury 2.5](closed/mercury-2.5.md) | Inception | 260K | $0.04+$0.15/M | 2026-09 | 72 | Fastest reasoning LLM - latest diffusion LLM (dLLM) from Inception. Parallel token generation. $0.04/$0.15, 260K ctx. Architectural breakthrough. Closed API. |
 | [Morph V3 Large](closed/morph-v3-large.md) | Morph | 262K | $0.90+$1.90/M | 2026-07 | 72 | Specialized code-edit model that applies AI-generated code changes to source files (~98% merge accuracy on complex multi-scope edits, 2500+ tok/s). YC S23, HN/community traction. Agentic coding tool-use. 81.9K input / 16K output tokens per request. $0.90/$1.90 on OpenRouter. |
 | [AionLabs Aion-3.0](closed/aion-3.0.md) | AionLabs | 131K | $3.00+$6.00/M | 2026-07 | 72 | AionLabs' AI-native coding model (YC/a16z-backed startup, strong HN/community buzz). Agentic code editing and tool-use focus. 128K ctx. API-only, closed weights. On OpenRouter: $3.00/$6.00. |
-| [KAT-Coder-Pro V2](closed/kat-coder-pro-v2.md) | KwaiKAT | 262K | $0.30+$1.20/M | 2026-03 | 72 | Enterprise-grade SWE and SaaS integration coding. Agentic coding strengths. ctx 256K->262K on Jul 29 |
 | [AionLabs: Aion 3.5 Mini](closed/aion-3.5-mini.md) | AionLabs | 262K | $0.70+$1.40/M | 2026-09 | 70 | Low-cost sibling of Aion 3.5; 256K ctx RP/storytelling system on GLM family; USD 0.7/1.4 per M; closed API |
 | [Muse Spark 1.3 Contributor](closed/muse-spark-1.3-contributor.md) | Meta | 1M | $0.10+$0.20/M | 2026-09 | 70 | Cost-efficient contributor tier of Muse Spark 1.3 for experimentation/learning/agent sub-tasks. 1M ctx. Ultra-cheap $0.10/$0.20. Closed API. |
 | [Sakana Namazu](closed/sakana-namazu.md) | Sakana AI | 262K | $0.95+$4.00/M | 2026-08 | 70 | Japanese-culture-specialized reasoning model, built on Kimi K2.6. Live on OpenRouter Aug 11. High-performance Japanese + strong agent execution in Sakana Chat (file output, agent workflows). 262K ctx. $0.95/$4.00 on OpenRouter. Sakana AI flagship (Fugu Ultra = closed multi-agent routing engine). |
 | [Space Bunny Alpha](closed/space-bunny-alpha.md) | Stealth | 1M | $0.00+$0.00/M | 2026-09 | 68 | Anonymous multimodal text+image+video-to-text model; 1M ctx; fast inference strong coding claims; USD 0/0 free preview with no open weights found on HF; created on OR Sep 23; unverified stealth listing; may vanish pivot like the Union-Alpha/Pareto entries |
-| [KAT-Coder-Air V2.5](closed/kat-coder-air-v2.5.md) | KwaiKAT | 256K | $0.15+$0.60/M | 2026-07 | 68 | Air tier coding model. V2.5 update. Lighter SWE tasks. 256K ctx |
 | [AionLabs: Aion 3.0 Mini](closed/aion-3.0-mini.md) | AionLabs | 131K | $0.70+$1.40/M | 2026-07 | 68 | Cheap tier of Aion 3.0 DeepSeek-family RP/storytelling system; 128K ctx; USD 0.7/1.4 per M; closed API; companion to tracked aion-3.0 |
 | [Mercury 2](closed/mercury-2.md) | Inception | 128K | $0.25+$0.75/M | 2026-03 | 68 | First reasoning diffusion LLM. 1000+ tok/s on Blackwell GPUs (5x faster than autoregressive). Tunable reasoning depth. Native tool use. Real-time agent latency. Architectural breakthrough |
