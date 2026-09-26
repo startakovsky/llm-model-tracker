@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-97 models. Sorted by quality score.
+98 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -101,3 +101,4 @@
 | [Space Bunny Alpha](closed/space-bunny-alpha.md) | Stealth | 1M | $0.00+$0.00/M | 2026-09 | 68 | Anonymous multimodal text+image+video-to-text model; 1M ctx; fast inference strong coding claims; USD 0/0 free preview with no open weights found on HF; created on OR Sep 23; unverified stealth listing; may vanish pivot like the Union-Alpha/Pareto entries |
 | [AionLabs: Aion 3.0 Mini](closed/aion-3.0-mini.md) | AionLabs | 131K | $0.70+$1.40/M | 2026-07 | 68 | Cheap tier of Aion 3.0 DeepSeek-family RP/storytelling system; 128K ctx; USD 0.7/1.4 per M; closed API; companion to tracked aion-3.0 |
 | [Mercury 2](closed/mercury-2.md) | Inception | 128K | $0.25+$0.75/M | 2026-03 | 68 | First reasoning diffusion LLM. 1000+ tok/s on Blackwell GPUs (5x faster than autoregressive). Tunable reasoning depth. Native tool use. Real-time agent latency. Architectural breakthrough |
+| [Perceptron Mk1.5](closed/perceptron-mk1.5.md) | Perceptron Inc | 36K | $0.15+$1.50/M | 2026-09 | 60 | Embodied reasoning model for physical agents (robotics/video). Perceptron Inc's most performant public model; adds multiple embodiments + net-new capabilities to Mk1 family. Promoted live on OpenRouter Sep 25 (OpenRouter X + Perceptron LinkedIn). 36K ctx. $0.15/$1.50. Closed API; no open weights on HF. |
