@@ -25,7 +25,7 @@ Released August 14, 2026. Reuses the same 743B (753B/40B MoE) base model as GLM-
 
 ## Availability
 - **Now:** Z.ai API, GLM Coding Plan, ZCode — works with Claude Code / OpenCode.
-- **OpenRouter:** **Live Aug 19 at $1.40/$4.40 per M** (prompt/completion, 1M ctx). Artificial Analysis Intelligence Index ~59.5 (in line with GPT-5.6 Sol ~60). Context listed at 1.31M on OpenRouter as of Aug 29.
+- **OpenRouter:** **$1.40/$4.40 per M** (prompt/completion, 1M ctx; volatile — swung $0.38–$1.40 since launch). Artificial Analysis Intelligence Index ~59.5 (in line with GPT-5.6 Sol ~60). Context listed at 1.31M on OpenRouter as of Aug 29.
 - **Weights:** **RELEASED Aug ~28 — zai-org/GLM-5.3 now on HuggingFace** (~1,230 likes, 8.8K downloads, safetensors + transformers). No longer API-only.
 
 ## Classification

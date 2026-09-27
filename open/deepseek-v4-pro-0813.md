@@ -26,7 +26,7 @@ The official general-availability (GA) build of DeepSeek's frontier open-weight 
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4-pro-0813) | $0.435 | $0.87 | 1M | New GA endpoint; cheaper than deepseek-v4-pro ($1.168/$2.336) |
+| OpenRouter (deepseek/deepseek-v4-pro-0813) | $0.245 | $3.50 | 1M | Sep 27: completion spiked +342% from $0.792; prompt -7% |
 | DeepSeek API | varies | varies | 1M | Peak/off-peak pricing introduced Aug 2026 |
 
 Note: DeepSeek announced (Reuters, Aug 13) upcoming API price increases for V4-Pro/V4-Flash effective Aug 16, including peak/off-peak tiers — watch this if relying on the API route; the open weights are unaffected.
