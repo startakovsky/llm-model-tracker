@@ -77,7 +77,7 @@
 | [Palmyra X5](closed/palmyra-x5.md) | Writer | 1M | $0.60+$6.00/M | 2026-09 | 79 | Writer's most advanced enterprise agent model (build/scale AI agents). 1.04M ctx. $0.6/$6.0 on OpenRouter. Closed API. |
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | 79 | Plus tier. 1M ctx. Closed-weight API |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | 78 | Flash variant. 1M ctx. Closed-weight API |
-| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.21+$0.84/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) |
+| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.30+$1.20/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) |
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
 | [AionLabs: Aion 3.5](closed/aion-3.5.md) | AionLabs | 262K | $3.00+$6.00/M | 2026-09 | 77 | Aion Labs flagship multi-model roleplaying/storytelling system built on the GLM family; 256K ctx; USD  3/6 per M same as 3.0 with 2x ctx; closed API |
