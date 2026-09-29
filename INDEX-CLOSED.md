@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-98 models. Sorted by quality score.
+99 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -17,8 +17,9 @@
 | [Fugu Ultra v2](closed/fugu-ultra-v2.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-09 | 94 | Learned multi-agent orchestration engine, higher-performance tier of the Fugu family. 1M ctx. $5/$30 on OpenRouter (same as Fugu Ultra v1). Closed API. |
 | [GPT-5.4 Pro](closed/gpt-5.4-pro.md) | OpenAI | 1M | $30.00+$180.00/M | 2026-05 | 94 | Pro reasoning |
 | [Fugu Ultra](closed/fugu-ultra.md) | Sakana AI | 1M | $5.00+$30.00/M | 2026-06 | 93 | Multi-agent orchestration engine. Dynamically routes to frontier models. 93.2 LiveCodeBench, 95.5 GPQA, 73.7 SWE-bench Pro. Matches Fable 5 without it in pool |
-| [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-06 | 93 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5) |
+| [GPT-5.6 Sol Pro](closed/gpt-5.6-sol-pro.md) | OpenAI | 1M | $4.00+$20.00/M | 2026-06 | 93 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5) [Sep 29] Price up +100%/+100% to $4.00/$20.00 (from $2/$10; doubles, diverges from Sol $2/$10) |
 | [Claude Opus 4.7](closed/claude-opus-4.7.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-05 | 93 | Flagship Opus |
+| [Claude Sonnet 5.5](closed/claude-sonnet-5.5.md) | Anthropic | 1M | $2.00+$10.00/M | 2026-09 | 92 | New Anthropic Sonnet flagship (Sep 28). AA Intelligence Index 56 (#2, 2 pts behind Opus 5.5 max). Terminal-Bench 4.0 64% (beats Opus 5.5 & GPT-6 Astra at 60%); parity with Opus 5.5 on agentic/knowledge benchmarks. Fast latency, adaptive thinking, 1M ctx, 128K max output. $2/$10 on OpenRouter (same as Sonnet 5, matches GPT-6 Sol). Heaviest token use measured (~193k output tok/task at max effort, ~7x GPT-6 Astra) -> cost/task ~50% higher than Sonnet 5; sits off Pareto frontier at most effort levels. |
 | [GPT-5.6 Sol](closed/gpt-5.6-sol.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-06 | 92 | Price up +100% to $2.00/$10.00 on Aug 23 (reverses Aug 22 cut to $1/$5). Thinking slider |
 | [O3 Pro](closed/o3-pro.md) | OpenAI | 200K | $20.00+$80.00/M | 2026-04 | 92 | Reasoning |
 | [Claude Opus 4.6](closed/claude-opus-4.6.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-04 | 92 | Flagship Opus. Context expanded to 1M |
@@ -26,7 +27,7 @@
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 91 | Fable tier |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | 91 | Flagship |
 | [GLM-5.3 Prime](closed/glm-5.3-prime.md) | Z.ai | 1M | $2.80+$8.80/M | 2026-09 | 90 | Higher-throughput premium served tier of GLM-5.3 (743B/40B MoE, same base as open-weight GLM-5.3). Built for complex software engineering and long-horizon agent tasks. 1M ctx. $2.8/$8.8. Closed API serving tier. |
-| [Grok 4.7](closed/grok-4.7.md) | xAI | 500K | $1.60+$4.80/M | 2026-09 | 90 | xAI's most capable model for coding and knowledge work (launched Sep 21). Works longer on hard tasks, checks its own work. Twice as fast at half the price of comparable models. 500K ctx. $1.60/$4.80 on OpenRouter. Closed API. |
+| [Grok 4.7](closed/grok-4.7.md) | xAI | 500K | $2.00+$6.00/M | 2026-09 | 90 | xAI's most capable model for coding and knowledge work (launched Sep 21). Works longer on hard tasks, checks its own work. Twice as fast at half the price of comparable models. 500K ctx. $1.60/$4.80 on OpenRouter. Closed API. [Sep 29] Price up +25%/+25% to $2.00/$6.00 (from $1.6/$4.8; returns to Grok 4.5/4.6 parity) |
 | [Fugu Max](closed/fugu-max.md) | Sakana AI | 1M | $2.00+$6.00/M | 2026-09 | 90 | Cost-performance tier of the Fugu multi-agent orchestration family. 1M ctx. $2/$6 on OpenRouter. Closed API. |
 | [Grok 4.6](closed/grok-4.6.md) | xAI | 500K | $2.00+$6.00/M | 2026-08 | 90 | AA Intelligence Index 61, in line with GPT-5.6 Sol, just ahead of Kimi K3, behind only Anthropic (Opus 5 63, Fable 5 62). GDPval-AA v2 Elo 1753 behind only Opus 5. Terminal-Bench v2.1 88.4%, tau3-Banking 50.7% (top 2). 500k ctx. Flat $2/$6 pricing, cache hits $0.5/M. Cost/task $0.84 (Pareto frontier; 60%+ below Opus 5/5.6 Sol) |
 | [GPT-5.6 Luna Pro](closed/gpt-5.6-luna-pro.md) | OpenAI | 1M | $0.20+$1.20/M | 2026-07 | 90 | Luna with pro reasoning mode. Price +100%/+100% to $0.20/$1.20 on Aug 17 (reverts Aug 1 cut) |
@@ -77,7 +78,7 @@
 | [Palmyra X5](closed/palmyra-x5.md) | Writer | 1M | $0.60+$6.00/M | 2026-09 | 79 | Writer's most advanced enterprise agent model (build/scale AI agents). 1.04M ctx. $0.6/$6.0 on OpenRouter. Closed API. |
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | 79 | Plus tier. 1M ctx. Closed-weight API |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | 78 | Flash variant. 1M ctx. Closed-weight API |
-| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.30+$1.20/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) |
+| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.21+$0.84/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) [Sep 29] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; reverts Sep 28 up) |
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
 | [AionLabs: Aion 3.5](closed/aion-3.5.md) | AionLabs | 262K | $3.00+$6.00/M | 2026-09 | 77 | Aion Labs flagship multi-model roleplaying/storytelling system built on the GLM family; 256K ctx; USD  3/6 per M same as 3.0 with 2x ctx; closed API |
