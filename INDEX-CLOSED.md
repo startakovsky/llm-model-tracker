@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-99 models. Sorted by quality score.
+101 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -10,6 +10,8 @@
 | [Claude Opus 5.5](closed/claude-opus-5.5.md) | Anthropic | 1M | $4.00+$20.00/M | 2026-09 | 97 | New Anthropic flagship (Sep 22). Performs at Claude Fable 5.1 level on most tasks at 40% lower cost than Opus 5 ($4/$20 vs $5/$25). First release since Anthropic called for frontier-lab coordination. 1M ctx. Live on OpenRouter Sep 22 at $4/$20. Closed API. |
 | [Claude Fable 5.1](closed/claude-fable-5.1.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-09 | 97 | Fable 5.1 improves on Fable 5 across the board; biggest gains in agentic coding and long-running agentic workflows. 1M ctx. Live ~Sep 16 at $10/$50. Closed API. |
 | [Claude Opus 5](closed/claude-opus-5.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-07 | 96 | New Anthropic flagship (Jul 24). Approaches Fable 5 capability at half the price ($5/$25, same as Opus 4.8). Default for Claude Max. Effort dial. Most-aligned Opus. 1M ctx. 4th Claude 5 model in <2 months |
+| [GPT-6.1 Sol](closed/gpt-6.1-sol.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 95 | GPT-6.1 Sol: OpenAI DevDay launch (Sep 29). Near-Astra intelligence at 1/5 the price - matches GPT-6 Astra on DeepSWE v1.1, beats Opus 5.5 on GDP.pdf/AutomationBench, >2x GPT-6 Sol on Terminal-Bench Science; cached input $0.10/M (95% below standard, 50% below GPT-6 Sol). $2/$10, 1.05M ctx. GPT-6.1 Astra scrapped over safety. |
+| [GPT-6.1 Sol Pro](closed/gpt-6.1-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 95 | GPT-6.1 Sol served with reasoning.mode=pro (max reasoning effort), same underlying model and pricing ($2/$10). Closed API. |
 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 95 | Flagship |
 | [Claude Opus 4.8](closed/claude-opus-4.8.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-06 | 95 | Flagship Opus |
 | [GPT-6 Sol](closed/gpt-6-sol.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 94 | GPT-6 Sol: OpenAI mid-tier with more reasoning capability, aimed at recurring coding/agent work (Sonnet-class). Introduced with Luna Sep 22; slashes API costs vs Astra. 1.05M ctx. $2/$10. Closed API. |
