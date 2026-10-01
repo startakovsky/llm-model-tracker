@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-101 models. Sorted by quality score.
+102 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -43,6 +43,7 @@
 | [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.20+$1.20/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price +100%/+100% to $0.20/$1.20 on Aug 17 (reverts Aug 1 cut) |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [GPT-5 Pro](closed/gpt-5-pro.md) | OpenAI | 400K | $15.00+$120.00/M | 2026-02 | 88 | Pro reasoning |
+| [Pareto 26.10 Preview](closed/pareto-26.10-preview.md) | Unbiased | 1M | $0.80+$3.20/M | 2026-10 | 87 | Next snapshot of Unbiased's blended Pareto composite (follows Pareto 26.9). First seen on OpenRouter Oct 1 at $0.80/$3.20, 1M ctx. Closed API. |
 | [Pareto 26.9](closed/pareto.md) | Unbiased | 262K | $2.50+$7.50/M | 2026-09 | 87 | Blended composite model from Unbiased (unbiased.ai): engages multiple LLMs in parallel per request, synthesizes one answer (text+vision). Surfaced Sep 17 as Unbiased's Pareto 26.9, a day after the Union Alpha stealth listing stopped serving. $2.5/$7.5 on OpenRouter, 262K ctx. Closed API. |
 | [Gemini 3.8 Flash](closed/gemini-3.8-flash.md) | Google | 1M | $0.75+$3.75/M | 2026-09 | 87 | Google's most intelligent Flash model; significant gains over 3.7 Flash in SWE, agentic tasks, long-horizon. Multimodal. 1M ctx. Live ~Sep 16 at $0.75/$3.75 (parity with 3.7 Flash). Closed API. |
 | [Muse Spark 1.2](closed/muse-spark-1.2.md) | Meta | 1M | $1.25+$4.25/M | 2026-08 | 87 | Coding-optimized multimodal reasoning model (Meta's 3rd release in 4 months). Powers new Muse Code terminal agent + Meta Model API, expanded global access. 70.6% on Meta internal coding benchmark (beats GPT-5.6 Terra 65.4%, Gemini 3.6 Flash). 54 Artificial Analysis Index. 1M ctx. $1.25/$4.25 on OpenRouter (same price as 1.1) |
