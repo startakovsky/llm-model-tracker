@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-102 models. Sorted by quality score.
+103 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -95,6 +95,7 @@
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
 | [Qwen3.8 Flash](closed/qwen3.8-flash.md) | Alibaba | 1M | $0.15+$0.47/M | 2026-08 | 74 | Production managed tier of the Qwen3.8 line (Qwen4 architecture), 1M ctx default, built-in tools. Live on OpenRouter Aug 26 at $0.15/$0.47. Strong at agentic/long-horizon at low cost. Closed API; open sibling is Qwen3.8-Flash-Next (research preview). |
 | [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | 74 | Flash tier. 1M ctx. Closed-weight API |
+| [Ling 3.1 Flash](closed/ling-3.1-flash.md) | inclusionAI | 262K | $0.00+$0.00/M | 2026-09 | 72 | 560B/25B MoE hybrid reasoning from Ant Group InclusionAI (Sep 30), for coding/tool-use/planning/agent workflows. 1M ctx design, capped 262K during free trial. Weights NOT published on HF as of Sep 30 (open-sourcing planned after trial) -> closed. Live on OpenRouter Oct 2 at $0/$0 free intro (reported list $0.075/$0.22); Vercel AI Gateway same day. No external benchmarks yet; only self-reported CyberGym 87.9%. |
 | [Qwen3.8 Omni Flash](closed/qwen3.8-omni-flash.md) | Alibaba | 1M | $0.15+$0.47/M | 2026-09 | 72 | Native omni-modal (text+image+audio) flash tier of Qwen3.8 line on Qwen4 architecture; improves multimodal understanding/reasoning and long-horizon agentic tasks (arXiv 2609.25611). 1M ctx. $0.15/$0.47. Closed managed API. |
 | [Mercury 2.5](closed/mercury-2.5.md) | Inception | 260K | $0.04+$0.15/M | 2026-09 | 72 | Fastest reasoning LLM - latest diffusion LLM (dLLM) from Inception. Parallel token generation. $0.04/$0.15, 260K ctx. Architectural breakthrough. Closed API. |
 | [Morph V3 Large](closed/morph-v3-large.md) | Morph | 262K | $0.90+$1.90/M | 2026-07 | 72 | Specialized code-edit model that applies AI-generated code changes to source files (~98% merge accuracy on complex multi-scope edits, 2500+ tok/s). YC S23, HN/community traction. Agentic coding tool-use. 81.9K input / 16K output tokens per request. $0.90/$1.90 on OpenRouter. |
