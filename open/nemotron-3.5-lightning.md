@@ -18,7 +18,7 @@ Open-weight model from **NVIDIA**. Weights on HuggingFace (BF16 + NVFP4).
 - **Context length:** 262K
 - **License:** OpenMDW-1.1
 - **Category:** Lightweight
-- **OpenRouter price:** $0.10 + $0.25/M
+- **OpenRouter price:** $0.0595 + $0.17/M
 
 ## Architecture
 - **30B total / 3B active** MoE (Nemotron-H architecture)
@@ -30,7 +30,7 @@ Open-weight model from **NVIDIA**. Weights on HuggingFace (BF16 + NVFP4).
 - **~90% of Nemotron 3.5-class capability at self-hostable size** — a fraction of the cost of frontier-class models.
 - High-throughput agentic workloads and specialized tasks.
 - Open weights + datasets + recipes (OpenMDW-1.1); full GGUF quant ecosystem (ggml-org, bartowski, unsloth, MTP quants) and MLX (Apple Silicon) released Aug 11-12, 2026 — strong community traction.
-- On OpenRouter at $0.10/$0.25 per M — competitive with Gemma 4 26B and Qwen3 Next 80B pricing.
+- On OpenRouter at $0.0595/$0.17 per M — competitive with Gemma 4 26B and Qwen3 Next 80B pricing.
 - Runs on a single 96GB GPU (or less with quants), fitting the "self-hostable" lightweight tier.
 
 ## Cost/Quality

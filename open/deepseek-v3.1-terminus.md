@@ -24,7 +24,7 @@ Open-weight model from **deepseek**. Weights on HuggingFace.
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context |
 |---|---|---|---|
-| OpenRouter (deepseek/deepseek-v3.1-terminus) | $0.2700 | $1.0000 | 131K |
+| OpenRouter (deepseek/deepseek-v3.1-terminus) | $0.27 | $1.00 | 131K |
 
 ## Self-Hosting
 Open weights make this self-hostable. Confirm exact parameter count and architecture on the HuggingFace model card before speccing hardware. See sibling detail files in this tracker for quantization guidance on comparable models.
