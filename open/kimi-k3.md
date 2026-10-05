@@ -6,7 +6,7 @@
 | **OpenRouter ID** | `moonshotai/kimi-k3` |
 | **License** | MIT |
 | **Release date** | 2026-07-14 |
-| **Pricing** | $0.99 / $13.00 per M tokens (OpenRouter) |
+| **Pricing** | $0.67 / $14.00 per M tokens (OpenRouter) |
 | **Context** | 1,048,576 (1M) |
 | **Category** | Frontier (open) |
 | **Quality score** | 93 |

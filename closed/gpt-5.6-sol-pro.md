@@ -19,8 +19,9 @@ sources:
 - **OpenRouter ID:** `openai/gpt-5.6-sol-pro`
 
 ## Pricing (OpenRouter)
-- **Prompt:** $5.00/M tokens
-- **Completion:** $30.00/M tokens
+- **Prompt:** $2.00/M tokens
+- **Completion:** $10.00/M tokens
+- Oct 5: reverted Aug 23 doubling back to Sol parity $2/$10 (from $4/$20).
 
 ## Notes
 Solid reasoning
