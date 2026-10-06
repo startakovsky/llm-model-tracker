@@ -19,8 +19,8 @@ sources:
 - **OpenRouter ID:** `qwen/qwen3.5-397b-a17b`
 
 ## Pricing (OpenRouter)
-- **Prompt:** $0.50/M tokens
-- **Completion:** $3.60/M tokens
+- **Prompt:** $0.45/M tokens
+- **Completion:** $3.00/M tokens
 
 ## Notes
-397B/17B MoE. Price up +28%/+54% to $0.50/$3.60 on Aug 9 (OpenRouter API)
+397B/17B MoE. [Oct 6] Price down -18.2%/-14.3% to $0.45/$3.00 (from $0.55/$3.50; drift)

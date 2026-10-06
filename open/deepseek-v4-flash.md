@@ -50,7 +50,7 @@ llama serve -hf unsloth/DeepSeek-V4-Flash-GGUF:UD-Q4_K_XL
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4-flash) | $0.14 | $0.28 | 1,048,576 | Base ID at surge pricing since Jul 26 |
+| OpenRouter (deepseek/deepseek-v4-flash) | $0.0041 | $1.28 | 1,048,576 | Oct 6: prompt down -86.3% to $0.0041, completion steady $1.28 (DeepSeek volatility) |
 | OpenRouter (deepseek/deepseek-v4-flash-0731) | $0.09 | $0.18 | 1,048,576 | 0731 re-post-trained revision; non-surge pricing restored |
 
 ## Quality Benchmarks

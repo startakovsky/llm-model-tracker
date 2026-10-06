@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | **Org** | Meta (Meta Superintelligence Labs) |
-| **OpenRouter ID** | `meta/muse-glimmer-30b` — live on OpenRouter at $0.35/$1.50 (as of Aug 11 2026); also self-hostable |
+| **OpenRouter ID** | `meta/muse-glimmer-30b` — live on OpenRouter at $0.30/$1.20 (as of Oct 6 2026); also self-hostable |
 | **License** | Apache 2.0 |
 | **Release date** | 2026-08-10 |
-| **Pricing** | $0.35 / $1.50 per M tokens on OpenRouter (live Aug 11); free + open weights on HuggingFace (local deployment) |
+| **Pricing** | $0.30 / $1.20 per M tokens on OpenRouter (Oct 6, down -14.3%/-20% from $0.35/$1.50); free + open weights on HuggingFace (local deployment) |
 | **Context** | 131,072 (128K+) |
 | **Category** | Self-hostable (open) |
 | **Quality score** | 68 |
