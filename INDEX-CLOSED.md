@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-103 models. Sorted by quality score.
+104 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -80,6 +80,7 @@
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
 | [Palmyra X5](closed/palmyra-x5.md) | Writer | 1M | $0.60+$6.00/M | 2026-09 | 79 | Writer's most advanced enterprise agent model (build/scale AI agents). 1.04M ctx. $0.6/$6.0 on OpenRouter. Closed API. |
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | 79 | Plus tier. 1M ctx. Closed-weight API |
+| [Nano Banana 2.1](closed/gemini-nano-banana-2.1.md) | Google | 65K | $1.50+$7.50/M | 2026-10 | 78 | Google's latest Nano Banana image-generation model (follows Nano Banana 2 / Gemini 3.1 Flash Image). Released Oct 6 2026. 64K ctx. Live on OpenRouter at $1.50/$7.50. Closed/API-only |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | 78 | Flash variant. 1M ctx. Closed-weight API |
 | [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.21+$0.84/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) [Sep 29] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; reverts Sep 28 up) |
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
