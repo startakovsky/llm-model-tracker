@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-104 models. Sorted by quality score.
+106 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -71,6 +71,7 @@
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
 | [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 81 | Closed-weight API |
+| [Step 5 Preview](closed/step-5-preview.md) | StepFun | 1M | $1.00+$2.70/M | 2026-10 | 80 | StepFun flagship for agentic work. 600B/27B active sparse MoE. Strong SWE + professional knowledge, particular strength in finance; multi-step tool use over large codebases/docs. 83.75% Kingbench. 1M ctx. $1.00/$2.70 on OpenRouter. Weights drop Oct 15 (currently closed preview). |
 | [Ember-1](closed/ember-1.md) | Fireworks | 1M | $3.00+$15.00/M | 2026-09 | 80 | Fireworks Research specialized reasoning model built on Kimi K3; produces ~40% fewer tokens (shorter reasoning traces) for cheaper token-efficient inference. 1M ctx. $3/$15. Closed API. |
 | [Upstage Solar Pro 4](closed/solar-pro4.md) | Upstage | 524K | $0.09+$0.36/M | 2026-08 | 80 | First Korean model on OpenRouter. Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. $0.03/$0.12 is 90% launch promo through Sep 10 (base $0.30/$1.20). OR id corrected to upstage/solar-pro4 [Sep 16] Promo window ended Sep 10; price now $0.09/$0.36 (from promo $0.03/$0.12; still below base $0.30/$1.20) [Sep 16] Promo ended Sep 10; now $0.09/$0.36 (from $0.03/$0.12 promo; below base $0.30/$1.20) |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
@@ -90,8 +91,9 @@
 | [Gemini 3.5 Flash Lite](closed/gemini-3.5-flash-lite.md) | Google | 1M | $0.30+$2.50/M | 2026-07 | 76 | High-efficiency with upgraded agentic capabilities. Suited for subagents in multi-agent workflows. Multimodal. 1M ctx |
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 262K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency. ctx 256K->262K on Jul 29 |
 | [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | 76 | Plus tier. 1M ctx. Closed-weight API |
+| [Claude Haiku 5.5](closed/claude-haiku-5.5.md) | Anthropic | 1M | $0.10+$0.50/M | 2026-10 | 75 | New Anthropic small/fast model (Oct 7). First Haiku with adjustable effort + adaptive thinking (on by default, cannot disable). 1M ctx, text+image. Strong coding/computer-use/knowledge. $0.10/$0.50 on OpenRouter (matches GPT-6 Luna); 5x price bump to $0.50/$2.50 beyond 100K tokens; new tokenizer ~1.25x heavier. ~75% cheaper than Haiku 4.5. Built for high-volume subagent/summarization/browser-use work. |
 | [Qwen3.7 Flash](closed/qwen3.7-flash.md) | Alibaba | 1M | $0.03+$0.13/M | 2026-07 | 75 | Flash tier. Vision-language reasoning. 1M ctx. Ultra-cheap at $0.03/$0.13. Closed-weight API. Open weights pending. Benchmarks not yet published |
-| [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 262K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths |
+| [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 262K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths [Oct 8] Removed from OpenRouter (listing dropped). |
 | [Grok Build 0.1](closed/grok-build-0.1.md) | xAI | 256K | $1.00+$2.00/M | 2026-05 | 75 | Fast coding model for agentic SWE workflows. Interactive coding |
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
 | [Qwen3.8 Flash](closed/qwen3.8-flash.md) | Alibaba | 1M | $0.15+$0.47/M | 2026-08 | 74 | Production managed tier of the Qwen3.8 line (Qwen4 architecture), 1M ctx default, built-in tools. Live on OpenRouter Aug 26 at $0.15/$0.47. Strong at agentic/long-horizon at low cost. Closed API; open sibling is Qwen3.8-Flash-Next (research preview). |
