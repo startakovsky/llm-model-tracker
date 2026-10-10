@@ -58,7 +58,7 @@
 | [Grok 4.3](closed/grok-4.3.md) | xAI | 1M | $1.25+$2.50/M | 2026-04 | 86 | Reasoning model. High factual accuracy. 1M ctx. Agentic workflows |
 | [OpenAI: GPT-5.3-Codex](closed/gpt-5.3-codex.md) | openai | 400K | $1.75+$14.00/M | 2026-04 | 86 | GPT-5.3 Codex. 400K ctx |
 | [Google: Gemini 2.5 Pro](closed/gemini-2.5-pro.md) | google | 1M | $1.25+$10.00/M | 2026-01 | 86 | Gemini 2.5 Pro. 1M ctx. Older gen |
-| [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.03+$6.16/M | 2026-06 | 85 | Closed-weight preview. Price -1.3% to $1.03/$6.16 on Jul 29 |
+| [Qwen3.6 Max Preview](closed/qwen3.6-max-preview.md) | Alibaba | 262K | $1.03+$6.16/M | 2026-06 | 85 | Closed-weight preview. Price -1.3% to $1.03/$6.16 on Jul 29 [Oct 10] Removed from OpenRouter (listing dropped). |
 | [Claude Sonnet 5](closed/claude-sonnet-5.md) | Anthropic | 1M | $2.00+$10.00/M | 2026-06 | 85 | Sonnet |
 | [OpenAI: GPT-5.4 Mini](closed/gpt-5.4-mini.md) | openai | 400K | $0.75+$4.50/M | 2026-05 | 85 | GPT-5.4 Mini. 400K ctx |
 | [Grok 4.20](closed/grok-4.20.md) | xAI | 2M | $1.25+$2.50/M | 2026-03 | 85 | Lowest hallucination rate. 2M ctx. Agentic tool calling |
@@ -68,15 +68,15 @@
 | [Qwen3.7 Max](closed/qwen3.7-max.md) | Alibaba | 1M | $1.48+$4.42/M | 2026-06 | 84 | Closed-weight API |
 | [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.43+$0.87/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx |
 | [Google: Gemini 3 Flash Preview](closed/gemini-3-flash-preview.md) | google | 1M | $0.50+$3.00/M | 2026-06 | 82 | Gemini 3 Flash preview. 1M ctx |
-| [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API |
+| [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
-| [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 81 | Closed-weight API |
+| [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 81 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
 | [Step 5 Preview](closed/step-5-preview.md) | StepFun | 1M | $1.00+$2.70/M | 2026-10 | 80 | StepFun flagship for agentic work. 600B/27B active sparse MoE. Strong SWE + professional knowledge, particular strength in finance; multi-step tool use over large codebases/docs. 83.75% Kingbench. 1M ctx. $1.00/$2.70 on OpenRouter. Weights drop Oct 15 (currently closed preview). |
 | [Ember-1](closed/ember-1.md) | Fireworks | 1M | $3.00+$15.00/M | 2026-09 | 80 | Fireworks Research specialized reasoning model built on Kimi K3; produces ~40% fewer tokens (shorter reasoning traces) for cheaper token-efficient inference. 1M ctx. $3/$15. Closed API. |
 | [Upstage Solar Pro 4](closed/solar-pro4.md) | Upstage | 524K | $0.09+$0.36/M | 2026-08 | 80 | First Korean model on OpenRouter. Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. $0.03/$0.12 is 90% launch promo through Sep 10 (base $0.30/$1.20). OR id corrected to upstage/solar-pro4 [Sep 16] Promo window ended Sep 10; price now $0.09/$0.36 (from promo $0.03/$0.12; still below base $0.30/$1.20) [Sep 16] Promo ended Sep 10; now $0.09/$0.36 (from $0.03/$0.12 promo; below base $0.30/$1.20) |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
 | [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.14+$0.28/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx |
-| [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | 80 | Closed-weight API |
+| [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | 80 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
 | [OpenAI: GPT-5.4 Image 2](closed/gpt-5.4-image-2.md) | openai | 272K | $8.00+$15.00/M | 2026-05 | 80 | GPT-5.4 Image. 272K ctx |
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
 | [Palmyra X5](closed/palmyra-x5.md) | Writer | 1M | $0.60+$6.00/M | 2026-09 | 79 | Writer's most advanced enterprise agent model (build/scale AI agents). 1.04M ctx. $0.6/$6.0 on OpenRouter. Closed API. |
