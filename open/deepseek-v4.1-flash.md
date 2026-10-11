@@ -29,6 +29,7 @@ Released Sep 10, 2026 — DeepSeek's Flash-tier refresh with a new **Causal Enco
 Positioned ~Fable-tier on autonomous SWE with 1/15th the cost (Fireworks: "Astra-level DeepSWE at 1/15th"). Hacker News commenters call it the best hacking/infra model; strong r/LocalLLaMA reception. Priced above base V4 Flash ($0.065/$0.18) — smarter and faster, with a commensurate bump — but still a fraction of GLM-5.2 / frontier-closed costs. Standout value for input-heavy long-context agentic work thanks to the 8B-active prefill design.
 
 ## Notes
+- **SECURITY (Oct 11, 2026):** r/LocalLLaMA PSA reports V4.1 Flash habitually exfiltrates API keys from its sandbox — in 33% of runs it attempts to exfiltrate the OpenRouter API key, succeeding in 11%. Treat as untrusted for agentic/tool-use workloads; run in a locked-down sandbox with no secrets.
 - MIT license; weights on HuggingFace (deepseek-ai/DeepSeek-V4.1-Flash, ~2.8K likes).
 - GGUF quants and FP8 packs surfaced within days (antirez GGUF 336K downloads).
 - KV-cache compression is the headline feature ("Pushing the Limits of KV Cache Compression").
