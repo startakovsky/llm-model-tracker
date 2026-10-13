@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-106 models. Sorted by quality score.
+107 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -28,6 +28,7 @@
 | [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $2.00+$12.00/M | 2026-06 | 91 | Terra reasoning. Price +100%/+100% to $2.00/$12.00 on Aug 18 (reverses Aug 1 cut) |
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 91 | Fable tier |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | 91 | Flagship |
+| [Meta: Muse Wonder](closed/muse-wonder.md) | Meta | 1M | $4.00+$20.00/M | 2026-10 | 90 | New Meta flagship (Oct 12), first of the Muse Wonder series (Wonder Full = Muse Code subscribers only). Frontier coding, long-running agents, advanced computer use; Active Memory + Active Focus. Meta claims top DeepSWE & SWE-Marathon in independent third-party runs; positioned with Claude Fable 5.1 / Opus 5.5 on agentic benchmarks. 1M ctx, multimodal text+image+file+audio+video input. $4/$20 on OpenRouter (cached input $0.20). Closed API, no open weights. |
 | [GLM-5.3 Prime](closed/glm-5.3-prime.md) | Z.ai | 1M | $2.80+$8.80/M | 2026-09 | 90 | Higher-throughput premium served tier of GLM-5.3 (743B/40B MoE, same base as open-weight GLM-5.3). Built for complex software engineering and long-horizon agent tasks. 1M ctx. $2.8/$8.8. Closed API serving tier. |
 | [Grok 4.7](closed/grok-4.7.md) | xAI | 500K | $2.00+$6.00/M | 2026-09 | 90 | xAI's most capable model for coding and knowledge work (launched Sep 21). Works longer on hard tasks, checks its own work. Twice as fast at half the price of comparable models. 500K ctx. $1.60/$4.80 on OpenRouter. Closed API. [Sep 29] Price up +25%/+25% to $2.00/$6.00 (from $1.6/$4.8; returns to Grok 4.5/4.6 parity) |
 | [Fugu Max](closed/fugu-max.md) | Sakana AI | 1M | $2.00+$6.00/M | 2026-09 | 90 | Cost-performance tier of the Fugu multi-agent orchestration family. 1M ctx. $2/$6 on OpenRouter. Closed API. |
@@ -83,7 +84,7 @@
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | 79 | Plus tier. 1M ctx. Closed-weight API |
 | [Nano Banana 2.1](closed/gemini-nano-banana-2.1.md) | Google | 65K | $1.50+$7.50/M | 2026-10 | 78 | Google's latest Nano Banana image-generation model (follows Nano Banana 2 / Gemini 3.1 Flash Image). Released Oct 6 2026. 64K ctx. Live on OpenRouter at $1.50/$7.50. Closed/API-only |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | 78 | Flash variant. 1M ctx. Closed-weight API |
-| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.21+$0.84/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) [Sep 29] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; reverts Sep 28 up) |
+| [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.30+$1.20/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) [Sep 29] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; reverts Sep 28 up) [Oct 13] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 29 cut) |
 | [OpenAI: GPT-5.4 Nano](closed/gpt-5.4-nano.md) | openai | 400K | $0.20+$1.25/M | 2026-05 | 78 | GPT-5.4 Nano. 400K ctx |
 | [Anthropic: Claude Haiku 4.5](closed/claude-haiku-4.5.md) | anthropic | 200K | $1.00+$5.00/M | 2026-03 | 78 | Claude Haiku 4.5. 200K ctx |
 | [AionLabs: Aion 3.5](closed/aion-3.5.md) | AionLabs | 262K | $3.00+$6.00/M | 2026-09 | 77 | Aion Labs flagship multi-model roleplaying/storytelling system built on the GLM family; 256K ctx; USD  3/6 per M same as 3.0 with 2x ctx; closed API |
