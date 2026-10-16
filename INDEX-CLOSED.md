@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-108 models. Sorted by quality score.
+107 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -45,9 +45,9 @@
 | [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.20+$1.20/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price +100%/+100% to $0.20/$1.20 on Aug 17 (reverts Aug 1 cut) |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [GPT-5 Pro](closed/gpt-5-pro.md) | OpenAI | 400K | $15.00+$120.00/M | 2026-02 | 88 | Pro reasoning |
-| [Pareto 26.10 Preview](closed/pareto-26.10-preview.md) | Unbiased | 1M | $0.80+$3.20/M | 2026-10 | 87 | Next snapshot of Unbiased's blended Pareto composite (follows Pareto 26.9). First seen on OpenRouter Oct 1 at $0.80/$3.20, 1M ctx. Closed API. |
+| [Pareto 26.10 Preview](closed/pareto-26.10-preview.md) | Unbiased | 1M | $0.80+$3.20/M | 2026-10 | 87 | Next snapshot of Unbiased's blended Pareto composite (follows Pareto 26.9). First seen on OpenRouter Oct 1 at $0.80/$3.20, 1M ctx. Closed API. [Oct 16] Removed from OpenRouter (listing dropped). |
 | [Pareto 26.9](closed/pareto-26.9.md) | Unbiased | 262K | $2.50+$7.50/M | 2026-09 | 87 | Blended composite model from Unbiased (unbiased.ai): engages multiple LLMs in parallel per request, synthesizes one answer (text+vision). Surfaced Sep 17 as Unbiased's Pareto 26.9, a day after the Union Alpha stealth listing stopped serving. $2.5/$7.5 on OpenRouter, 262K ctx. Closed API. [Oct 14] re-listed on OpenRouter as unbiased/pareto-26.9 (base id unbiased/pareto dropped) |
-| [Gemini 3.8 Flash](closed/gemini-3.8-flash.md) | Google | 1M | $0.75+$3.75/M | 2026-09 | 87 | Google's most intelligent Flash model; significant gains over 3.7 Flash in SWE, agentic tasks, long-horizon. Multimodal. 1M ctx. Live ~Sep 16 at $0.75/$3.75 (parity with 3.7 Flash). Closed API. |
+| [Gemini 3.8 Flash](closed/gemini-3.8-flash.md) | Google | 1M | $0.82+$4.12/M | 2026-09 | 87 | Google's most intelligent Flash model; significant gains over 3.7 Flash in SWE, agentic tasks, long-horizon. Multimodal. 1M ctx. Live ~Sep 16 at $0.75/$3.75 (parity with 3.7 Flash). Closed API. [Oct 16] Price up +10%/+10% to $0.825/$4.125 (from $0.75/$3.75; price bump) |
 | [Muse Spark 1.2](closed/muse-spark-1.2.md) | Meta | 1M | $1.25+$4.25/M | 2026-08 | 87 | Coding-optimized multimodal reasoning model (Meta's 3rd release in 4 months). Powers new Muse Code terminal agent + Meta Model API, expanded global access. 70.6% on Meta internal coding benchmark (beats GPT-5.6 Terra 65.4%, Gemini 3.6 Flash). 54 Artificial Analysis Index. 1M ctx. $1.25/$4.25 on OpenRouter (same price as 1.1) |
 | [xAI: Grok 4.20 Multi-Agent](closed/grok-4.20-multi-agent.md) | x-ai | 2M | $1.25+$2.50/M | 2026-07 | 87 | Grok 4.20 multi-agent. 2M ctx |
 | [Gemini 3.5 Flash](closed/gemini-3.5-flash.md) | Google | 1M | $1.50+$9.00/M | 2026-05 | 87 | Near-Pro coding at Flash-tier cost. Parallel agentic execution. 1M ctx |
@@ -73,7 +73,6 @@
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
 | [Qwen3 Max](closed/qwen3-max.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 81 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
-| [Step 5 Preview](closed/step-5-preview.md) | StepFun | 1M | $1.00+$2.70/M | 2026-10 | 80 | StepFun flagship for agentic work. 600B/27B active sparse MoE. Strong SWE + professional knowledge, particular strength in finance; multi-step tool use over large codebases/docs. 83.75% Kingbench. 1M ctx. $1.00/$2.70 on OpenRouter. Weights drop Oct 15 (currently closed preview). |
 | [Ember-1](closed/ember-1.md) | Fireworks | 1M | $3.00+$15.00/M | 2026-09 | 80 | Fireworks Research specialized reasoning model built on Kimi K3; produces ~40% fewer tokens (shorter reasoning traces) for cheaper token-efficient inference. 1M ctx. $3/$15. Closed API. |
 | [Upstage Solar Pro 4](closed/solar-pro4.md) | Upstage | 524K | $0.09+$0.36/M | 2026-08 | 80 | First Korean model on OpenRouter. Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. $0.03/$0.12 is 90% launch promo through Sep 10 (base $0.30/$1.20). OR id corrected to upstage/solar-pro4 [Sep 16] Promo window ended Sep 10; price now $0.09/$0.36 (from promo $0.03/$0.12; still below base $0.30/$1.20) [Sep 16] Promo ended Sep 10; now $0.09/$0.36 (from $0.03/$0.12 promo; below base $0.30/$1.20) |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
