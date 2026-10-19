@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-107 models. Sorted by quality score.
+109 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -45,7 +45,7 @@
 | [GPT-5.6 Luna](closed/gpt-5.6-luna.md) | OpenAI | 1M | $0.20+$1.20/M | 2026-07 | 88 | Fast cost-efficient GPT-5.6 tier. 1.05M ctx. Price +100%/+100% to $0.20/$1.20 on Aug 17 (reverts Aug 1 cut) |
 | [Grok 4.5](closed/grok-4.5.md) | xAI | 500K | $2.00+$6.00/M | 2026-07 | 88 | xAI smartest model. Frontier coding and STEM |
 | [GPT-5 Pro](closed/gpt-5-pro.md) | OpenAI | 400K | $15.00+$120.00/M | 2026-02 | 88 | Pro reasoning |
-| [Pareto 26.10 Preview](closed/pareto-26.10-preview.md) | Unbiased | 1M | $0.80+$3.20/M | 2026-10 | 87 | Next snapshot of Unbiased's blended Pareto composite (follows Pareto 26.9). First seen on OpenRouter Oct 1 at $0.80/$3.20, 1M ctx. Closed API. [Oct 16] Removed from OpenRouter (listing dropped). |
+| [Pareto 26.10](closed/pareto-26.10.md) | Unbiased | 1M | $0.80+$3.20/M | 2026-10 | 87 | Next snapshot of Unbiased's blended Pareto composite (follows Pareto 26.9). GA on OpenRouter Oct 15 at $0.80/$3.20, 1M ctx (replaces 26.10 Preview). Closed API. |
 | [Pareto 26.9](closed/pareto-26.9.md) | Unbiased | 262K | $2.50+$7.50/M | 2026-09 | 87 | Blended composite model from Unbiased (unbiased.ai): engages multiple LLMs in parallel per request, synthesizes one answer (text+vision). Surfaced Sep 17 as Unbiased's Pareto 26.9, a day after the Union Alpha stealth listing stopped serving. $2.5/$7.5 on OpenRouter, 262K ctx. Closed API. [Oct 14] re-listed on OpenRouter as unbiased/pareto-26.9 (base id unbiased/pareto dropped) |
 | [Gemini 3.8 Flash](closed/gemini-3.8-flash.md) | Google | 1M | $0.82+$4.12/M | 2026-09 | 87 | Google's most intelligent Flash model; significant gains over 3.7 Flash in SWE, agentic tasks, long-horizon. Multimodal. 1M ctx. Live ~Sep 16 at $0.75/$3.75 (parity with 3.7 Flash). Closed API. [Oct 16] Price up +10%/+10% to $0.825/$4.125 (from $0.75/$3.75; price bump) |
 | [Muse Spark 1.2](closed/muse-spark-1.2.md) | Meta | 1M | $1.25+$4.25/M | 2026-08 | 87 | Coding-optimized multimodal reasoning model (Meta's 3rd release in 4 months). Powers new Muse Code terminal agent + Meta Model API, expanded global access. 70.6% on Meta internal coding benchmark (beats GPT-5.6 Terra 65.4%, Gemini 3.6 Flash). 54 Artificial Analysis Index. 1M ctx. $1.25/$4.25 on OpenRouter (same price as 1.1) |
@@ -82,6 +82,8 @@
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
 | [Palmyra X5](closed/palmyra-x5.md) | Writer | 1M | $0.60+$6.00/M | 2026-09 | 79 | Writer's most advanced enterprise agent model (build/scale AI agents). 1.04M ctx. $0.6/$6.0 on OpenRouter. Closed API. |
 | [Qwen3.6 Plus](closed/qwen3.6-plus.md) | Alibaba | 1M | $0.33+$1.95/M | 2026-06 | 79 | Plus tier. 1M ctx. Closed-weight API |
+| [Mercury 3](closed/mercury-3.md) | Inception | 1M | $0.10+$0.35/M | 2026-10 | 78 | Mercury 3 diffusion LLM (Inception Labs): 1M ctx, $0.10/$0.35 on OpenRouter Oct 16. New generation of the ultra-fast reasoning-diffusion line (after Mercury 2.5). API only; no weights. |
+| [Glimpse](closed/glimpse.md) | Elorian | 262K | $0.60+$3.00/M | 2026-10 | 78 | Elorian's first model: vision-reasoning - reasons with images, not just about them (TechCrunch Oct 16). 262K ctx, $0.60/$3.00 via Together/OpenRouter. Closed API. |
 | [Nano Banana 2.1](closed/gemini-nano-banana-2.1.md) | Google | 65K | $1.50+$7.50/M | 2026-10 | 78 | Google's latest Nano Banana image-generation model (follows Nano Banana 2 / Gemini 3.1 Flash Image). Released Oct 6 2026. 64K ctx. Live on OpenRouter at $1.50/$7.50. Closed/API-only |
 | [Qwen3.6 Flash](closed/qwen3.6-flash.md) | Alibaba | 1M | $0.19+$1.12/M | 2026-06 | 78 | Flash variant. 1M ctx. Closed-weight API |
 | [MiniMax: MiniMax M2.7](closed/minimax-m2.7.md) | minimax | 204K | $0.30+$1.20/M | 2026-06 | 78 | Price down -20% to $0.24/$0.96 on Aug 23 (reverses Aug 9 +11%) Price up +25%/+25% to $0.30/$1.20 on Aug 25 (reverses Aug 23 cut back to pre-cut level) [Sep 27] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; price cut) [Sep 28] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 27 cut) [Sep 29] Price down -30%/-30% to $0.21/$0.84 (from $0.30/$1.20; reverts Sep 28 up) [Oct 13] Price up +42.9%/+42.9% to $0.30/$1.20 (from $0.21/$0.84; reverts Sep 29 cut) |
