@@ -68,7 +68,7 @@
 | [GPT-6 Luna](closed/gpt-6-luna.md) | OpenAI | 1M | $0.10+$0.50/M | 2026-09 | 84 | GPT-6 Luna: cheap high-volume fast tier of GPT-6 (~140 tok/s), optimized for extraction/summarization; Sol has more reasoning. Per VentureBeat slashes API costs 50%+. 1.05M ctx. $0.1/$0.5. Closed API. |
 | [GPT-6 Luna Pro](closed/gpt-6-luna-pro.md) | OpenAI | 1M | $0.10+$0.50/M | 2026-09 | 84 | GPT-6 Luna served with reasoning.mode=pro, same underlying model and pricing ($0.1/$0.5). Closed API. |
 | [Qwen3.7 Max](closed/qwen3.7-max.md) | Alibaba | 1M | $1.48+$4.42/M | 2026-06 | 84 | Closed-weight API |
-| [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.43+$0.87/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx |
+| [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.30+$0.61/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx Price down -30%/-30% to $0.3045/$0.609 (from $0.435/$0.87) [Oct 21] |
 | [Google: Gemini 3 Flash Preview](closed/gemini-3-flash-preview.md) | google | 1M | $0.50+$3.00/M | 2026-06 | 82 | Gemini 3 Flash preview. 1M ctx |
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
@@ -76,7 +76,7 @@
 | [Ember-1](closed/ember-1.md) | Fireworks | 1M | $3.00+$15.00/M | 2026-09 | 80 | Fireworks Research specialized reasoning model built on Kimi K3; produces ~40% fewer tokens (shorter reasoning traces) for cheaper token-efficient inference. 1M ctx. $3/$15. Closed API. |
 | [Upstage Solar Pro 4](closed/solar-pro4.md) | Upstage | 524K | $0.15+$0.60/M | 2026-08 | 80 | First Korean model on OpenRouter. Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. $0.03/$0.12 is 90% launch promo through Sep 10 (base $0.30/$1.20). OR id corrected to upstage/solar-pro4 [Sep 16] Promo window ended Sep 10; price now $0.09/$0.36 (from promo $0.03/$0.12; still below base $0.30/$1.20) [Sep 16] Promo ended Sep 10; now $0.09/$0.36 (from $0.03/$0.12 promo; below base $0.30/$1.20) [Oct 20] Price up +66.7%/+66.7% to $0.15/$0.60 (from $0.09/$0.36; promo fully ended) |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
-| [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.14+$0.28/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx |
+| [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.12+$0.24/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx Price down -15%/-15% to $0.119/$0.238 (from $0.14/$0.28) [Oct 21] |
 | [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | 80 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). |
 | [OpenAI: GPT-5.4 Image 2](closed/gpt-5.4-image-2.md) | openai | 272K | $8.00+$15.00/M | 2026-05 | 80 | GPT-5.4 Image. 272K ctx |
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
