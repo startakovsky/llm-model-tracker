@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-109 models. Sorted by quality score.
+110 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -11,6 +11,7 @@
 | [Claude Fable 5.1](closed/claude-fable-5.1.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-09 | 97 | Fable 5.1 improves on Fable 5 across the board; biggest gains in agentic coding and long-running agentic workflows. 1M ctx. Live ~Sep 16 at $10/$50. Closed API. |
 | [Gemini 4 Argon](closed/gemini-4-argon.md) | Google | 1M | $2.00+$10.00/M | 2026-10 | 96 | New Google frontier flagship, first of the Gemini 4 family (Oct 13). Built for deep multi-step work across coding/finance/legal/cyber/science; #1 Vals Index; CWE-Bench v1 68% (tie-first); leads Gray Swan IPI (0.7% success) and Harvey Legal Agent Benchmark. Multimodal, 1M unified I/O ctx. Intro pricing $2/$10 through Nov 30, 2026 (then $4/$20), cached input 95% off. On OpenRouter at $2/$10, 1M ctx. Closed API. |
 | [Claude Opus 5](closed/claude-opus-5.md) | Anthropic | 1M | $5.00+$25.00/M | 2026-07 | 96 | New Anthropic flagship (Jul 24). Approaches Fable 5 capability at half the price ($5/$25, same as Opus 4.8). Default for Claude Max. Effort dial. Most-aligned Opus. 1M ctx. 4th Claude 5 model in <2 months |
+| [Kimi K3.1 Pro](closed/kimi-k3.1-pro.md) | Moonshot AI | 1M | $2.00+$10.00/M | 2026-10 | 95 | Kimi K3.1 Pro (Oct 23). Moonshot most capable 3T-class model; AA Intelligence Index 55 (#4 overall; top open-weights score once weights drop; +11 over Kimi K3). 2.8T total/104B active, 1M ctx, text+image. 3rd GDPval-AA (1846 Elo, +312 vs K3); #1 Terminal-Bench 4.0 (67%, ahead of Sonnet 5.5 64%); AutomationBench-AA 58%->73%. HLE 52%. Cost/task ~$1.98 (~K3 parity; 33% lower token prices, 14% more output tokens). $2/$10 on OpenRouter (cached $0.20; 33% below K3, matches GPT-6.1 Sol, half Opus 5.5). Weights NOT yet published - expected Nov 4, 2026 (HF repos gated/401). Highspeed tier 2-3x faster at 2x price. |
 | [GPT-6.1 Sol](closed/gpt-6.1-sol.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 95 | GPT-6.1 Sol: OpenAI DevDay launch (Sep 29). Near-Astra intelligence at 1/5 the price - matches GPT-6 Astra on DeepSWE v1.1, beats Opus 5.5 on GDP.pdf/AutomationBench, >2x GPT-6 Sol on Terminal-Bench Science; cached input $0.10/M (95% below standard, 50% below GPT-6 Sol). $2/$10, 1.05M ctx. GPT-6.1 Astra scrapped over safety. |
 | [GPT-6.1 Sol Pro](closed/gpt-6.1-sol-pro.md) | OpenAI | 1M | $2.00+$10.00/M | 2026-09 | 95 | GPT-6.1 Sol served with reasoning.mode=pro (max reasoning effort), same underlying model and pricing ($2/$10). Closed API. |
 | [GPT-5.5](closed/gpt-5.5.md) | OpenAI | 1M | $5.00+$30.00/M | 2026-06 | 95 | Flagship |
