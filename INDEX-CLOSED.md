@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-110 models. Sorted by quality score.
+112 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -30,6 +30,8 @@
 | [GPT-5.6 Terra Pro](closed/gpt-5.6-terra-pro.md) | OpenAI | 1M | $2.00+$12.00/M | 2026-06 | 91 | Terra reasoning. Price +100%/+100% to $2.00/$12.00 on Aug 18 (reverses Aug 1 cut) |
 | [Claude Fable 5](closed/claude-fable-5.md) | Anthropic | 1M | $10.00+$50.00/M | 2026-06 | 91 | Fable tier |
 | [GPT-5.4](closed/gpt-5.4.md) | OpenAI | 1M | $2.50+$15.00/M | 2026-05 | 91 | Flagship |
+| [GPT-6.1 Terra](closed/gpt-6.1-terra.md) | OpenAI | 1M | $1.00+$5.00/M | 2026-10 | 90 | OpenAI workday model (Oct 26), successor to GPT-5.6 Terra. Fast, efficient; detailed visual reasoning + precise computer use + clearer natural writing. Computer use: +15 pts over GPT-5.6 Terra at medium effort on Agents' Last Exam at ~1/3 cost; on par with GPT-6 Astra at 1/10 price. Error rate on internal benchmark 53.6%->16.7% at low effort (->4.3% at max). Terminal-Bench 4.0 50.3% at max effort (vs 21.5% GPT-5.6 Terra). Standard API $1/$5 (50% below GPT-5.6 Terra and GPT-6.1 Sol); cached input $0.05. 1.05M ctx. Closed API. |
+| [GPT-6.1 Terra Pro](closed/gpt-6.1-terra-pro.md) | OpenAI | 1M | $1.00+$5.00/M | 2026-10 | 90 | GPT-6.1 Terra served with reasoning.mode=pro (max reasoning effort), same underlying model and pricing ($1/$5). 1.05M ctx. Closed API. |
 | [Meta: Muse Wonder](closed/muse-wonder.md) | Meta | 1M | $4.00+$20.00/M | 2026-10 | 90 | New Meta flagship (Oct 12), first of the Muse Wonder series (Wonder Full = Muse Code subscribers only). Frontier coding, long-running agents, advanced computer use; Active Memory + Active Focus. Meta claims top DeepSWE & SWE-Marathon in independent third-party runs; positioned with Claude Fable 5.1 / Opus 5.5 on agentic benchmarks. 1M ctx, multimodal text+image+file+audio+video input. $4/$20 on OpenRouter (cached input $0.20). Closed API, no open weights. |
 | [GLM-5.3 Prime](closed/glm-5.3-prime.md) | Z.ai | 1M | $2.80+$8.80/M | 2026-09 | 90 | Higher-throughput premium served tier of GLM-5.3 (743B/40B MoE, same base as open-weight GLM-5.3). Built for complex software engineering and long-horizon agent tasks. 1M ctx. $2.8/$8.8. Closed API serving tier. |
 | [Grok 4.7](closed/grok-4.7.md) | xAI | 500K | $2.00+$6.00/M | 2026-09 | 90 | xAI's most capable model for coding and knowledge work (launched Sep 21). Works longer on hard tasks, checks its own work. Twice as fast at half the price of comparable models. 500K ctx. $1.60/$4.80 on OpenRouter. Closed API. [Sep 29] Price up +25%/+25% to $2.00/$6.00 (from $1.6/$4.8; returns to Grok 4.5/4.6 parity) |
@@ -69,7 +71,7 @@
 | [GPT-6 Luna](closed/gpt-6-luna.md) | OpenAI | 1M | $0.10+$0.50/M | 2026-09 | 84 | GPT-6 Luna: cheap high-volume fast tier of GPT-6 (~140 tok/s), optimized for extraction/summarization; Sol has more reasoning. Per VentureBeat slashes API costs 50%+. 1.05M ctx. $0.1/$0.5. Closed API. |
 | [GPT-6 Luna Pro](closed/gpt-6-luna-pro.md) | OpenAI | 1M | $0.10+$0.50/M | 2026-09 | 84 | GPT-6 Luna served with reasoning.mode=pro, same underlying model and pricing ($0.1/$0.5). Closed API. |
 | [Qwen3.7 Max](closed/qwen3.7-max.md) | Alibaba | 1M | $1.48+$4.42/M | 2026-06 | 84 | Closed-weight API |
-| [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.30+$0.61/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx Price down -30%/-30% to $0.3045/$0.609 (from $0.435/$0.87) [Oct 21] |
+| [MiMo-V2.5-Pro](closed/mimo-v2.5-pro.md) | Xiaomi | 1M | $0.48+$1.80/M | 2026-04 | 83 | Xiaomi flagship. Strong agentic + SWE. Top ClawEval/GDPVal/SWE-bench Pro scores. ~1M ctx Price down -30%/-30% to $0.3045/$0.609 (from $0.435/$0.87) [Oct 21] [Oct 27] Price up +57.6%/+195.6% to $0.48/$1.80 (from $0.3045/$0.609; large repricing up) |
 | [Google: Gemini 3 Flash Preview](closed/gemini-3-flash-preview.md) | google | 1M | $0.50+$3.00/M | 2026-06 | 82 | Gemini 3 Flash preview. 1M ctx |
 | [Qwen3 Max Thinking](closed/qwen3-max-thinking.md) | Alibaba | 262K | $0.78+$3.90/M | 2026-05 | 82 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). [Oct 22] Delisted from OpenRouter. |
 | [Mistral Medium 3.5](closed/mistral-medium-3-5.md) | Mistral AI | 262K | $1.50+$7.50/M | 2026-04 | 82 | 128B dense. Agentic workflows, coding, complex reasoning. Text+image input |
@@ -77,7 +79,7 @@
 | [Ember-1](closed/ember-1.md) | Fireworks | 1M | $3.00+$15.00/M | 2026-09 | 80 | Fireworks Research specialized reasoning model built on Kimi K3; produces ~40% fewer tokens (shorter reasoning traces) for cheaper token-efficient inference. 1M ctx. $3/$15. Closed API. |
 | [Upstage Solar Pro 4](closed/solar-pro4.md) | Upstage | 524K | $0.15+$0.60/M | 2026-08 | 80 | First Korean model on OpenRouter. Flagship proprietary reasoning model replacing Solar Pro 3. 512K ctx. EN/KO/JA. AA Intelligence Index 45. $0.03/$0.12 is 90% launch promo through Sep 10 (base $0.30/$1.20). OR id corrected to upstage/solar-pro4 [Sep 16] Promo window ended Sep 10; price now $0.09/$0.36 (from promo $0.03/$0.12; still below base $0.30/$1.20) [Sep 16] Promo ended Sep 10; now $0.09/$0.36 (from $0.03/$0.12 promo; below base $0.30/$1.20) [Oct 20] Price up +66.7%/+66.7% to $0.15/$0.60 (from $0.09/$0.36; promo fully ended) |
 | [Qwen3.7 Plus](closed/qwen3.7-plus.md) | Alibaba | 1M | $0.32+$1.28/M | 2026-06 | 80 | Cost-effective Qwen3.7 tier. Text+image input. 1M ctx. Closed-weight API |
-| [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.12+$0.24/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx Price down -15%/-15% to $0.119/$0.238 (from $0.14/$0.28) [Oct 21] |
+| [Xiaomi: MiMo-V2.5](closed/mimo-v2.5.md) | xiaomi | 1M | $0.40+$2.00/M | 2026-06 | 80 | MiMo V2.5. ~1M ctx Price down -15%/-15% to $0.119/$0.238 (from $0.14/$0.28) [Oct 21] [Oct 27] Price up +236.1%/+740.3% to $0.40/$2.00 (from $0.119/$0.238; large repricing up) |
 | [Qwen3 Coder Plus](closed/qwen3-coder-plus.md) | Alibaba | 1M | $0.65+$3.25/M | 2026-05 | 80 | Closed-weight API [Oct 10] Removed from OpenRouter (listing dropped). [Oct 22] Delisted from OpenRouter. |
 | [OpenAI: GPT-5.4 Image 2](closed/gpt-5.4-image-2.md) | openai | 272K | $8.00+$15.00/M | 2026-05 | 80 | GPT-5.4 Image. 272K ctx |
 | [Google: Gemini 2.5 Flash](closed/gemini-2.5-flash.md) | google | 1M | $0.30+$2.50/M | 2026-01 | 80 | Gemini 2.5 Flash. 1M ctx. Older gen |
