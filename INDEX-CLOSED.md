@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-112 models. Sorted by quality score.
+113 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -102,6 +102,7 @@
 | [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 262K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths [Oct 8] Removed from OpenRouter (listing dropped). [Oct 22] Delisted from OpenRouter. |
 | [Grok Build 0.1](closed/grok-build-0.1.md) | xAI | 256K | $1.00+$2.00/M | 2026-05 | 75 | Fast coding model for agentic SWE workflows. Interactive coding |
 | [Gemini 3.1 Flash Lite](closed/gemini-3.1-flash-lite.md) | Google | 1M | $0.25+$1.50/M | 2026-05 | 75 | GA high-efficiency multimodal. Text/image/video/audio. 1M ctx. Lightweight agentic |
+| [Particle-1](closed/particle-1.md) | Particle AI | 1M | $0.25+$1.00/M | 2026-10 | 74 | Particle AI's first model (Suhail Doshi's new SF startup, launched Oct 28 2026). Token-efficient agentic coding model post-trained on DeepSeek V4.1 Flash. Cuts cost per coding task by ~34% per launch post. 1M ctx, text+image input, configurable reasoning (default high). $0.25/$1.00 on OpenRouter, cached input $0.03. |
 | [Qwen3.8 Flash](closed/qwen3.8-flash.md) | Alibaba | 1M | $0.15+$0.47/M | 2026-08 | 74 | Production managed tier of the Qwen3.8 line (Qwen4 architecture), 1M ctx default, built-in tools. Live on OpenRouter Aug 26 at $0.15/$0.47. Strong at agentic/long-horizon at low cost. Closed API; open sibling is Qwen3.8-Flash-Next (research preview). |
 | [Qwen3.5 Flash](closed/qwen3.5-flash-02-23.md) | Alibaba | 1M | $0.07+$0.26/M | 2026-02 | 74 | Flash tier. 1M ctx. Closed-weight API |
 | [Ling 3.1 Flash](closed/ling-3.1-flash.md) | inclusionAI | 1M | $0.07+$0.23/M | 2026-09 | 72 | 560B/25B MoE hybrid reasoning from Ant Group InclusionAI (Sep 30), for coding/tool-use/planning/agent workflows. 1M ctx design, capped 262K during free trial. Weights NOT published on HF as of Sep 30 (open-sourcing planned after trial) -> closed. Live on OpenRouter Oct 2 at $0/$0 free intro (reported list $0.075/$0.22); Vercel AI Gateway same day. No external benchmarks yet; only self-reported CyberGym 87.9%. [Oct 14] Free intro ended; now at list $0.075/$0.225 [Oct 28] ctx 262K->1M on OpenRouter (trial-period cap lifted) |
