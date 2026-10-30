@@ -1,17 +1,19 @@
 ---
 model: Mistral Large 4
 organization: Mistral AI
-license: Apache 2.0 (expected; weights drop end of Oct 2026)
+license: Apache 2.0
 release_date: 2026-10-06
-last_updated: 2026-10-06
+last_updated: 2026-10-30
 sources:
   - https://mistral.ai/news/mistral-large-4/
   - https://openrouter.ai/mistralai/mistral-large-4-0
+  - https://huggingface.co/mistralai/Mistral-Large-4
+  - https://huggingface.co/blog/mistral-large4
 ---
 
 # Mistral Large 4 (ML4 / "Le Chonk")
 
-Released Oct 6, 2026 — Mistral's largest and most capable model ever: a 1-trillion-parameter, 49B-active natively multimodal (text + image) MoE. Trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own European datacenters. Public preview on Mistral Studio + OpenRouter; **weights drop end of October 2026** (Apache 2.0 expected).
+Released Oct 6, 2026 — Mistral's largest and most capable model ever: a 1-trillion-parameter, 49B-active natively multimodal (text + image) MoE. Trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own European datacenters. **Weights released Oct 29, 2026** on HuggingFace (`mistralai/Mistral-Large-4`, gated access repo; `unsloth/Mistral-Large-4-1T-A52B-GGUF` quantized same week). As of Oct 29 it is the 5th best open-weights model on the Artificial Analysis Intelligence Index.
 
 ## Architecture
 - **Total params:** 1T (sparse MoE)
@@ -25,7 +27,7 @@ Released Oct 6, 2026 — Mistral's largest and most capable model ever: a 1-tril
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
 | Mistral Studio (list) | $1.36 | $4.18 | 524,288 | Launch list pricing |
-| OpenRouter (mistralai/mistral-large-4-0) | $0.68 | $2.09 | 524,288 | Oct 6 launch preview price (~half Mistral list) |
+| OpenRouter (mistralai/mistral-large-4-0) | $0.70 | $2.10 | 1,048,576 | Oct 30: cut ~-49%/-50% back to launch-preview level (from Oct 8's doubled $1.36/$4.18) alongside the weights release; ctx 1M on OR |
 
 ## Quality Assessment
 Positioned as the strongest open-weight model outside China — state-of-the-art among open weights on cybersecurity, finance, and law, and competitive with the global open frontier on coding/agentic work:
@@ -37,10 +39,10 @@ Positioned as the strongest open-weight model outside China — state-of-the-art
 - **Safety:** 93.3% on Lakera B3 (highest among competitors); KORA 1.691 (Mistral's highest)
 - **Math/Science:** SOTA open-weight on SciCode-Verified; one-shot full Hartree–Fock chemistry simulation
 
-At $0.68/$2.09 on OpenRouter it undercuts GLM-5.3 ($0.07/$7) and Kimi K3 ($0.83/$14) on prompt price while competing at the frontier — a strong European self-host candidate once weights drop. Cost/quality tradeoff: roughly GLM-5.3/Kimi-K3-class agentic capability at a fraction of the completion cost.
+At $0.70/$2.10 on OpenRouter it undercuts GLM-5.3 and Kimi K3 on prompt price while competing at the frontier — and with weights now live it is a first-class European self-host candidate (cybersecurity use is the standout reason, since open weights remove the refusal constraint that zeroes closed models on offensive-security evals). Cost/quality tradeoff: roughly GLM-5.3/Kimi-K3-class agentic capability at a fraction of the completion cost.
 
 ## Notes
 - Nicknamed "le Chonk" by Mistral.
 - Trained on Mistral's own infrastructure; €3B Series D (largest equity round ever by a European tech company) funding further scale-up.
 - Will be the foundation for a new generation of specialized Mistral models.
-- Classified `open` (announced open-weight, Apache 2.0 planned) — weights not yet on HuggingFace as of Oct 6; verify on release.
+- Classified `open` (Apache 2.0). Weights live on HF Oct 29 (gated repo — request access, like Llama); GGUF/FP8 quants from Unsloth same week.
