@@ -1,6 +1,6 @@
 # Closed-Source LLM Index
 
-114 models. Sorted by quality score.
+115 models. Sorted by quality score.
 
 | Model | Org | Context | OR Price | Released | Score | Notes |
 |---|---|---|---|---|---|---|
@@ -97,6 +97,7 @@
 | [Gemini 3.5 Flash Lite](closed/gemini-3.5-flash-lite.md) | Google | 1M | $0.30+$2.50/M | 2026-07 | 76 | High-efficiency with upgraded agentic capabilities. Suited for subagents in multi-agent workflows. Multimodal. 1M ctx |
 | [Step 3.7 Flash](closed/step-3.7-flash.md) | StepFun | 262K | $0.20+$1.15/M | 2026-05 | 76 | 196B/11B MoE multimodal. Native image+video understanding. High-efficiency. ctx 256K->262K on Jul 29 |
 | [Qwen3.5 Plus (Feb)](closed/qwen3.5-plus-02-15.md) | Alibaba | 1M | $0.26+$1.56/M | 2026-02 | 76 | Plus tier. 1M ctx. Closed-weight API |
+| [GLM-5.3-FlashX Legal](closed/glm-5.3-flashx-legal.md) | Z.ai | 1M | $0.37+$1.25/M | 2026-11 | 75 | Legal-domain variant of GLM-5.3-FlashX (mid-training + RL post-training for contract review, evidence analysis, compliance research). Multimodal base, 1M ctx, same pricing as FlashX ($0.37/$1.25). Live on OpenRouter Nov 2. Weights not yet public. |
 | [Claude Haiku 5.5](closed/claude-haiku-5.5.md) | Anthropic | 1M | $0.10+$0.50/M | 2026-10 | 75 | New Anthropic small/fast model (Oct 7). First Haiku with adjustable effort + adaptive thinking (on by default, cannot disable). 1M ctx, text+image. Strong coding/computer-use/knowledge. $0.10/$0.50 on OpenRouter (matches GPT-6 Luna); 5x price bump to $0.50/$2.50 beyond 100K tokens; new tokenizer ~1.25x heavier. ~75% cheaper than Haiku 4.5. Built for high-volume subagent/summarization/browser-use work. |
 | [Qwen3.7 Flash](closed/qwen3.7-flash.md) | Alibaba | 1M | $0.03+$0.13/M | 2026-07 | 75 | Flash tier. Vision-language reasoning. 1M ctx. Ultra-cheap at $0.03/$0.13. Closed-weight API. Open weights pending. Benchmarks not yet published |
 | [KAT-Coder-Pro V2.5](closed/kat-coder-pro-v2.5.md) | KwaiKAT | 262K | $0.74+$2.96/M | 2026-07 | 75 | Enterprise-grade SWE and SaaS integration coding. V2.5 update. Agentic coding strengths [Oct 8] Removed from OpenRouter (listing dropped). [Oct 22] Delisted from OpenRouter. |
