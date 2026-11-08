@@ -53,7 +53,7 @@ Unsloth Dynamic 2.0 quants — calibrated on real-world use-case datasets, impor
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (qwen/qwen3.6-27b) | $0.29 | $2.40 | 256K | Created 2026-04-27 |
+| OpenRouter (qwen/qwen3.6-27b) | $0.32 | $3.20 | 256K | [Nov 8] Prompt -28.9%, completion +18.5% from $0.45/$2.70 |
 
 ## Quality Assessment
 Qwen3.6-27B is a standout dense model — it achieves 77.2% SWE-bench Verified (vs GLM-5.2's 82.8%), 59.3 Terminal-Bench 2.0 (vs GLM-5.2's 81.0), and 48.2 on SkillsBench (beating Claude 4.5 Opus's 45.3). At 93% of GLM-5.2's SWE-bench score while being a 27B dense model that runs on 18GB RAM, it is the best local self-hostable coding model in its weight class.

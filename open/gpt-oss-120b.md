@@ -46,7 +46,7 @@ OpenAI's first open-weight model release, part of the GPT-OSS family. Native MoE
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (openai/gpt-oss-120b) | $0.03 | $0.15 | 128K | Very cheap |
+| OpenRouter (openai/gpt-oss-120b) | $0.026 | $0.096 | 128K | [Nov 8] +73%/+68% from $0.015/$0.057 |
 | OpenRouter (free) | $0 | $0 | 128K | Rate-limited free tier |
 
 ## Quality Benchmarks

@@ -22,7 +22,7 @@ Released Oct 17, 2026 — a minor checkpoint update to **DeepSeek V4.1 Flash** (
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4.1-flash-1017) | $0.15 | $0.60 | 1,048,576 | Oct 17: launches at parity with base V4.1 Flash ($0.15/$0.60) |
+| OpenRouter (deepseek/deepseek-v4.1-flash-1017) | $0.006 | $0.50 | 1,048,576 | [Nov 8] Prompt -96%, completion -16.7% from $0.15/$0.60 (massive prompt cut) |
 
 ## Quality Assessment
 DeepSeek frames 1017 as a Pareto improvement: stronger benchmark performance, faster task completion, and shorter outputs than the base V4.1 Flash. Reported 77.0 on DeepSWE-Open. Uses RL with self-feedback to improve end-to-end project development (from game creation to 3D modeling). Same price point as V4.1 Flash — a free quality bump for anyone already on the V4.1 Flash line.

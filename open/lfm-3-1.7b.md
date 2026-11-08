@@ -17,6 +17,7 @@ First release of Liquid AI's new-generation LFM3 family (Oct 27, 2026): six open
 - Open weights on HuggingFace (`LiquidAI/LFM3-1.7B`, Liquid custom license; 47.8K downloads, 1.4K likes).
 - Also on Liquid's Playground; LFM3-VL-2B (1.92B, on-device image/video understanding, 128K ctx) is listed on LM Studio.
 - Not on OpenRouter (self-host / playground only) — tracked as a lightweight release with 0/0 API placeholder.
+- [Nov 7] Now live on OpenRouter as `liquid/lfm-3-1.7b` at $0.08/$0.20 (262K ctx); `:free` variant also available.
 
 ## Key signals
 - Real community traction for a 2B-class release (HF blog, LM Studio support, 1.4K likes in a week).

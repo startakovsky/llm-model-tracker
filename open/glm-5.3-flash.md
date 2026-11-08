@@ -11,7 +11,7 @@ last_updated: 2026-09-17
 Z.ai model, first seen on OpenRouter this cycle (~2026-09-16). open weights (MIT).
 
 ## Availability
-- OpenRouter id `z-ai/glm-5.3-flash` at $0.045/0.14 per M (Sep 27; volatile), 1310720 context.
+- OpenRouter id `z-ai/glm-5.3-flash` at $0.0335/0.083 per M (Nov 8; big cut from $0.15/$0.50), 1310720 context.
 
 ## Classification
 `open weights` (MIT). Quality score 79.

@@ -22,7 +22,7 @@ A re-post-trained revision of DeepSeek V4 Flash, dated July 31, 2026. Same archi
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4-flash-0731) | $0.0134 | $1.28 | 1,048,576 | [Oct 6] Prompt $0.0134, completion $1.28 (down -11.8% from $0.0152) |
+| OpenRouter (deepseek/deepseek-v4-flash-0731) | $0.0434 | $0.30 | 1,048,576 | [Nov 8] Prompt $0.0434 (completion steady $0.30) |
 | OpenRouter (~deepseek/deepseek-v4-flash-latest) | $0.0134 | $1.28 | 1,048,576 | Alias that redirects to the latest V4 Flash (currently 0731) |
 
 ## Quality Assessment

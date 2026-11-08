@@ -24,7 +24,7 @@ Open-weight model from **moonshotai**. Weights on HuggingFace.
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context |
 |---|---|---|---|
-| OpenRouter (moonshotai/kimi-k2.5) | $0.5700 | $2.8500 | 262K |
+| OpenRouter (moonshotai/kimi-k2.5) | $0.532 | $3.325 | 262K | [Nov 8] +6.4%/+33% from $0.50/$2.50 |
 
 ## Self-Hosting
 Open weights exist, but this is a large frontier-class model — self-hosting requires substantial multi-GPU or multi-node hardware (see comparable frontier models in this tracker for GGUF/NVFP4 options).
