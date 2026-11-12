@@ -15,7 +15,7 @@ sources:
 First post-trained model built on ERNIE-5.5-Flash-Base (280B total / 14B active sparse MoE, base released Nov 5, 2026). New Baidu architecture; r/LocalLLaMA reports it suitable for 32GB VRAM + 128GB RAM systems.
 
 ## Availability
-- Free preview on OpenRouter (`baidu/ernie-5.5-flash-preview:free`), live Nov 10, 1.024M ctx.
+- Free preview on OpenRouter (`baidu/ernie-5.5-flash-preview:free`), live Nov 10, 1.024M ctx. **[Nov 12] Base id dropped from OpenRouter; only the `:free` variant remains.**
 - Base weights open on HuggingFace: `baidu/ERNIE-5.5-Flash-Base` (BF16 variant too).
 - Preview weights not yet published; full ERNIE 5.5 Flash release expected by Nov 25.
 

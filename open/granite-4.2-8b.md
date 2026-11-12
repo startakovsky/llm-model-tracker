@@ -25,7 +25,7 @@ IBM's Granite 4.2 lightweight 8.8B dense model, the mid-2026 refresh of the Gran
 ## Pricing (OpenRouter)
 | Provider | Prompt $/M | Completion $/M | Context |
 |---|---|---|---|
-| OpenRouter (ibm-granite/granite-4.2-8b) | $0.10 | $0.15 | 131,072 |
+| OpenRouter (ibm-granite/granite-4.2-8b) | $0.06 | $0.15 | 131,072 | [Nov 12] Completion -40% to $0.15 (reverts Nov 4 up) |
 
 ## Quality Assessment
 Entry point to IBM's enterprise Granite family. ~8.8B dense, Apache 2.0, cheap ($0.10/$0.15/M). Not frontier — below Granite 4.1-class enterprise tuning on complex reasoning but solid for document classification, summarization, extraction, and cost-sensitive enterprise tasks. Value proposition is license simplicity and negligible cost, not raw capability. ~50% of GLM-5.2-class quality at ~1/40th the price.

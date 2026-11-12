@@ -24,7 +24,7 @@ Open-weight model from **qwen**. Weights on HuggingFace.
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context |
 |---|---|---|---|
-| OpenRouter (qwen/qwen3-14b) | $0.1200 | $0.2400 | 131K |
+| OpenRouter (qwen/qwen3-14b) | $0.1200 | $0.2400 | 41K |
 
 ## Self-Hosting
 Open weights make this self-hostable. Confirm exact parameter count and architecture on the HuggingFace model card before speccing hardware. See sibling detail files in this tracker for quantization guidance on comparable models.

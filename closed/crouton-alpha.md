@@ -14,7 +14,7 @@ sources:
 Anonymous "stealth" model surfaced on OpenRouter Nov 3, 2026 — a lightweight model pitched for scalable coding, agentic, and multimodal workflows: agent sub-tasks, tool use, and document analysis in high-volume repeated work. Free to use (7-day free window per launch material), 1M ctx. Follows the same pattern as the earlier Space Bunny Alpha stealth listing: created anonymously, free, buzz-driven, may vanish or pivot without notice.
 
 ## Availability
-- `stealth/crouton-alpha` on OpenRouter at **$0/$0** (free preview window), 1M ctx, max completion 943,718.
+- `stealth/crouton-alpha` on OpenRouter at **$0/$0** (free preview window), 1M ctx, max completion 943,718. **[Nov 12] Delisted from OpenRouter — the free 7-day window ended and the listing was removed, as anticipated for stealth listings.**
 - Multimodal input (text+image+file+audio+video) -> text output.
 - No weights on HuggingFace; no company identity disclosed.
 

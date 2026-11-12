@@ -19,8 +19,8 @@ sources:
 - **OpenRouter ID:** `openai/gpt-5.6-sol`
 
 ## Pricing (OpenRouter)
-- **Prompt:** $5.00/M tokens
-- **Completion:** $30.00/M tokens
+- **Prompt:** $4.40/M tokens
+- **Completion:** $22.00/M tokens
 
 ## Notes
 Solid

@@ -45,7 +45,7 @@ Smaller sibling of GPT-OSS-120B. 32-expert MoE with only 3B active params. Desig
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (openai/gpt-oss-20b) | $0.029 | $0.14 | 128K | |
+| OpenRouter (openai/gpt-oss-20b) | $0.03 | $0.13 | 128K | [Nov 12] Up +66.7%/+44.4% (reverts Nov 11 cut; oscillation) |
 | OpenRouter (free) | $0 | $0 | 128K | Rate-limited |
 
 ## Quality Benchmarks

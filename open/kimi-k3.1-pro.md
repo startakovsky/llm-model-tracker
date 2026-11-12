@@ -14,7 +14,7 @@ sources:
 Moonshot AI's most capable 3T-class model, launched Oct 23, 2026 as API-only. **Weights released Nov 4, 2026** on HuggingFace (`moonshotai/Kimi-K3.1-Pro`, 2.8T/104B MoE, ungated, 11.7K downloads / 809 likes day-1). Now the **highest-scoring open-weights model** on the Artificial Analysis Intelligence Index (55), closing the open-vs-closed gap from 12 points to 3.
 
 ## Availability
-- `moonshotai/kimi-k3.1-pro` on OpenRouter at **$2/$10 per M** (cached input **$0.20/M**), 1M ctx.
+- `moonshotai/kimi-k3.1-pro` on OpenRouter at **$0.2375/$8.7856 per M** (cached input **$0.19/M**), 1M ctx. [Nov 12] Prompt cut -88.1% (from $2/$10 launch pricing), converging toward K3-level input pricing; completion dropped -12.1%.
 - Open weights on HF (ungated Nov 4): 2.8T total / 104B active MoE, natively multimodal agentic (text+image). r/LocalLLaMA reports 30–120 t/s prefill on big iron.
 - Pricing is 33% below Kimi K3 on all three rates — matches GPT-6.1 Sol, half of Claude Opus 5.5.
 - A "Highspeed" tier is 2–3x faster at 2x price (except cache hits, priced the same).

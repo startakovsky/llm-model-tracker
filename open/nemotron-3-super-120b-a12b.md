@@ -24,7 +24,7 @@ Open-weight model from **NVIDIA**. Weights on HuggingFace.
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context |
 |---|---|---|---|
-| OpenRouter (nvidia/nemotron-3-super-120b-a12b) | $0.3000 | $0.9000 | 1.0M |
+| OpenRouter (nvidia/nemotron-3-super-120b-a12b) | $0.075 | $0.4000 | 262K | [Nov 12] ctx back to 262K (was 1M Oct 29) |
 
 ## Self-Hosting
 Open weights make this self-hostable. Confirm exact parameter count and architecture on the HuggingFace model card before speccing hardware. See sibling detail files in this tracker for quantization guidance on comparable models.
