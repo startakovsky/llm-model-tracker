@@ -1,6 +1,6 @@
 # LLM Model Tracker
 
-Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-11-13
+Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-11-14
 
 ## Top 10 Open-Source Models
 
@@ -35,5 +35,5 @@ Daily-updated tracker of top LLMs. Open and closed source. Last updated: 2026-11
 ## Full Index
 
 - [Open-source models (137)](INDEX-OPEN.md)
-- [Closed-source models (127)](INDEX-CLOSED.md)
+- [Closed-source models (128)](INDEX-CLOSED.md)
 - [Raw CSV data](models.csv)
