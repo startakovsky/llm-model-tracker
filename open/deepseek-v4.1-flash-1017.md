@@ -3,7 +3,7 @@ model: DeepSeek V4.1 Flash 1017
 organization: DeepSeek AI
 license: MIT
 release_date: 2026-10-17
-last_updated: 2026-10-17
+last_updated: 2026-11-15
 sources:
   - https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017
   - https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
@@ -22,7 +22,7 @@ Released Oct 17, 2026 — a minor checkpoint update to **DeepSeek V4.1 Flash** (
 ## API Providers
 | Provider | Prompt $/M | Completion $/M | Context | Notes |
 |---|---|---|---|---|
-| OpenRouter (deepseek/deepseek-v4.1-flash-1017) | $0.15 | $0.60 | 1,048,576 | [Nov 12] Prompt reverts to $0.15 (from $0.006), completion +20% to $0.60; peak windows (weekday 01:40-06:40/10:00-16:40 UTC) $0.30/$1.20 |
+| OpenRouter (deepseek/deepseek-v4.1-flash-1017) | $0.02 | $0.108 | 1,048,576 | [Nov 15] Prompt -47.4% to $0.02, completion -78.4% to $0.108 (from $0.038/$0.50); aligns with flash-latest pricing |
 
 ## Quality Assessment
 DeepSeek frames 1017 as a Pareto improvement: stronger benchmark performance, faster task completion, and shorter outputs than the base V4.1 Flash. Reported 77.0 on DeepSWE-Open. Uses RL with self-feedback to improve end-to-end project development (from game creation to 3D modeling). Same price point as V4.1 Flash — a free quality bump for anyone already on the V4.1 Flash line.
